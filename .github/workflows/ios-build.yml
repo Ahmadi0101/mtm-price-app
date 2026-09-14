@@ -38,11 +38,19 @@ jobs:
             -sdk iphonesimulator \
             -destination 'generic/platform=iOS Simulator' \
             CODE_SIGNING_ALLOWED=NO \
+            -derivedDataPath build/ios \
             build
 
-      - name: Upload iOS build
+      - name: Show build files
+        run: |
+          echo "===== BUILD FILES ====="
+          find build/ios -type f -maxdepth 8 | head -100
+          echo "===== APP FILES ====="
+          find build/ios -name "*.app" -print
+
+      - name: Upload iOS App
         uses: actions/upload-artifact@v6
         with:
-          name: ios-simulator-build
-          path: |
-            ~/Library/Developer/Xcode/DerivedData/**/Build/Products/Debug-iphonesimulator/*.app
+          name: ios-simulator-app
+          path: build/ios/Build/Products/Debug-iphonesimulator/*.app
+          if-no-files-found: error
