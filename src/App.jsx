@@ -416,3 +416,14 @@ function App() {
 
 export default App;
 
+
+
+
+
+
+
+/**
+ * git add .
+git commit -m "Fix PWA for GitHub Pages"
+git push
+ */
