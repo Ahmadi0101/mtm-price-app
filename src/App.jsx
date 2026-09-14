@@ -308,7 +308,7 @@ function App() {
                             key={`${location.id}-${index}`}
                             onClick={(e) => {
                               e.stopPropagation();
-
+ selectLocation(location);
                               /*
                                 انتخاب پورت
                                 و نمایش مسیر روی نقشه
