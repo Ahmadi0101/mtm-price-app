@@ -9,3 +9,12 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+
+/**
+ * git add .
+ * git commit -m "Update website"
+ * git push origin main
+ * 
+ * 
+ * 
+ */
