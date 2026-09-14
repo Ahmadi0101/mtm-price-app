@@ -1,0 +1,2152 @@
+ 
+/* =========================================
+   GLOBAL
+========================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #111827;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.header {
+  width: 100%;
+  height: 58px;
+  min-height: 58px;
+  max-height: 58px;
+
+  padding: 0 12px;
+
+  background: #fbfbfb;
+  color: #000;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+
+  overflow: hidden;
+}
+
+.header-content {
+  width: 100%;
+  max-width: 1400px;
+  height: 100%;
+
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  direction: ltr;
+  gap: 10px;
+}
+
+
+/* =========================================
+   LOGO
+========================================= */
+
+.header-logo {
+  height: 100%;
+  min-width: 0;
+
+  display: flex;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+}
+
+.header-logo-image {
+  display: block;
+
+  width: auto;
+  height: 52px;
+
+  max-width: 170px;
+
+  object-fit: contain;
+}
+
+
+/* =========================================
+   UPDATE STATUS
+========================================= */
+
+.update-status {
+  flex-shrink: 0;
+
+  padding: 5px 8px;
+
+  border-radius: 8px;
+
+  color: #475569;
+
+  font-size: 10px;
+  line-height: 1.2;
+
+  white-space: nowrap;
+
+  text-align: right;
+  direction: rtl;
+}
+
+
+/* =========================================
+   HEADER TITLE
+========================================= */
+
+.header-title {
+  min-width: 0;
+  text-align: right;
+}
+
+.header h1 {
+  margin: 0;
+
+  font-size: 19px;
+  line-height: 1.15;
+  font-weight: 800;
+}
+
+.header p {
+  margin: 2px 0 0;
+
+  color: #64748b;
+
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+
+/* =========================================
+   MAIN CONTAINER
+========================================= */
+
+.container {
+  width: 100%;
+  max-width: 760px;
+
+  margin: auto;
+
+  padding: 18px;
+}
+
+
+/* =========================================
+   SEARCH
+========================================= */
+
+.search-box {
+  position: sticky;
+  top: 10px;
+
+  z-index: 1000;
+
+  margin-bottom: 15px;
+}
+
+.search-box input {
+  width: 100%;
+  height: 52px;
+
+  border: 1px solid #d1d5db;
+
+  background: rgba(255, 255, 255, 0.96);
+  color: #111827;
+
+  border-radius: 15px;
+
+  padding: 0 48px 0 16px;
+
+  font-size: 15px;
+
+  outline: none;
+
+  direction: rtl;
+  text-align: right;
+
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+
+  transition: 0.2s;
+}
+
+.search-box input::placeholder {
+  color: #9ca3af;
+
+  direction: rtl;
+  text-align: right;
+}
+
+.search-box input:focus {
+  border-color: #111827;
+
+  box-shadow:
+    0 0 0 3px rgba(17, 24, 39, 0.08),
+    0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================================
+   SEARCH CLEAR BUTTON
+========================================= */
+
+.clear-search {
+  position: absolute;
+
+  right: 10px;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  width: 30px;
+  height: 30px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #f1f5f9;
+  color: #475569;
+
+  font-size: 20px;
+  line-height: 1;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.2s;
+}
+
+.clear-search:hover {
+  background: #e2e8f0;
+  color: #111827;
+}
+
+
+/* =========================================
+   RESULT COUNT
+========================================= */
+
+.result-count {
+  font-size: 13px;
+  color: #6b7280;
+
+  margin-bottom: 12px;
+
+  padding: 0 3px;
+}
+
+
+/* =========================================
+   MAP SECTION
+========================================= */
+
+.map-section {
+  width: 100%;
+  height: 420px;
+
+  margin-bottom: 20px;
+
+  border-radius: 18px;
+
+  overflow: hidden;
+}
+
+.map-section .map-wrapper,
+.map-section .map {
+  width: 100%;
+  height: 100%;
+}
+
+.map-wrapper {
+  width: 100%;
+  height: 400px;
+
+  margin-bottom: 18px;
+
+  border-radius: 20px;
+
+  overflow: hidden;
+
+  background: #e5e7eb;
+
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.08);
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* =========================================
+   LEAFLET
+========================================= */
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+
+  font-family: Arial, sans-serif;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 14px;
+}
+
+.leaflet-popup-content {
+  margin: 12px 14px;
+
+  direction: ltr;
+  text-align: left;
+}
+
+
+/* =========================================
+   LOCATION CARD
+========================================= */
+
+.location-card {
+  background: #fff;
+
+  border-radius: 20px;
+
+  padding: 17px;
+
+  margin-bottom: 15px;
+
+  border: 2px solid transparent;
+
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.07);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.location-card:hover {
+  box-shadow: 0 9px 28px rgba(0, 0, 0, 0.1);
+}
+
+.location-card:active {
+  transform: scale(0.995);
+}
+
+.selected-location {
+  border-color: #111827;
+
+  box-shadow:
+    0 8px 28px rgba(17, 24, 39, 0.14);
+}
+
+
+/* =========================================
+   LOCATION HEADER
+========================================= */
+
+.location-header {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-start;
+
+  gap: 12px;
+
+  margin-bottom: 15px;
+}
+
+.location-header h2 {
+  margin: 0;
+
+  color: #111827;
+
+  font-size: 21px;
+  line-height: 1.2;
+
+  font-weight: 800;
+}
+
+.location-header span {
+  display: block;
+
+  margin-top: 5px;
+
+  color: #6b7280;
+
+  font-size: 13px;
+}
+
+.branch {
+  flex-shrink: 0;
+
+  background: #eef2ff;
+  color: #3730a3;
+
+  border-radius: 9px;
+
+  padding: 7px 10px;
+
+  font-size: 12px;
+
+  font-weight: bold;
+}
+
+
+/* =========================================
+   PORT CARD
+========================================= */
+
+.port-card {
+  border: 1px solid #e5e7eb;
+
+  background: #fafafa;
+
+  border-radius: 15px;
+
+  padding: 13px;
+
+  margin-top: 10px;
+}
+
+.port-name {
+  font-weight: 800;
+
+  color: #111827;
+
+  margin-bottom: 12px;
+
+  font-size: 14px;
+}
+
+
+/* =========================================
+   PRICE GRID
+========================================= */
+
+.prices {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 8px;
+}
+
+.prices div {
+  min-width: 0;
+
+  background: #f3f4f6;
+
+  border-radius: 10px;
+
+  padding: 10px 7px;
+
+  text-align: center;
+
+  transition: 0.2s;
+}
+
+.prices span {
+  display: block;
+
+  font-size: 11px;
+
+  color: #6b7280;
+
+  margin-bottom: 5px;
+}
+
+.prices strong {
+  display: block;
+
+  font-size: 13px;
+
+  font-weight: 800;
+
+  white-space: nowrap;
+}
+
+.prices .total {
+  background: #ecfdf5;
+}
+
+.prices .total span {
+  color: #047857;
+
+  font-weight: 700;
+}
+
+.prices .total strong {
+  color: #047857;
+
+  font-size: 14px;
+}
+
+
+/* =========================================
+   CLICKABLE TOTAL
+========================================= */
+
+.clickable-total {
+  cursor: pointer;
+
+  user-select: none;
+}
+
+.clickable-total:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 4px 12px rgba(4, 120, 87, 0.12);
+}
+
+.clickable-total:active {
+  transform: scale(0.96);
+}
+
+
+/* =========================================
+   COORDINATES
+========================================= */
+
+.coordinates {
+  margin-top: 13px;
+
+  padding-top: 10px;
+
+  border-top: 1px solid #f0f0f0;
+
+  font-size: 10px;
+
+  color: #9ca3af;
+
+  direction: ltr;
+
+  text-align: left;
+}
+
+
+/* =========================================
+   LOCATIONS SCROLL
+========================================= */
+
+.locations-scroll {
+  width: 100%;
+
+  max-height: 520px;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  padding: 5px 8px 20px 5px;
+
+  scroll-behavior: smooth;
+}
+
+.locations {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(320px, 1fr));
+
+  gap: 16px;
+
+  padding-bottom: 5px;
+}
+
+
+/* =========================================
+   SCROLLBAR
+========================================= */
+
+.locations-scroll::-webkit-scrollbar {
+  width: 7px;
+}
+
+.locations-scroll::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.04);
+
+  border-radius: 20px;
+}
+
+.locations-scroll::-webkit-scrollbar-thumb {
+  background: rgba(37, 99, 235, 0.45);
+
+  border-radius: 20px;
+}
+
+.locations-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(37, 99, 235, 0.7);
+}
+
+
+/* =========================================
+   NO RESULT
+========================================= */
+
+.no-result {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 6px;
+
+  padding: 40px 20px;
+
+  text-align: center;
+
+  background: #fff;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 18px;
+
+  color: #64748b;
+}
+
+.no-result div {
+  font-size: 30px;
+
+  margin-bottom: 4px;
+}
+
+.no-result strong {
+  color: #111827;
+
+  font-size: 16px;
+}
+
+.no-result span {
+  font-size: 12px;
+}
+
+
+/* =========================================
+   MAP PORT ICON
+========================================= */
+
+.port-pin-wrapper {
+  background: transparent !important;
+
+  border: none !important;
+}
+
+.port-pin {
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+
+  background: #2563eb;
+
+  border: 2px solid #fff;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  box-shadow:
+    0 2px 7px rgba(0, 0, 0, 0.3);
+
+  pointer-events: auto;
+}
+
+.port-pin.selected {
+  width: 34px;
+  height: 34px;
+
+  background: #dc3838;
+
+  border: 3px solid #fff;
+
+  box-shadow:
+    0 0 0 4px rgba(220, 56, 56, 0.2),
+    0 3px 9px rgba(0, 0, 0, 0.35);
+}
+
+.port-pin-icon {
+  color: #fff;
+
+  font-size: 16px;
+
+  line-height: 1;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  user-select: none;
+}
+
+.port-pin.selected .port-pin-icon {
+  font-size: 18px;
+}
+
+
+/* =========================================
+   MAP POPUP
+========================================= */
+
+.map-popup {
+  min-width: 220px;
+
+  font-family: Arial, sans-serif;
+}
+
+.popup-title {
+  font-size: 18px;
+
+  font-weight: 800;
+
+  text-align: left;
+
+  margin-bottom: 3px;
+}
+
+.popup-state {
+  font-size: 13px;
+
+  color: #555;
+
+  margin-bottom: 5px;
+}
+
+.popup-branch {
+  font-size: 13px;
+
+  font-weight: 600;
+}
+
+.popup-divider {
+  height: 1px;
+
+  background: #ddd;
+
+  margin: 10px 0;
+}
+
+.popup-port {
+  padding: 8px 0;
+}
+
+.popup-port-name {
+  font-size: 14px;
+
+  font-weight: 800;
+
+  margin-bottom: 8px;
+}
+
+.popup-price {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 20px;
+
+  padding: 3px 0;
+
+  font-size: 13px;
+}
+
+.popup-price strong {
+  font-weight: 800;
+}
+
+.popup-total {
+  margin-top: 4px;
+
+  padding: 7px 8px;
+
+  border-radius: 8px;
+
+  background: #f1f5f9;
+
+  font-size: 14px;
+}
+
+.popup-total strong {
+  font-size: 15px;
+}
+
+.popup-coordinates {
+  margin-top: 8px;
+
+  padding-top: 7px;
+
+  border-top: 1px solid #eee;
+
+  font-size: 10px;
+
+  color: #777;
+}
+
+.popup-port-list {
+  max-height: 230px;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.popup-port-list::-webkit-scrollbar {
+  width: 5px;
+}
+
+.popup-port-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.popup-port-list::-webkit-scrollbar-thumb {
+  background: rgba(37, 99, 235, 0.4);
+
+  border-radius: 10px;
+}
+
+.popup-port-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(37, 99, 235, 0.7);
+}
+
+
+/* =========================================
+   SELECTED PORT
+========================================= */
+
+.selected-port {
+  border-color: #2196f3 !important;
+
+  background: rgba(33, 150, 243, 0.12) !important;
+
+  box-shadow:
+    0 0 0 2px rgba(33, 150, 243, 0.25);
+}
+
+
+/* =========================================
+   CALCULATOR OVERLAY
+========================================= */
+
+.calculator-overlay {
+  position: fixed;
+
+  inset: 0;
+
+  z-index: 9999;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+
+  background: rgba(15, 23, 42, 0.55);
+
+  backdrop-filter: blur(8px);
+
+  -webkit-backdrop-filter: blur(8px);
+
+  overflow-y: auto;
+}
+
+
+/* =========================================
+   CALCULATOR
+========================================= */
+
+.calculator {
+  width: 100%;
+
+  max-width: 520px;
+
+  max-height: calc(100vh - 30px);
+
+  overflow-y: auto;
+
+  background: #f8fafc;
+
+  border: 1px solid rgba(255, 255, 255, 0.8);
+
+  border-radius: 24px;
+
+  padding: 20px;
+
+  direction: rtl;
+
+  box-shadow:
+    0 25px 70px rgba(0, 0, 0, 0.25);
+
+  animation: calculatorOpen 0.22s ease;
+}
+
+@keyframes calculatorOpen {
+  from {
+    opacity: 0;
+
+    transform:
+      translateY(15px)
+      scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+
+    transform:
+      translateY(0)
+      scale(1);
+  }
+}
+
+
+/* =========================================
+   CALCULATOR HEADER
+========================================= */
+
+.calculator-header {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 15px;
+
+  margin-bottom: 18px;
+}
+
+.calculator-header-info {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  min-width: 0;
+}
+
+.calculator-title-icon {
+  width: 46px;
+  height: 46px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #111827;
+
+  color: #fff;
+
+  border-radius: 14px;
+
+  font-size: 22px;
+}
+
+.calculator-header h2 {
+  margin: 0;
+
+  color: #111827;
+
+  font-size: 20px;
+
+  font-weight: 800;
+}
+
+.calculator-header p {
+  margin: 4px 0 0;
+
+  color: #64748b;
+
+  font-size: 13px;
+}
+
+.calculator-header p span {
+  margin: 0 4px;
+
+  color: #94a3b8;
+}
+
+
+/* =========================================
+   CLOSE BUTTON
+========================================= */
+
+.close-button {
+  width: 38px;
+  height: 38px;
+
+  flex-shrink: 0;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: #e2e8f0;
+
+  color: #334155;
+
+  font-size: 24px;
+
+  line-height: 1;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.close-button:hover {
+  background: #cbd5e1;
+
+  transform: scale(1.05);
+}
+
+
+/* =========================================
+   CALCULATOR LOCATION
+========================================= */
+
+.calculator-location {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 8px;
+
+  margin-bottom: 12px;
+}
+
+.location-item {
+  min-width: 0;
+
+  padding: 11px;
+
+  background: #fff;
+
+  border: 1px solid #e2e8f0;
+
+  border-radius: 13px;
+}
+
+.location-item span {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: #64748b;
+
+  font-size: 14px;
+
+  font-weight: 700;
+}
+
+.location-item strong {
+  display: block;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+
+  color: #1e293b;
+
+  font-size: 13px;
+}
+
+
+/* =========================================
+   PORT SELECTOR
+========================================= */
+
+.port-selector {
+  margin-bottom: 12px;
+}
+
+.port-selector label {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: #334155;
+
+  font-size: 13px;
+
+  font-weight: 700;
+}
+
+.port-selector select {
+  width: 100%;
+
+  height: 46px;
+
+  padding: 0 13px;
+
+  border: 1px solid #cbd5e1;
+
+  border-radius: 12px;
+
+  background: #fff;
+
+  color: #1e293b;
+
+  font-size: 14px;
+
+  outline: none;
+
+  cursor: pointer;
+}
+
+.port-selector select:focus {
+  border-color: #64748b;
+
+  box-shadow:
+    0 0 0 3px rgba(100, 116, 139, 0.12);
+}
+
+
+/* =========================================
+   SELECTED PORT INFO
+========================================= */
+
+.selected-port-info {
+  padding: 13px 15px;
+
+  margin-bottom: 12px;
+
+  background: #eff6ff;
+
+  border: 1px solid #bfdbfe;
+
+  border-radius: 14px;
+}
+
+.selected-port-info .selected-port-info-span {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: #64748b;
+
+  font-size: 16px !important;
+
+  font-weight: 700;
+
+  text-align: right;
+}
+
+.selected-port-info-div {
+  width: 100%;
+}
+
+.selected-port-info-div strong {
+  display: block;
+
+  direction: ltr;
+
+  text-align: left;
+
+  color: #1d4ed8;
+
+  font-size: 15px;
+}
+
+
+/* =========================================
+   PRICE CARD
+========================================= */
+
+.price-card {
+  background: #fff;
+
+  border: 1px solid #e2e8f0;
+
+  border-radius: 16px;
+
+  overflow: hidden;
+
+  margin-bottom: 12px;
+}
+
+.price-row {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 14px 15px;
+
+  gap: 15px;
+}
+
+.price-row + .price-row {
+  border-top: 1px solid #f1f5f9;
+}
+
+.price-label {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+}
+
+.price-icon {
+  width: 36px;
+  height: 36px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #f1f5f9;
+
+  border-radius: 10px;
+
+  font-size: 17px;
+}
+
+.price-label strong {
+  display: block;
+
+  color: #334155;
+
+  font-size: 13px;
+}
+
+.price-label small {
+  display: block;
+
+  margin-top: 2px;
+
+  color: #94a3b8;
+
+  font-size: 10px;
+
+  direction: ltr;
+
+  text-align: right;
+}
+
+.price-value {
+  color: #111827;
+
+  font-size: 15px;
+
+  direction: ltr;
+}
+
+
+/* =========================================
+   CALCULATOR ROW
+========================================= */
+
+.calculator-row {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 15px;
+
+  padding: 10px 0;
+}
+
+.calculator-row span {
+  color: #6b7280;
+}
+
+.calculator-row strong {
+  white-space: nowrap;
+}
+
+
+/* =========================================
+   BASE TOTAL
+========================================= */
+
+.base-total {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 15px;
+
+  padding: 15px 17px;
+
+  margin-bottom: 15px;
+
+  background: #f1f5f9;
+
+  border-radius: 15px;
+}
+
+.base-total span {
+  display: block;
+
+  color: #334155;
+
+  font-size: 13px;
+
+  font-weight: 700;
+}
+
+.base-total small {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #94a3b8;
+
+  font-size: 10px;
+}
+
+.base-total strong {
+  color: #111827;
+
+  font-size: 17px;
+
+  white-space: nowrap;
+
+  direction: ltr;
+}
+
+
+/* =========================================
+   DIVIDER
+========================================= */
+
+.calculator-divider {
+  height: 1px;
+
+  background: #e5e7eb;
+
+  margin: 8px 0;
+}
+
+
+/* =========================================
+   EXTRA SECTION
+========================================= */
+
+.extra-section {
+  padding: 15px;
+
+  background: #fff;
+
+  border: 1px solid #e2e8f0;
+
+  border-radius: 17px;
+
+  margin-bottom: 12px;
+}
+
+.section-title {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 10px;
+
+  margin-bottom: 12px;
+}
+
+.section-title h3 {
+  margin: 0;
+
+  color: #1e293b;
+
+  font-size: 15px;
+}
+
+.section-title p {
+  margin: 3px 0 0;
+
+  color: #94a3b8;
+
+  font-size: 10px;
+}
+
+.add-cost-small {
+  border: none;
+
+  padding: 8px 11px;
+
+  border-radius: 10px;
+
+  background: #111827;
+
+  color: #fff;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  white-space: nowrap;
+
+  transition: 0.2s;
+}
+
+.add-cost-small:hover {
+  background: #334155;
+}
+
+
+/* =========================================
+   EXTRA COSTS
+========================================= */
+
+.extra-costs-list {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.extra-cost {
+  display: flex;
+
+  align-items: center;
+
+  gap: 7px;
+}
+
+.extra-number {
+  width: 26px;
+  height: 26px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #f1f5f9;
+
+  color: #64748b;
+
+  border-radius: 8px;
+
+  font-size: 10px;
+
+  font-weight: 700;
+}
+
+.extra-cost > input {
+  min-width: 0;
+
+  flex: 1;
+
+  height: 40px;
+
+  padding: 0 10px;
+
+  border: 1px solid #dbe2ea;
+
+  border-radius: 10px;
+
+  background: #f8fafc;
+
+  color: #1e293b;
+
+  font-size: 12px;
+
+  outline: none;
+}
+
+.extra-cost > input:focus {
+  border-color: #64748b;
+
+  background: #fff;
+}
+
+.extra-price-input {
+  width: 95px;
+  height: 40px;
+
+  display: flex;
+
+  align-items: center;
+
+  direction: ltr;
+
+  border: 1px solid #dbe2ea;
+
+  border-radius: 10px;
+
+  background: #f8fafc;
+
+  overflow: hidden;
+}
+
+.extra-price-input span {
+  padding-left: 8px;
+
+  color: #64748b;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+.extra-price-input input {
+  width: 100%;
+  height: 100%;
+
+  padding: 0 7px;
+
+  border: none;
+
+  outline: none;
+
+  background: transparent;
+
+  color: #1e293b;
+
+  font-size: 12px;
+
+  text-align: left;
+}
+
+
+/* =========================================
+   REMOVE COST
+========================================= */
+
+.remove-cost {
+  width: 32px;
+  height: 32px;
+
+  flex-shrink: 0;
+
+  border: none;
+
+  border-radius: 9px;
+
+  background: #fee2e2;
+
+  color: #dc2626;
+
+  font-size: 19px;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.remove-cost:hover {
+  background: #fecaca;
+}
+
+.remove-cost:active {
+  transform: scale(0.92);
+}
+
+
+/* =========================================
+   ADD COST
+========================================= */
+
+.add-cost {
+  width: 100%;
+
+  min-height: 44px;
+
+  border: 1px dashed #9ca3af;
+
+  background: #f9fafb;
+
+  color: #374151;
+
+  border-radius: 10px;
+
+  padding: 11px;
+
+  cursor: pointer;
+
+  margin-top: 5px;
+
+  transition: 0.2s;
+}
+
+.add-cost:hover {
+  background: #f3f4f6;
+}
+
+
+/* =========================================
+   EXTRA TOTAL
+========================================= */
+
+.extra-total {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  margin-top: 13px;
+
+  padding-top: 12px;
+
+  border-top: 1px dashed #cbd5e1;
+}
+
+.extra-total span {
+  color: #64748b;
+
+  font-size: 12px;
+}
+
+.extra-total strong {
+  color: #334155;
+
+  font-size: 14px;
+
+  direction: ltr;
+}
+
+
+/* =========================================
+   GRAND TOTAL
+========================================= */
+
+.grand-total {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 15px;
+
+  padding: 18px;
+
+  margin-top: 4px;
+
+  margin-bottom: 12px;
+
+  background: #111827;
+
+  border-radius: 18px;
+
+  color: #fff;
+}
+
+.grand-total span {
+  display: block;
+
+  font-size: 16px;
+
+  font-weight: 800;
+}
+
+.grand-total small {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #94a3b8;
+
+  font-size: 10px;
+}
+
+.grand-total strong {
+  color: #fff;
+
+  font-size: 22px;
+
+  font-weight: 900;
+
+  direction: ltr;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================
+   SAVE BUTTON
+========================================= */
+
+.save-calculation {
+  width: 100%;
+  height: 48px;
+
+  border: none;
+
+  border-radius: 13px;
+
+  background: #16a34a;
+
+  color: #fff;
+
+  font-size: 14px;
+
+  font-weight: 800;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 5px 15px rgba(22, 163, 74, 0.2);
+
+  transition: 0.2s;
+}
+
+.save-calculation:hover {
+  background: #15803d;
+
+  transform: translateY(-1px);
+}
+
+.save-calculation.saved {
+  background: #166534;
+}
+
+
+/* =========================================
+   DONE BUTTON
+========================================= */
+
+.calculator-done {
+  width: 100%;
+  height: 42px;
+
+  margin-top: 8px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: #334155;
+
+  color: #fff;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.calculator-done:hover {
+  background: #e2e8f0;
+
+  color: #334155;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+  .container {
+    max-width: 720px;
+  }
+
+  .map-wrapper {
+    height: 380px;
+  }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+
+  /* HEADER */
+
+  .header {
+    height: 52px;
+    min-height: 52px;
+    max-height: 52px;
+
+    padding: 0 8px;
+  }
+
+  .header-logo-image {
+    height: 46px;
+
+    max-width: 140px;
+  }
+
+  .update-status {
+    padding: 4px 6px;
+
+    font-size: 9px;
+  }
+
+
+  /* MAIN */
+
+  .container {
+    padding: 11px;
+  }
+
+
+  /* SEARCH */
+
+  .search-box {
+    top: 7px;
+  }
+
+  .search-box input {
+    height: 49px;
+
+    font-size: 14px;
+
+    border-radius: 13px;
+  }
+
+
+  /* MAP */
+
+  .map-wrapper {
+    height: 280px;
+
+    margin-bottom: 14px;
+
+    border-radius: 16px;
+  }
+
+  .map-section {
+    height: 300px;
+
+    border-radius: 16px;
+  }
+
+
+  /* LOCATION */
+
+  .location-card {
+    border-radius: 17px;
+
+    padding: 14px;
+
+    margin-bottom: 12px;
+  }
+
+  .location-header {
+    gap: 8px;
+
+    margin-bottom: 13px;
+  }
+
+  .location-header h2 {
+    font-size: 19px;
+  }
+
+  .location-header span {
+    font-size: 12px;
+  }
+
+  .branch {
+    padding: 6px 8px;
+
+    font-size: 11px;
+  }
+
+
+  /* PORT */
+
+  .port-card {
+    padding: 11px;
+
+    border-radius: 13px;
+  }
+
+  .port-name {
+    font-size: 13px;
+
+    margin-bottom: 10px;
+  }
+
+
+  /* PRICES */
+
+  .prices {
+    gap: 6px;
+  }
+
+  .prices div {
+    padding: 9px 4px;
+
+    border-radius: 9px;
+  }
+
+  .prices span {
+    font-size: 10px;
+  }
+
+  .prices strong {
+    font-size: 11px;
+  }
+
+  .prices .total strong {
+    font-size: 12px;
+  }
+
+  .coordinates {
+    font-size: 9px;
+  }
+
+
+  /* LOCATIONS */
+
+  .locations {
+    grid-template-columns: 1fr;
+
+    gap: 12px;
+  }
+
+  .locations-scroll {
+    max-height: none;
+
+    padding: 3px 3px 15px;
+  }
+
+
+  /* CALCULATOR */
+
+  .calculator-overlay {
+    align-items: flex-end;
+
+    padding: 0;
+  }
+
+  .calculator {
+    max-width: none;
+
+    max-height: 94vh;
+
+    padding: 15px;
+
+    border-radius: 22px 22px 0 0;
+  }
+
+  .calculator-title-icon {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 12px;
+
+    font-size: 19px;
+  }
+
+  .calculator-header h2 {
+    font-size: 17px;
+  }
+
+  .calculator-header p {
+    font-size: 11px;
+  }
+
+
+  /* CALCULATOR LOCATION */
+
+  .calculator-location {
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 6px;
+  }
+
+  .location-item {
+    padding: 9px 7px;
+  }
+
+  .location-item span {
+    font-size: 13px;
+  }
+
+  .location-item strong {
+    font-size: 11px;
+  }
+
+
+  /* PORT */
+
+  .port-selector select {
+    height: 44px;
+  }
+
+  .selected-port-info {
+    padding: 11px 12px;
+  }
+
+  .selected-port-info .selected-port-info-span {
+    font-size: 14px !important;
+  }
+
+  .selected-port-info-div strong {
+    font-size: 14px;
+  }
+
+
+  /* EXTRA COST */
+
+  .extra-price-input {
+    width: 82px;
+  }
+
+  .extra-number {
+    display: none;
+  }
+
+  .extra-cost {
+    gap: 5px;
+  }
+
+
+  /* TOTAL */
+
+  .grand-total {
+    padding: 14px;
+  }
+
+  .grand-total span {
+    font-size: 14px;
+  }
+
+  .grand-total strong {
+    font-size: 19px;
+  }
+
+
+  /* POPUP */
+
+  .map-popup {
+    min-width: 190px;
+  }
+
+  .popup-title {
+    font-size: 16px;
+  }
+
+  .popup-price {
+    font-size: 12px;
+  }
+
+  .popup-total strong {
+    font-size: 14px;
+  }
+}
+
+
+/* =========================================
+   VERY SMALL PHONES
+========================================= */
+
+@media (max-width: 360px) {
+
+  .header {
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+
+    padding: 0 6px;
+  }
+
+  .header-logo-image {
+    height: 44px;
+
+    max-width: 125px;
+  }
+
+  .container {
+    padding: 8px;
+  }
+
+  .location-card {
+    padding: 12px;
+  }
+
+  .prices {
+    gap: 4px;
+  }
+
+  .prices div {
+    padding: 8px 2px;
+  }
+
+  .prices strong {
+    font-size: 10px;
+  }
+
+  .prices .total strong {
+    font-size: 11px;
+  }
+
+  .branch {
+    font-size: 10px;
+  }
+
+  .extra-cost {
+    grid-template-columns: minmax(0, 1fr) 72px 36px;
+  }
+
+  .calculator {
+    padding: 13px;
+  }
+}
+ 

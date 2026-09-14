@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "locations": [
+    {
+      "id": 1,
+      "state": "ALABAMA (AL)",
+      "branch": "TANNER",
+      "city": "TANNER",
+      "lat": 34.7304,
+      "lng": -86.5994,
+      "ports": [
+        {
+          "name": "SAVANNAH, GA",
+          "ship": 1818,
+          "lat": 32.076176,
+          "lng": -81.08837,
+          "herat": 1350,
+          "total": 3168
+        },
+        {
+          "name": "NEW YORK, NY",
+          "lat": 40.7128,
+          "lng": -74.006,
+          "ship": 1900,
+          "herat": 1350,
+          "total": 3250
+        },
+        {
+          "name": "BALTIMORE, MD",
+          "lat": 39.2904,
+          "lng": -76.6123,
+          "ship": 1850,
+          "herat": 1350,
+          "total": 3200
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "state": "FLORIDA (FL)",
+      "branch": "JACKSONVILLE",
+      "city": "NORTH JACKSONVILLE",
+      "lat": 30.3322,
+      "lng": -81.6557,
+      "ports": [
+        {
+          "name": "SAVANNAH, GA",
+          "lat": 32.076176,
+          "lng": -81.08837,
+          "ship": 1668,
+          "herat": 1350,
+          "total": 3018
+        },
+        {
+          "name": "NEW YORK, NY",
+          "lat": 40.7128,
+          "lng": -74.006,
+          "ship": 1900,
+          "herat": 1350,
+          "total": 3150
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "state": "TEXAS (TX)",
+      "branch": "HOUSTON",
+      "city": "HOUSTON",
+      "lat": 29.7604,
+      "lng": -95.3698,
+      "ports": [
+        {
+          "name": "SAVANNAH, GA",
+          "lat": 32.076176,
+          "lng": -81.08837,
+          "ship": 2100,
+          "herat": 1350,
+          "total": 3450
+        },
+        {
+          "name": "BALTIMORE, MD",
+          "lat": 39.2904,
+          "lng": -76.6123,
+          "ship": 2200,
+          "herat": 1350,
+          "total": 3550
+        },
+        {
+          "name": "NEW YORK, NY",
+          "lat": 40.7128,
+          "lng": -74.006,
+          "ship": 2300,
+          "herat": 1350,
+          "total": 3650
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "state": "CALIFORNIA (CA)",
+      "branch": "LOS ANGELES",
+      "city": "LOS ANGELES",
+      "lat": 34.0522,
+      "lng": -118.2437,
+      "ports": [
+        {
+          "name": "SAVANNAH, GA",
+          "lat": 32.076176,
+          "lng": -81.08837,
+          "ship": 2500,
+          "herat": 1350,
+          "total": 3850
+        }
+      ]
+    },
+
+    {
+      "id": 5,
+      "state": "NEW JERSEY (NJ)",
+      "branch": "NEWARK",
+      "city": "NEWARK",
+      "lat": 40.7357,
+      "lng": -74.1724,
+      "ports": [
+        {
+          "name": "NEW YORK, NY",
+          "lat": 40.7128,
+          "lng": -74.006,
+          "ship": 1500,
+          "herat": 1350,
+          "total": 2850
+        }
+      ]
+    },
+
+    {
+      "id": 6,
+      "state": "MARYLAND (MD)",
+      "branch": "BALTIMORE",
+      "city": "BALTIMORE",
+      "lat": 39.2904,
+      "lng": -76.6122,
+      "ports": [
+        {
+          "name": "BALTIMORE, MD",
+          "lat": 39.2904,
+          "lng": -76.6123,
+          "ship": 1750,
+          "herat": 1350,
+          "total": 3100
+        }
+      ]
+    }
+  ]
+}
