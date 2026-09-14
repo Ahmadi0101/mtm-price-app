@@ -1,22 +1,801 @@
 {
-  "version": 2,
+  "version": 1,
   "locations": [
     {
-      "id": 1,
-      "state": "Connecticut (CT)",
-      "branch": "CT - HARTFORD SPRINGFIELD",
-      "city": "East Granby",
+      "id": 85,
+      "state": "NORTH CAROLINA (NC)",
+      "branch": "CONCORD",
+      "city": "CONCORD",
       "source": "COPART",
-      "lat": 41.94396,
-      "lng": 72.70064,
+      "lat": 35.4088,
+      "lng": -80.5817,
       "ports": [
         {
-          "name": "SAVANNAH, GA",
-          "ship": 1830,
+          "name": "GEORGIA, USA",
+          "ship": 1085,
           "lat": 32.0762,
-          "lng": 81.0884,
-          "herat": 1200,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2985
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "state": "NORTH CAROLINA (NC)",
+      "branch": "ASHEVILLE",
+      "city": "FLETCHER",
+      "source": "COPART",
+      "lat": 35.4265,
+      "lng": -82.5015,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1100,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3000
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "state": "NORTH CAROLINA (NC)",
+      "branch": "MEBANE",
+      "city": "MEBANE",
+      "source": "COPART",
+      "lat": 36.0957,
+      "lng": -79.2669,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1140,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3040
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "state": "NORTH CAROLINA (NC)",
+      "branch": "MOCKSVILLE",
+      "city": "MOCKSVILLE",
+      "source": "COPART",
+      "lat": 35.894,
+      "lng": -80.5617,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1085,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2985
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "state": "SOUTH CAROLINA (SC)",
+      "branch": "LEXINGTON",
+      "city": "LEXINGTON",
+      "source": "IAAI",
+      "lat": 33.9815,
+      "lng": -81.2362,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1010,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2910
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "state": "SOUTH CAROLINA (SC)",
+      "branch": "GREENVILLE",
+      "city": "SIMPSONVILLE",
+      "source": "IAAI",
+      "lat": 34.7371,
+      "lng": -82.2543,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1090,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2990
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "state": "SOUTH CAROLINA (SC)",
+      "branch": "SPARTANBURG",
+      "city": "SPARTANBURG",
+      "source": "COPART",
+      "lat": 34.9496,
+      "lng": -81.932,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1075,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2975
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "state": "SOUTH CAROLINA (SC)",
+      "branch": "CHARLESTON/NORTH CHARLESTON",
+      "city": "RAVENEL",
+      "source": "IAAI",
+      "lat": 32.7632,
+      "lng": -80.2504,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1015,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2915
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "state": "SOUTH CAROLINA (SC)",
+      "branch": "COLUMBIA",
+      "city": "GASTON",
+      "source": "COPART",
+      "lat": 33.8179,
+      "lng": -81.1001,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1050,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2950
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "state": "TENNESSEE (TN)",
+      "branch": "NASHVILLE",
+      "city": "NASHVILLE",
+      "source": "IAAI",
+      "lat": 36.1627,
+      "lng": -86.7816,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1275,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3175
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "state": "TENNESSEE (TN)",
+      "branch": "CHATTANOOGA",
+      "city": "CHATTANOOGA",
+      "source": "IAAI",
+      "lat": 35.0456,
+      "lng": -85.3097,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1220,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3120
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "state": "TENNESSEE (TN)",
+      "branch": "KNOXVILLE",
+      "city": "MADISONVILLE",
+      "source": "COPART",
+      "lat": 35.529,
+      "lng": -84.3666,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1215,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3115
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "state": "TENNESSEE (TN)",
+      "branch": "NASHVILLE",
+      "city": "LEBANON",
+      "source": "COPART",
+      "lat": 36.2081,
+      "lng": -86.2911,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1200,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3100
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "state": "TENNESSEE (TN)",
+      "branch": "MEMPHIS",
+      "city": "MILLINGTON",
+      "source": "COPART",
+      "lat": 35.3415,
+      "lng": -89.8973,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1325,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3225
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "state": "TENNESSEE (TN)",
+      "branch": "MADISONVILLE",
+      "city": "MADISONVILLE",
+      "source": "COPART",
+      "lat": 35.529,
+      "lng": -84.3666,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1215,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3115
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "state": "CONNECTICUT (CT)",
+      "branch": "HARTFORD",
+      "city": "NEW BRITAIN",
+      "source": "IAAI",
+      "lat": 41.6612,
+      "lng": -72.7795,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1130,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
           "total": 3030
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "state": "CONNECTICUT (CT)",
+      "branch": "HARTFORD SPRINGFIELD EAST",
+      "city": "GRANBY",
+      "source": "IAAI",
+      "lat": 41.9543,
+      "lng": -72.7876,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1130,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3030
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "state": "CONNECTICUT (CT)",
+      "branch": "HAMDEN CT",
+      "city": "COMMERCE CITY",
+      "source": "IAAI",
+      "lat": 41.3959,
+      "lng": -72.8968,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1570,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3470
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "state": "CONNECTICUT (CT)",
+      "branch": "HARTFORD",
+      "city": "EAST WINDSOR",
+      "source": "IAAI",
+      "lat": 41.8526,
+      "lng": -72.5715,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1130,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3030
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "state": "DELAWARE (DE)",
+      "branch": "NEW CASTLE",
+      "city": "NEW CASTLE",
+      "source": "IAAI",
+      "lat": 39.662,
+      "lng": -75.5668,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1155,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3055
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "state": "DELAWARE (DE)",
+      "branch": "SEAFORD",
+      "city": "SEAFORD",
+      "source": "IAAI",
+      "lat": 38.6412,
+      "lng": -75.611,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1180,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3080
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "state": "ILLINOIS (IL)",
+      "branch": "LINCOLN",
+      "city": "LINCOLN",
+      "source": "COPART",
+      "lat": 40.1484,
+      "lng": -89.364,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1505,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3405
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "state": "ILLINOIS (IL)",
+      "branch": "ST. LOUIS",
+      "city": "CASEYVILLE",
+      "source": "COPART",
+      "lat": 38.6368,
+      "lng": -90.0254,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1405,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "state": "ILLINOIS (IL)",
+      "branch": "SOUTHERN ILLINOIS",
+      "city": "CAHOKIA HEIGHTS",
+      "source": "COPART",
+      "lat": 38.5709,
+      "lng": -90.1576,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1455,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3355
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "state": "ILLINOIS (IL)",
+      "branch": "CHICAGO NORTH",
+      "city": "ELGIN",
+      "source": "COPART",
+      "lat": 42.0354,
+      "lng": -88.2826,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1405,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "state": "ILLINOIS (IL)",
+      "branch": "CHICAGO SOUTH",
+      "city": "CHICAGO HEIGHTS",
+      "source": "COPART",
+      "lat": 41.5061,
+      "lng": -87.6356,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1405,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "state": "ILLINOIS (IL)",
+      "branch": "CHICAGO NORTH",
+      "city": "EAST DUNDEE",
+      "source": "COPART",
+      "lat": 42.0989,
+      "lng": -88.2715,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1405,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "state": "ILLINOIS (IL)",
+      "branch": "WHEELING",
+      "city": "WHEELING",
+      "source": "COPART",
+      "lat": 42.1392,
+      "lng": -87.9289,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1380,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3280
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "state": "ILLINOIS (IL)",
+      "branch": "CHICAGO-SOUTH",
+      "city": "MARKHAM",
+      "source": "COPART",
+      "lat": 41.5936,
+      "lng": -87.6945,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1430,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3330
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "state": "ILLINOIS (IL)",
+      "branch": "CHICAGO WEST",
+      "city": "AURORA",
+      "source": "COPART",
+      "lat": 41.7606,
+      "lng": -88.3201,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1405,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "state": "ILLINOIS (IL)",
+      "branch": "PEORIA",
+      "city": "PEKIN",
+      "source": "COPART",
+      "lat": 40.5675,
+      "lng": -89.6407,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1505,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3405
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "state": "INDIANA (IN)",
+      "branch": "COLUMBUS",
+      "city": "COLUMBUS",
+      "source": "IAAI",
+      "lat": 39.2014,
+      "lng": -85.9214,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1405,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "state": "INDIANA (IN)",
+      "branch": "INDIANAPOLIS SOUTH",
+      "city": "INDIANAPOLIS SOUTH",
+      "source": "COPART",
+      "lat": 39.6667,
+      "lng": -86.1581,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1505,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3405
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "state": "INDIANA (IN)",
+      "branch": "INDIANAPOLIS SOUTH",
+      "city": "CROTHERSVILLE",
+      "source": "COPART",
+      "lat": 38.8117,
+      "lng": -85.8425,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1505,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3405
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "state": "INDIANA (IN)",
+      "branch": "INDIANAPOLIS",
+      "city": "INDIANAPOLIS",
+      "source": "IAAI",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1440,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3340
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "state": "INDIANA (IN)",
+      "branch": "DYER",
+      "city": "DYER",
+      "source": "IAAI",
+      "lat": 41.4942,
+      "lng": -87.5217,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1440,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3340
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "state": "INDIANA (IN)",
+      "branch": "FORT WAYNE",
+      "city": "FORT WAYNE",
+      "source": "IAAI",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1440,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3340
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "state": "INDIANA (IN)",
+      "branch": "CICERO",
+      "city": "CICERO",
+      "source": "IAAI",
+      "lat": 40.1231,
+      "lng": -86.0133,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1430,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3330
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "state": "INDIANA (IN)",
+      "branch": "SOUTH BEND",
+      "city": "SOUTH BEND",
+      "source": "IAAI",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1440,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3340
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "state": "IOWA (IA)",
+      "branch": "DAVENPORT",
+      "city": "ELDRIDGE",
+      "source": "IAAI",
+      "lat": 41.6436,
+      "lng": -90.5846,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1470,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3370
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "state": "IOWA (IA)",
+      "branch": "DES MOINES",
+      "city": "DES MOINES",
+      "source": "IAAI",
+      "lat": 41.5868,
+      "lng": -93.625,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1630,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3530
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "state": "IOWA (IA)",
+      "branch": "DES MOINES",
+      "city": "DE SOTO",
+      "source": "IAAI",
+      "lat": 41.5311,
+      "lng": -94.0136,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1470,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3370
         }
       ]
     }
