@@ -209,7 +209,7 @@ function App() {
       <header className="header">
         <div className="header-content">
           <div className="header-logo">
-            <img src="/LOGO.png" alt="MTM" className="header-logo-image" />
+            <img src={`${import.meta.env.BASE_URL}LOGO.png`} alt="MTM" className="header-logo-image" />
           </div>
 
           <div className="update-status">
@@ -308,7 +308,7 @@ function App() {
                             key={`${location.id}-${index}`}
                             onClick={(e) => {
                               e.stopPropagation();
- selectLocation(location);
+                              selectLocation(location);
                               /*
                                 انتخاب پورت
                                 و نمایش مسیر روی نقشه
