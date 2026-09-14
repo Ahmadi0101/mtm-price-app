@@ -27,12 +27,12 @@ export default defineConfig({
 
         icons: [
           {
-            src: '/mtm-price-app/LOGO.png',
+            src: '/mtm-price-app/logo3.jpg',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: '/mtm-price-app/LOGO.png',
+            src: '/mtm-price-app/logo3.jpg',
             sizes: '512x512',
             type: 'image/png',
           },
