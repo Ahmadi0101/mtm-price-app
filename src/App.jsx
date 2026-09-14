@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useState } from 'react';
- import { FaCalculator } from 'react-icons/fa';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { FaCalculator } from 'react-icons/fa';
 import data from './data/data.json';
 
 import MapView from './components/MapView';
@@ -68,30 +68,85 @@ function App() {
      CHECK GITHUB UPDATE
   ========================================= */
 
+  const appDataRef = useRef(appData);
+
+  useEffect(() => {
+    appDataRef.current = appData;
+  }, [appData]);
+
   useEffect(() => {
     let mounted = true;
+    let checking = false;
 
     async function updateData() {
-      const result = await checkForUpdate(appData.version);
+      // اگر همزمان یک بررسی دیگر در جریان است، دوباره اجرا نشود
+      if (checking) return;
 
-      if (!mounted) return;
+      checking = true;
 
-      if (result.updated) {
-        setAppData(result.data);
-        setUpdateStatus('updated');
-      } else if (result.offline) {
-        setUpdateStatus('offline');
-      } else {
+      if (mounted) {
+        setUpdateStatus('checking');
+      }
+
+      try {
+        const result = await checkForUpdate(appDataRef.current);
+
+        if (!mounted) return;
+
+        // اینترنت یا GitHub در دسترس نیست
+        if (result.offline) {
+          setUpdateStatus('offline');
+          return;
+        }
+
+        // اطلاعات GitHub تغییر کرده
+        if (result.updated && result.data) {
+          // اول ذخیره کن
+          saveData(result.data);
+
+          // بعد اطلاعات برنامه را عوض کن
+          appDataRef.current = result.data;
+          setAppData(result.data);
+
+          setUpdateStatus('updated');
+
+          console.log('✅ اطلاعات جدید GitHub دریافت شد');
+          console.log(`📦 Version: ${result.localVersion} → ${result.remoteVersion}`);
+
+          return;
+        }
+
+        // اطلاعات همان قبلی است
         setUpdateStatus('latest');
+
+        console.log('✅ اطلاعات برنامه به‌روز است');
+      } catch (error) {
+        console.error('Update check error:', error);
+
+        if (mounted) {
+          setUpdateStatus('offline');
+        }
+      } finally {
+        checking = false;
       }
     }
 
+    // بررسی هنگام باز شدن برنامه
     updateData();
+
+    // وقتی اینترنت دوباره وصل شد
+    const handleOnline = () => {
+      console.log('🌐 اینترنت وصل شد؛ بررسی GitHub...');
+      updateData();
+    };
+
+    window.addEventListener('online', handleOnline);
 
     return () => {
       mounted = false;
+      window.removeEventListener('online', handleOnline);
     };
-  }, [appData.version]);
+  }, []);
 
   /* =========================================
      SEARCH RESULTS

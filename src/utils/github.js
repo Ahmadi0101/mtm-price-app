@@ -19,14 +19,18 @@ export async function fetchRemoteData() {
     return remoteData;
   } catch (error) {
     console.error('Remote data error:', error);
-
     return null;
   }
 }
 
-export async function checkForUpdate(currentVersion) {
+/**
+ * بررسی می‌کند که اطلاعات GitHub با اطلاعات فعلی فرق دارد یا نه.
+ * فقط به version وابسته نیست.
+ */
+export async function checkForUpdate(currentData) {
   const remoteData = await fetchRemoteData();
 
+  // اینترنت / GitHub در دسترس نیست
   if (!remoteData) {
     return {
       updated: false,
@@ -35,23 +39,23 @@ export async function checkForUpdate(currentVersion) {
     };
   }
 
-  const remoteVersion = Number(remoteData.version || 0);
+  let localString = '';
+  let remoteString = '';
 
-  const localVersion = Number(currentVersion || 0);
-
-  if (remoteVersion > localVersion) {
-    return {
-      updated: true,
-      data: remoteData,
-      offline: false,
-    };
+  try {
+    localString = JSON.stringify(currentData || {});
+    remoteString = JSON.stringify(remoteData);
+  } catch (error) {
+    console.error('Data comparison error:', error);
   }
 
+  const updated = localString !== remoteString;
+
   return {
-    updated: false,
-    data: null,
+    updated,
+    data: updated ? remoteData : null,
     offline: false,
-    remoteVersion,
-    localVersion,
+    remoteVersion: Number(remoteData.version || 0),
+    localVersion: Number(currentData?.version || 0),
   };
 }
