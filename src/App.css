@@ -733,7 +733,7 @@ button {
 ========================================= */
 
 .map-popup {
-  min-width: 220px;
+  
 
   font-family: Arial, sans-serif;
 }
@@ -741,7 +741,7 @@ button {
 .popup-title {
   font-size: 18px;
 
-  font-weight: 800;
+  font-weight: 700;
 
   text-align: left;
 
@@ -2150,3 +2150,19 @@ button {
   }
 }
  
+
+
+
+.total {
+  position: relative;
+  overflow: hidden;
+}
+
+.total-calculator-bg {
+  position: absolute;
+  top: 7px;
+  right: 8px;
+  font-size: 22px;
+  opacity: 0.7;
+  pointer-events: none;
+}

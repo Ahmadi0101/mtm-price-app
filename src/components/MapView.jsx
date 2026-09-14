@@ -1,5 +1,5 @@
 import { MapContainer, TileLayer, Marker, Popup, Polyline, CircleMarker, useMap } from 'react-leaflet';
-
+import { FaCalculator } from 'react-icons/fa';
 import { useEffect, useMemo } from 'react';
 import L from 'leaflet';
 
@@ -610,8 +610,8 @@ export default function MapView({ locations = [], selectedLocation = null, selec
                         maxHeight: '180px',
                         overflowY: 'auto',
                         overflowX: 'hidden',
-                        paddingLeft: '4px',
-                        paddingRight: '2px',
+                        paddingLeft: '2px',
+                        paddingRight: '1px',
                         marginTop: '8px',
                         direction: 'rtl',
                       }}

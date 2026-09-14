@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-
+ import { FaCalculator } from 'react-icons/fa';
 import data from './data/data.json';
 
 import MapView from './components/MapView';
@@ -349,6 +349,8 @@ function App() {
                                   openCalculator(location, port);
                                 }}
                               >
+                                <FaCalculator className="total-calculator-bg" />
+
                                 <span>Total</span>
 
                                 <strong>${Number(port.total || 0).toLocaleString()}</strong>
