@@ -1,11 +1,10 @@
-
 import { useEffect, useMemo, useState } from 'react';
 
 import data from './data/data.json';
 
 import MapView from './components/MapView';
 import Calculator from './components/Calculator';
- 
+
 import { getSavedData, saveData } from './utils/storage';
 import { checkForUpdate } from './utils/github';
 
@@ -125,29 +124,29 @@ function App() {
      SELECT LOCATION
   ========================================= */
 
- const selectLocation = (location) => {
-   if (!location) return;
+  const selectLocation = (location) => {
+    if (!location) return;
 
-   setSelectedLocationId(location.id);
-   setSelectedLocation(location);
-   setSelectedPort(null);
+    setSelectedLocationId(location.id);
+    setSelectedLocation(location);
+    setSelectedPort(null);
 
-   // نام شهر/برنچ را داخل Search قرار بده
-   setSearch(location.city || location.branch || '');
- };
+    // نام شهر/برنچ را داخل Search قرار بده
+    setSearch(location.city || location.branch || '');
+  };
 
   /* =========================================
      SELECT PORT
   ========================================= */
-
   const selectPort = (location, port) => {
     if (!location || !port) return;
 
     setSelectedLocationId(location.id);
-
     setSelectedLocation(location);
-
     setSelectedPort(port);
+
+    // نام شهر / برنچ در Search
+    setSearch(location.city || location.branch || '');
   };
 
   /* =========================================
@@ -415,15 +414,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-
-
-/**
- * git add .
-git commit -m "Fix PWA for GitHub Pages"
-git push
- */
