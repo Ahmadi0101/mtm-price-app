@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { FaCalculator } from 'react-icons/fa';
-
+import { FaCalculator, FaSearch } from 'react-icons/fa';
+import { FaSave } from 'react-icons/fa';
+import SavedCalculations from './components/SavedCalculations';
 import data from './data/data.json';
 
 import VehicleRates from './components/VehicleRates';
@@ -23,6 +24,7 @@ function App() {
 
   const [selectedVehiclePriceUsd, setSelectedVehiclePriceUsd] = useState(0);
 
+  const [savedCalculationsPage, setSavedCalculationsPage] = useState(false);
   /* =========================================
      APP DATA
   ========================================= */
@@ -30,10 +32,17 @@ function App() {
   const [appData, setAppData] = useState(() => {
     const saved = getSavedData();
 
-    if (saved && Array.isArray(saved.locations)) {
-      console.log('💾 اطلاعات از حافظه محلی دریافت شد');
+    if (saved && Array.isArray(saved.locations) && Array.isArray(saved.vehicles) && typeof saved.price_usd !== 'undefined') {
+      console.log('💾 اطلاعات کامل از حافظه محلی دریافت شد');
+      console.log('🚗 تعداد Vehicle:', saved.vehicles.length);
+      console.log('💵 نرخ دالر:', saved.price_usd);
+
       return saved;
     }
+
+    console.log('⚠️ حافظه محلی قدیمی یا ناقص است؛ data.json استفاده می‌شود');
+
+    return data;
 
     console.log('📦 اطلاعات اولیه data.json استفاده شد');
 
@@ -164,10 +173,7 @@ function App() {
           /*
            * تعداد Vehicle
            */
-          const vehicleCount =
-            result.data.locations?.reduce((total, location) => {
-              return total + (Array.isArray(location.vehicles) ? location.vehicles.length : 0);
-            }, 0) || 0;
+          const vehicleCount = Array.isArray(appData?.vehicles) ? appData.vehicles.length : 0;
 
           console.log('🚗 تعداد Vehicle:', vehicleCount);
 
@@ -312,6 +318,12 @@ function App() {
     setSelectedPort(null);
   };
 
+
+  const handleRemoveVehicle = () => {
+    setSelectedVehicle(null);
+    setSelectedVehiclePriceUsd(0);
+  };
+  
   /* =========================================
      SEARCH CHANGE
   ========================================= */
@@ -415,6 +427,15 @@ function App() {
 
             {updateStatus === 'offline' && '📴 حالت آفلاین'}
           </div>
+          {/* <button
+            type="button"
+            className="saved-calculations-button"
+            onClick={() => setSavedCalculationsPage(true)}
+            title="محاسبات ذخیره شده"
+          >
+            <FaSave />
+            
+          </button> */}
         </div>
       </header>
 
@@ -427,7 +448,8 @@ function App() {
             SEARCH
         =================================== */}
 
-        <div className="search-box">
+        <div className="vehicle-rates-search">
+          <FaSearch />
           <input
             type="text"
             placeholder="... جستجوی شهر، برنچ، ایالت یا پورت"
@@ -613,7 +635,17 @@ function App() {
           CALCULATOR
       ===================================== */}
 
-      {calculator && <Calculator location={calculator.location} port={calculator.port} onClose={closeCalculator} />}
+      {calculator && (
+        <Calculator
+          location={selectedLocation}
+          port={selectedPort}
+          onClose={() => setCalculator(false)}
+          selectedVehicle={selectedVehicle}
+          selectedVehiclePriceUsd={selectedVehiclePriceUsd}
+          onOpenVehicleRates={() => setVehicleRatePage(true)}
+          onRemoveVehicle={handleRemoveVehicle}
+        />
+      )}
 
       {/* =====================================
           VEHICLE CUSTOMS BUTTON
@@ -634,8 +666,32 @@ function App() {
           appData={appData}
           selectedVehicle={selectedVehicle}
           onClose={() => setVehicleRatePage(false)}
-          onSelectVehicle={handleSelectVehicle}
+          onSelectVehicle={(vehicle) => {
+            console.log('🚗 موتر انتخاب شد:', vehicle);
+
+            setSelectedVehicle(vehicle);
+
+            setSelectedVehiclePriceUsd(Number(vehicle?.price_usd || 0));
+
+            // صفحه گمرکات بسته شود
+            setVehicleRatePage(false);
+          }}
         />
+      )}
+      {savedCalculationsPage && (
+        <div className="saved-calculations-overlay">
+          <SavedCalculations
+            onClose={() => setSavedCalculationsPage(false)}
+            onOpenCalculation={(calculation) => {
+              console.log('📂 محاسبه انتخاب شد:', calculation);
+
+              setSavedCalculationsPage(false);
+
+              // فعلاً فقط صفحه بسته می‌شود.
+              // در مرحله بعد Calculator را با همین اطلاعات پر می‌کنیم.
+            }}
+          />
+        </div>
       )}
     </div>
   );
