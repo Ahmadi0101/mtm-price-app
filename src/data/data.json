@@ -1,5 +1,37 @@
 {
   "version": 1,
+  
+          "price_usd": 64,
+
+      "vehicles": [
+        {
+          "id": 1,
+          "name": "Toyota Corolla",
+          "year": 2005,
+          "price_afn": 250000
+        },
+        {
+          "id": 2,
+          "name": "Toyota Corolla",
+          "year": 2006,
+          "price_afn": 260000
+           
+        },
+        {
+          "id": 3,
+          "name": "Toyota Corolla",
+          "year": 2007,
+          "price_afn": 270000
+          
+        },
+        {
+          "id": 4,
+          "name": "Toyota Prius",
+          "year": 2010,
+          "price_afn": 350000
+           
+        }
+      ],
   "locations": [
     {
       "id": 1,

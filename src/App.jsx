@@ -1,7 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { FaCalculator } from 'react-icons/fa';
+
 import data from './data/data.json';
 
+import VehicleRates from './components/VehicleRates';
 import MapView from './components/MapView';
 import Calculator from './components/Calculator';
 
@@ -12,15 +14,28 @@ import './App.css';
 
 function App() {
   /* =========================================
-     DATA
+     VEHICLE RATES
+  ========================================= */
+
+  const [vehicleRatePage, setVehicleRatePage] = useState(false);
+
+  const [selectedVehicle, setSelectedVehicle] = useState(null);
+
+  const [selectedVehiclePriceUsd, setSelectedVehiclePriceUsd] = useState(0);
+
+  /* =========================================
+     APP DATA
   ========================================= */
 
   const [appData, setAppData] = useState(() => {
     const saved = getSavedData();
 
     if (saved && Array.isArray(saved.locations)) {
+      console.log('💾 اطلاعات از حافظه محلی دریافت شد');
       return saved;
     }
+
+    console.log('📦 اطلاعات اولیه data.json استفاده شد');
 
     return data;
   });
@@ -32,16 +47,17 @@ function App() {
   const [search, setSearch] = useState('');
 
   /* =========================================
-     SELECTED LOCATION
+     LOCATION
   ========================================= */
 
   const [selectedLocationId, setSelectedLocationId] = useState(null);
 
+  const [selectedLocation, setSelectedLocation] = useState(null);
+
   /* =========================================
-     MAP SELECTION
+     PORT
   ========================================= */
 
-  const [selectedLocation, setSelectedLocation] = useState(null);
   const [selectedPort, setSelectedPort] = useState(null);
 
   /* =========================================
@@ -57,15 +73,19 @@ function App() {
   const [updateStatus, setUpdateStatus] = useState('checking');
 
   /* =========================================
-     SAVE DATA
+     SAVE DATA LOCALLY
   ========================================= */
 
   useEffect(() => {
+    if (!appData) return;
+
     saveData(appData);
+
+    console.log('💾 اطلاعات در حافظه محلی ذخیره شد');
   }, [appData]);
 
   /* =========================================
-     CHECK GITHUB UPDATE
+     APP DATA REF
   ========================================= */
 
   const appDataRef = useRef(appData);
@@ -74,12 +94,15 @@ function App() {
     appDataRef.current = appData;
   }, [appData]);
 
+  /* =========================================
+     CHECK GITHUB UPDATE
+  ========================================= */
+
   useEffect(() => {
     let mounted = true;
     let checking = false;
 
-    async function updateData() {
-      // اگر همزمان یک بررسی دیگر در جریان است، دوباره اجرا نشود
+    const updateData = async () => {
       if (checking) return;
 
       checking = true;
@@ -88,40 +111,78 @@ function App() {
         setUpdateStatus('checking');
       }
 
+      console.log('🌐 در حال بررسی اطلاعات GitHub...');
+
       try {
         const result = await checkForUpdate(appDataRef.current);
 
         if (!mounted) return;
 
-        // اینترنت یا GitHub در دسترس نیست
+        /* =====================================
+           OFFLINE
+        ===================================== */
+
         if (result.offline) {
+          console.log('📴 GitHub در دسترس نیست؛ حالت آفلاین');
+
           setUpdateStatus('offline');
+
           return;
         }
 
-        // اطلاعات GitHub تغییر کرده
+        /* =====================================
+           NEW DATA
+        ===================================== */
+
         if (result.updated && result.data) {
-          // اول ذخیره کن
+          console.log('🆕 اطلاعات جدید از GitHub دریافت شد');
+
+          console.log(`📦 Version: ${result.localVersion} → ${result.remoteVersion}`);
+
+          /*
+           * ذخیره اطلاعات جدید
+           */
           saveData(result.data);
 
-          // بعد اطلاعات برنامه را عوض کن
+          /*
+           * Ref
+           */
           appDataRef.current = result.data;
+
+          /*
+           * React State
+           */
           setAppData(result.data);
 
           setUpdateStatus('updated');
 
-          console.log('✅ اطلاعات جدید GitHub دریافت شد');
-          console.log(`📦 Version: ${result.localVersion} → ${result.remoteVersion}`);
+          /*
+           * تعداد Location
+           */
+          console.log('📍 تعداد Location:', result.data.locations?.length || 0);
+
+          /*
+           * تعداد Vehicle
+           */
+          const vehicleCount =
+            result.data.locations?.reduce((total, location) => {
+              return total + (Array.isArray(location.vehicles) ? location.vehicles.length : 0);
+            }, 0) || 0;
+
+          console.log('🚗 تعداد Vehicle:', vehicleCount);
 
           return;
         }
 
-        // اطلاعات همان قبلی است
-        setUpdateStatus('latest');
+        /* =====================================
+           LATEST
+        ===================================== */
 
         console.log('✅ اطلاعات برنامه به‌روز است');
+
+        setUpdateStatus('latest');
       } catch (error) {
-        console.error('Update check error:', error);
+        console.error('❌ Update check error:', error);
 
         if (mounted) {
           setUpdateStatus('offline');
@@ -129,14 +190,19 @@ function App() {
       } finally {
         checking = false;
       }
-    }
+    };
 
-    // بررسی هنگام باز شدن برنامه
+    /*
+     * اولین بررسی
+     */
     updateData();
 
-    // وقتی اینترنت دوباره وصل شد
+    /*
+     * وقتی اینترنت وصل شد
+     */
     const handleOnline = () => {
-      console.log('🌐 اینترنت وصل شد؛ بررسی GitHub...');
+      console.log('🌐 اینترنت وصل شد؛ بررسی دوباره GitHub...');
+
       updateData();
     };
 
@@ -144,22 +210,27 @@ function App() {
 
     return () => {
       mounted = false;
+
       window.removeEventListener('online', handleOnline);
     };
   }, []);
 
   /* =========================================
-     SEARCH RESULTS
+     LOCATION SEARCH
   ========================================= */
 
   const locations = useMemo(() => {
+    if (!appData || !Array.isArray(appData.locations)) {
+      return [];
+    }
+
     const text = search.trim().toLowerCase();
 
     let filteredLocations = appData.locations;
 
-    // ==========================================
-    // SEARCH FILTER
-    // ==========================================
+    /* =====================================
+       SEARCH
+    ===================================== */
 
     if (text) {
       filteredLocations = appData.locations.filter((item) => {
@@ -171,12 +242,16 @@ function App() {
       });
     }
 
-    // ==========================================
-    // SELECTED LOCATION FILTER
-    // ==========================================
+    /* =====================================
+       SELECTED LOCATION
+    ===================================== */
 
     if (selectedLocationId) {
-      filteredLocations = filteredLocations.filter((location) => location.id === selectedLocationId);
+      /*
+       * اگر Location انتخاب شده،
+       * همان Location نمایش داده شود.
+       */
+      filteredLocations = appData.locations.filter((location) => location.id === selectedLocationId);
     }
 
     return filteredLocations;
@@ -189,25 +264,24 @@ function App() {
   const selectLocation = (location) => {
     if (!location) return;
 
-    // سرچ را دست نمی‌زنیم
     setSelectedLocationId(location.id);
 
-    // Location انتخاب‌شده برای Map
     setSelectedLocation(location);
 
-    // با انتخاب برنچ، پورت قبلی پاک شود
     setSelectedPort(null);
   };
+
   /* =========================================
      SELECT PORT
   ========================================= */
+
   const selectPort = (location, port) => {
     if (!location || !port) return;
 
-    // سرچ دست‌نخورده باقی می‌ماند
     setSelectedLocationId(location.id);
 
     setSelectedLocation(location);
+
     setSelectedPort(port);
   };
 
@@ -218,10 +292,6 @@ function App() {
   const openCalculator = (location, port) => {
     if (!location || !port) return;
 
-    /*
-      پورت را برای نقشه هم انتخاب می‌کنیم
-      تا مسیر سبز نمایش داده شود.
-    */
     selectPort(location, port);
 
     setCalculator({
@@ -230,13 +300,17 @@ function App() {
     });
   };
 
+  /* =========================================
+     CLEAR LOCATION
+  ========================================= */
 
   const clearSelectedLocation = () => {
     setSelectedLocationId(null);
+
     setSelectedLocation(null);
+
     setSelectedPort(null);
   };
-
 
   /* =========================================
      SEARCH CHANGE
@@ -245,10 +319,14 @@ function App() {
   const handleSearch = (value) => {
     setSearch(value);
 
-    // وقتی کاربر سرچ را تغییر می‌دهد،
-    // Location انتخاب‌شده حذف می‌شود
+    /*
+     * با تغییر Search،
+     * Location قبلی پاک شود.
+     */
     setSelectedLocationId(null);
+
     setSelectedLocation(null);
+
     setSelectedPort(null);
   };
 
@@ -258,6 +336,58 @@ function App() {
 
   const closeCalculator = () => {
     setCalculator(null);
+  };
+
+  /* =========================================
+     SELECT VEHICLE
+  ========================================= */
+
+  const handleSelectVehicle = (vehicle) => {
+    if (!vehicle) return;
+
+    /*
+     * ذخیره Vehicle کامل
+     */
+    setSelectedVehicle(vehicle);
+
+    /*
+     * ذخیره قیمت گمرک به دالر
+     */
+    const priceUsd = Number(vehicle.price_usd || 0);
+
+    setSelectedVehiclePriceUsd(priceUsd);
+
+    console.log('🚗 Vehicle انتخاب شد:', vehicle.name);
+
+    console.log('📅 Year:', vehicle.year);
+
+    console.log('💰 Customs AFN:', vehicle.price_afn);
+
+    console.log('💵 Customs USD:', priceUsd);
+
+    console.log('💱 Dollar Rate:', vehicle.dollar_rate);
+  };
+
+  /* =========================================
+     OPEN VEHICLE RATES
+  ========================================= */
+
+  const openVehicleRates = () => {
+    console.log('🚗 صفحه نرخ گمرک باز شد');
+
+    console.log('📦 تعداد Location:', appData?.locations?.length || 0);
+
+    const vehicleCount =
+      appData?.locations?.reduce((total, location) => {
+        return total + (Array.isArray(location.vehicles) ? location.vehicles.length : 0);
+      }, 0) || 0;
+
+    console.log('🚘 تعداد Vehicle:', vehicleCount);
+
+    /*
+     * بدون نیاز به انتخاب Location
+     */
+    setVehicleRatePage(true);
   };
 
   /* =========================================
@@ -278,8 +408,11 @@ function App() {
 
           <div className="update-status">
             {updateStatus === 'checking' && '⏳ بررسی اطلاعات...'}
+
             {updateStatus === 'updated' && '✅ اطلاعات جدید دریافت شد'}
+
             {updateStatus === 'latest' && '✓ اطلاعات به‌روز است'}
+
             {updateStatus === 'offline' && '📴 حالت آفلاین'}
           </div>
         </div>
@@ -308,6 +441,11 @@ function App() {
             </button>
           )}
         </div>
+
+        {/* ===================================
+            SELECTED LOCATION
+        =================================== */}
+
         {selectedLocation && (
           <div className="selected-location-filter">
             <div className="selected-location-info">
@@ -331,10 +469,13 @@ function App() {
         {/* ===================================
             RESULT COUNT
         =================================== */}
-        {!selectedLocation && <div className="result-count"> تعداد برنچ های: {locations.length}</div>}
+
+        {!selectedLocation && <div className="result-count">تعداد برنچ های: {locations.length}</div>}
+
         {/* ===================================
             MAP
         =================================== */}
+
         <div className="map-section">
           <MapView
             locations={locations}
@@ -344,9 +485,11 @@ function App() {
             onSelectPort={selectPort}
           />
         </div>
+
         {/* ===================================
             LOCATIONS
         =================================== */}
+
         <div className="locations-scroll">
           <div className="locations">
             {locations.map((location) => {
@@ -358,9 +501,7 @@ function App() {
                   key={location.id}
                   onClick={() => selectLocation(location)}
                 >
-                  {/* =========================
-                    LOCATION HEADER
-                ========================= */}
+                  {/* LOCATION HEADER */}
 
                   <div className="location-header">
                     <div>
@@ -382,9 +523,7 @@ function App() {
                     </div>
                   </div>
 
-                  {/* =========================
-                    PORTS
-                ========================= */}
+                  {/* PORTS */}
 
                   <div className="ports">
                     {Array.isArray(location.ports) &&
@@ -397,15 +536,11 @@ function App() {
                             key={`${location.id}-${index}`}
                             onClick={(e) => {
                               e.stopPropagation();
-                              selectLocation(location);
-                              /*
-                                انتخاب پورت
-                                و نمایش مسیر روی نقشه
-                              */
+
                               selectPort(location, port);
                             }}
                           >
-                            {/* PORT */}
+                            {/* PORT NAME */}
 
                             <div className="port-name">🚢 {port.name}</div>
 
@@ -445,31 +580,12 @@ function App() {
                                 <strong>${Number(port.total || 0).toLocaleString()}</strong>
                               </div>
                             </div>
-
-                            {/* CALCULATE BUTTON */}
-
-                            {/* <button
-                              type="button"
-                              className="calculate-button"
-                              onClick={(e) => {
-                                e.stopPropagation();
-
-                                openCalculator(
-                                  location,
-                                  port
-                                );
-                              }}
-                            >
-                              محاسبه قیمت
-                            </button> */}
                           </div>
                         );
                       })}
                   </div>
 
-                  {/* =========================
-                    COORDINATES
-                ========================= */}
+                  {/* COORDINATES */}
 
                   <div className="coordinates">
                     📍 {location.lat}, {location.lng}
@@ -478,9 +594,7 @@ function App() {
               );
             })}
 
-            {/* =================================
-              NO RESULT
-          ================================= */}
+            {/* NO RESULT */}
 
             {locations.length === 0 && (
               <div className="no-result">
@@ -500,6 +614,29 @@ function App() {
       ===================================== */}
 
       {calculator && <Calculator location={calculator.location} port={calculator.port} onClose={closeCalculator} />}
+
+      {/* =====================================
+          VEHICLE CUSTOMS BUTTON
+      ===================================== */}
+
+      <button type="button" className="floating-customs-button" onClick={openVehicleRates} aria-label="نرخ گمرک موتر">
+        <span className="floating-car-icon">
+          <img src={`${import.meta.env.BASE_URL}Vehicles.jpg`} alt="Vehicle Documents" className="flat-imge" />
+        </span>
+      </button>
+
+      {/* =====================================
+          VEHICLE RATES
+      ===================================== */}
+
+      {vehicleRatePage && (
+        <VehicleRates
+          appData={appData}
+          selectedVehicle={selectedVehicle}
+          onClose={() => setVehicleRatePage(false)}
+          onSelectVehicle={handleSelectVehicle}
+        />
+      )}
     </div>
   );
 }
