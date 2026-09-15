@@ -331,7 +331,7 @@ function App() {
         {/* ===================================
             RESULT COUNT
         =================================== */}
-        {!selectedLocation && <div className="result-count">{locations.length} نتیجه پیدا شد</div>}
+        {!selectedLocation && <div className="result-count"> تعداد برنچ های: {locations.length}</div>}
         {/* ===================================
             MAP
         =================================== */}
