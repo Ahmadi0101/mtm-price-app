@@ -308,7 +308,6 @@ function App() {
             </button>
           )}
         </div>
-
         {selectedLocation && (
           <div className="selected-location-filter">
             <div className="selected-location-info">
@@ -317,11 +316,9 @@ function App() {
               <div className="selected-location-text">
                 <strong>{selectedLocation.city || selectedLocation.branch}</strong>
 
-                <span>
-                  {selectedLocation.branch && selectedLocation.city && selectedLocation.branch !== selectedLocation.city
-                    ? ` — ${selectedLocation.branch}`
-                    : ''}
-                </span>
+                {selectedLocation.branch && selectedLocation.city && selectedLocation.branch !== selectedLocation.city && (
+                  <span>{selectedLocation.branch}</span>
+                )}
               </div>
             </div>
 
@@ -334,13 +331,10 @@ function App() {
         {/* ===================================
             RESULT COUNT
         =================================== */}
-
-        <div className="result-count">{locations.length} نتیجه پیدا شد</div>
-
+        {!selectedLocation && <div className="result-count">{locations.length} نتیجه پیدا شد</div>}
         {/* ===================================
             MAP
         =================================== */}
-
         <div className="map-section">
           <MapView
             locations={locations}
@@ -350,7 +344,6 @@ function App() {
             onSelectPort={selectPort}
           />
         </div>
-
         {/* ===================================
             LOCATIONS
         =================================== */}

@@ -2212,3 +2212,162 @@ button {
 .location-source:not(.source-copart):not(.source-iaai) {
   background: #111111;
 }
+
+
+ 
+/* =========================================
+   SELECTED LOCATION CHIP
+========================================= */
+
+.selected-location-filter {
+  width: 100%;
+   
+ margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+
+  padding: 7px 8px 7px 7px;
+
+  border-radius: 12px;
+
+  background: rgba(0, 0, 0, 0.62);
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+
+  box-shadow:
+    0 2px 8px rgba(113, 113, 113, 0.04),
+    inset 0 1px 0 rgba(48, 48, 48, 0.7);
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  direction: rtl;
+}
+
+/* =========================================
+   LOCATION INFO
+========================================= */
+
+.selected-location-info {
+  min-width: 0;
+
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  direction: rtl;
+}
+
+/* =========================================
+   LOCATION ICON
+========================================= */
+
+.selected-location-icon {
+  width: 30px;
+  height: 30px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 9px;
+
+  background: rgba(0, 0, 0, 0.045);
+
+  font-size: 15px;
+}
+
+/* =========================================
+   LOCATION TEXT
+========================================= */
+
+.selected-location-text {
+  min-width: 0;
+
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  direction: rtl;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.selected-location-text strong {
+  font-size: 13px;
+  font-weight: 900;
+ color: white;
+  
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.selected-location-text span {
+  font-size: 11px;
+  font-weight: 700;
+
+   color: white;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* =========================================
+   CLOSE BUTTON
+========================================= */
+
+.selected-location-clear {
+  width: 27px;
+  height: 27px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 4px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: rgba(0, 0, 0, 0.055);
+
+   color: white;
+
+  font-size: 19px;
+  font-weight: 500;
+
+  line-height: 1;
+
+  cursor: pointer;
+
+  transition:
+    background 0.18s ease,
+    color 0.18s ease,
+    transform 0.18s ease;
+}
+
+.selected-location-clear:hover {
+  background: rgba(0, 0, 0, 0.12);
+
+  color: #111;
+
+  transform: scale(1.05);
+}
+
+.selected-location-clear:active {
+  transform: scale(0.94);
+}
+ 
