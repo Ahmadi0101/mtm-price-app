@@ -307,33 +307,29 @@ function App() {
               ×
             </button>
           )}
-          {selectedLocation && (
-            <div className="selected-location-filter">
-              <div className="selected-location-info">
-                <span className="selected-location-icon">📍</span>
-
-                <div className="selected-location-text">
-                  <strong>{selectedLocation.city || selectedLocation.branch}</strong>
-
-                  <span>
-                    {selectedLocation.branch && selectedLocation.city && selectedLocation.branch !== selectedLocation.city
-                      ? ` — ${selectedLocation.branch}`
-                      : ''}
-                  </span>
-                </div>
-              </div>
-
-              <button
-                type="button"
-                className="selected-location-clear"
-                onClick={clearSelectedLocation}
-                aria-label="حذف Location انتخاب شده"
-              >
-                ×
-              </button>
-            </div>
-          )}
         </div>
+
+        {selectedLocation && (
+          <div className="selected-location-filter">
+            <div className="selected-location-info">
+              <span className="selected-location-icon">📍</span>
+
+              <div className="selected-location-text">
+                <strong>{selectedLocation.city || selectedLocation.branch}</strong>
+
+                <span>
+                  {selectedLocation.branch && selectedLocation.city && selectedLocation.branch !== selectedLocation.city
+                    ? ` — ${selectedLocation.branch}`
+                    : ''}
+                </span>
+              </div>
+            </div>
+
+            <button type="button" className="selected-location-clear" onClick={clearSelectedLocation} aria-label="حذف Location انتخاب شده">
+              ×
+            </button>
+          </div>
+        )}
 
         {/* ===================================
             RESULT COUNT
