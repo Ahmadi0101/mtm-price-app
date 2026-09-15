@@ -153,26 +153,33 @@ function App() {
   ========================================= */
 
   const locations = useMemo(() => {
-    // اگر یک برنچ انتخاب شده، فقط همان برنچ را نشان بده
-    if (selectedLocationId) {
-      return appData.locations.filter((location) => location.id === selectedLocationId);
-    }
-
     const text = search.trim().toLowerCase();
 
-    // اگر سرچ خالی است، همه Locationها
-    if (!text) {
-      return appData.locations;
+    let filteredLocations = appData.locations;
+
+    // ==========================================
+    // SEARCH FILTER
+    // ==========================================
+
+    if (text) {
+      filteredLocations = appData.locations.filter((item) => {
+        const portText = Array.isArray(item.ports) ? item.ports.map((port) => port?.name || '').join(' ') : '';
+
+        const searchableText = [item.state, item.branch, item.city, item.source, portText].filter(Boolean).join(' ').toLowerCase();
+
+        return searchableText.includes(text);
+      });
     }
 
-    // جستجو
-    return appData.locations.filter((item) => {
-      const portText = Array.isArray(item.ports) ? item.ports.map((port) => port?.name || '').join(' ') : '';
+    // ==========================================
+    // SELECTED LOCATION FILTER
+    // ==========================================
 
-      const searchableText = [item.state, item.branch, item.city, portText].filter(Boolean).join(' ').toLowerCase();
+    if (selectedLocationId) {
+      filteredLocations = filteredLocations.filter((location) => location.id === selectedLocationId);
+    }
 
-      return searchableText.includes(text);
-    });
+    return filteredLocations;
   }, [search, appData, selectedLocationId]);
 
   /* =========================================
@@ -182,26 +189,26 @@ function App() {
   const selectLocation = (location) => {
     if (!location) return;
 
+    // سرچ را دست نمی‌زنیم
     setSelectedLocationId(location.id);
+
+    // Location انتخاب‌شده برای Map
     setSelectedLocation(location);
+
+    // با انتخاب برنچ، پورت قبلی پاک شود
     setSelectedPort(null);
-
-    // نام شهر/برنچ را داخل Search قرار بده
-    setSearch(location.city || location.branch || '');
   };
-
   /* =========================================
      SELECT PORT
   ========================================= */
   const selectPort = (location, port) => {
     if (!location || !port) return;
 
+    // سرچ دست‌نخورده باقی می‌ماند
     setSelectedLocationId(location.id);
+
     setSelectedLocation(location);
     setSelectedPort(port);
-
-    // نام شهر / برنچ در Search
-    setSearch(location.city || location.branch || '');
   };
 
   /* =========================================
@@ -223,6 +230,14 @@ function App() {
     });
   };
 
+
+  const clearSelectedLocation = () => {
+    setSelectedLocationId(null);
+    setSelectedLocation(null);
+    setSelectedPort(null);
+  };
+
+
   /* =========================================
      SEARCH CHANGE
   ========================================= */
@@ -230,17 +245,11 @@ function App() {
   const handleSearch = (value) => {
     setSearch(value);
 
-    if (!value.trim()) {
-      setSelectedLocationId(null);
-      setSelectedLocation(null);
-      setSelectedPort(null);
-    } else {
-      // وقتی کاربر خودش سرچ می‌کند،
-      // انتخاب قبلی دیگر محدودکننده نباشد
-      setSelectedLocationId(null);
-      setSelectedLocation(null);
-      setSelectedPort(null);
-    }
+    // وقتی کاربر سرچ را تغییر می‌دهد،
+    // Location انتخاب‌شده حذف می‌شود
+    setSelectedLocationId(null);
+    setSelectedLocation(null);
+    setSelectedPort(null);
   };
 
   /* =========================================
@@ -298,6 +307,32 @@ function App() {
               ×
             </button>
           )}
+          {selectedLocation && (
+            <div className="selected-location-filter">
+              <div className="selected-location-info">
+                <span className="selected-location-icon">📍</span>
+
+                <div className="selected-location-text">
+                  <strong>{selectedLocation.city || selectedLocation.branch}</strong>
+
+                  <span>
+                    {selectedLocation.branch && selectedLocation.city && selectedLocation.branch !== selectedLocation.city
+                      ? ` — ${selectedLocation.branch}`
+                      : ''}
+                  </span>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                className="selected-location-clear"
+                onClick={clearSelectedLocation}
+                aria-label="حذف Location انتخاب شده"
+              >
+                ×
+              </button>
+            </div>
+          )}
         </div>
 
         {/* ===================================
@@ -345,7 +380,17 @@ function App() {
                       <span>{location.state}</span>
                     </div>
 
-                    <div className="branch">{location.branch}</div>
+                    <div className="location-header-right">
+                      <div className="branch">{location.branch}</div>
+
+                      <div
+                        className={`location-source source-${String(location.source || 'OTHER')
+                          .trim()
+                          .toLowerCase()}`}
+                      >
+                        {String(location.source || 'OTHER').toUpperCase()}
+                      </div>
+                    </div>
                   </div>
 
                   {/* =========================

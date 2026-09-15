@@ -2,6 +2,1602 @@
   "version": 1,
   "locations": [
     {
+      "id": 1,
+      "state": "ALABAMA (AL)",
+      "branch": "TANNER",
+      "city": "TANNER",
+      "source": "COPART",
+      "lat": 34.6059,
+      "lng": -87.0883,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1200,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3100
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "state": "ALABAMA (AL)",
+      "branch": "MOBILE",
+      "city": "EIGHT MILES",
+      "source": "COPART",
+      "lat": 30.7707,
+      "lng": -88.112,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1200,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3100
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "state": "ALABAMA (AL)",
+      "branch": "HUNTSVILLE",
+      "city": "HUNTSVILLE",
+      "source": "COPART",
+      "lat": 34.7796,
+      "lng": -86.666,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1225,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3125
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "state": "ALABAMA (AL)",
+      "branch": "BIRMINGHAM",
+      "city": "BESSEMER",
+      "source": "IAAI",
+      "lat": 33.4018,
+      "lng": -86.9544,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1200,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3100
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "state": "ALABAMA (AL)",
+      "branch": "CUSSETA",
+      "city": "CUSSETA",
+      "source": "COPART",
+      "lat": 32.7871,
+      "lng": -85.3077,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1250,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3150
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "state": "ALABAMA (AL)",
+      "branch": "BIRMINGHAM",
+      "city": "HUEYTOWN",
+      "source": "COPART",
+      "lat": 33.4385,
+      "lng": -86.9668,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1200,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3100
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "state": "ALABAMA (AL)",
+      "branch": "MOBILE SOUTH",
+      "city": "THEODORE",
+      "source": "COPART",
+      "lat": 30.5474,
+      "lng": -88.1753,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1200,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3100
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "state": "ALABAMA (AL)",
+      "branch": "MONTGOMERY",
+      "city": "MONTGOMERY",
+      "source": "COPART",
+      "lat": 32.3199,
+      "lng": -86.2784,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1200,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3100
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "state": "ALABAMA (AL)",
+      "branch": "ATHENS",
+      "city": "ATHENS",
+      "source": "IAAI",
+      "lat": 34.8029,
+      "lng": -86.9717,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1225,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3125
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "state": "ALABAMA (AL)",
+      "branch": "DOTHAN",
+      "city": "HEADLAND",
+      "source": "IAAI",
+      "lat": 31.3513,
+      "lng": -85.3422,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1200,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3100
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "state": "ALABAMA (AL)",
+      "branch": "FLORENCE",
+      "city": "FLORENCE",
+      "source": "OTHER",
+      "lat": 34.7998,
+      "lng": -87.6773,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1215,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3115
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "state": "FLORIDA (FL)",
+      "branch": "FORT MYERS NORTH",
+      "city": "FORT MYERS",
+      "source": "IAAI",
+      "lat": 26.6406,
+      "lng": -81.8406,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1175,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3075
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "state": "FLORIDA (FL)",
+      "branch": "TAMPA",
+      "city": "PALMETTO",
+      "source": "IAAI",
+      "lat": 27.5214,
+      "lng": -82.5723,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1140,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3040
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "state": "FLORIDA (FL)",
+      "branch": "TAMPA SOUTH",
+      "city": "RIVERVIEW",
+      "source": "COPART",
+      "lat": 27.8006,
+      "lng": -82.302,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1140,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3040
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "state": "FLORIDA (FL)",
+      "branch": "ORLANDO NORTH",
+      "city": "SANFORD",
+      "source": "IAAI",
+      "lat": 28.8005,
+      "lng": -81.2692,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1130,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3030
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "state": "FLORIDA (FL)",
+      "branch": "FORT PIERCE",
+      "city": "FORT PIERCE",
+      "source": "COPART",
+      "lat": 27.4467,
+      "lng": -80.3256,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1175,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3075
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "state": "FLORIDA (FL)",
+      "branch": "CLEWISTON",
+      "city": "CLEWISTON",
+      "source": "COPART",
+      "lat": 26.7542,
+      "lng": -80.9337,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1175,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3075
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "state": "FLORIDA (FL)",
+      "branch": "TAMPA NORTH",
+      "city": "HUDSON",
+      "source": "IAAI",
+      "lat": 28.3647,
+      "lng": -82.6934,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1150,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3050
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "state": "FLORIDA (FL)",
+      "branch": "CLEARWATER",
+      "city": "CLEARWATER",
+      "source": "IAAI",
+      "lat": 27.9659,
+      "lng": -82.8001,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1125,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3025
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "state": "FLORIDA (FL)",
+      "branch": "PUNTA GORDA",
+      "city": "ARCADIA",
+      "source": "COPART",
+      "lat": 27.2159,
+      "lng": -81.8587,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1125,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3025
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "state": "FLORIDA (FL)",
+      "branch": "JACKSONVILLE NORTH",
+      "city": "JACKSONVILLE",
+      "source": "COPART",
+      "lat": 30.3322,
+      "lng": -81.6557,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1015,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2915
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "state": "FLORIDA (FL)",
+      "branch": "TAMPA SOUTH",
+      "city": "TAMPA SOUTH",
+      "source": "COPART",
+      "lat": 27.8006,
+      "lng": -82.302,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1140,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3040
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "state": "FLORIDA (FL)",
+      "branch": "MIAMI NORTH",
+      "city": "MIAMI",
+      "source": "COPART",
+      "lat": 25.7617,
+      "lng": -80.1918,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1175,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3075
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "state": "FLORIDA (FL)",
+      "branch": "MIAMI NORTH",
+      "city": "SOUTHWEST RANCHES",
+      "source": "IAAI",
+      "lat": 26.0587,
+      "lng": -80.3382,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1175,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3075
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "state": "FLORIDA (FL)",
+      "branch": "TAMPA SOUTH",
+      "city": "MULBERRY",
+      "source": "COPART",
+      "lat": 27.8953,
+      "lng": -81.9734,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1140,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3040
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "state": "FLORIDA (FL)",
+      "branch": "ORLANDO SOUTH",
+      "city": "ORLANDO",
+      "source": "COPART",
+      "lat": 28.5383,
+      "lng": -81.3792,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1140,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3040
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "state": "FLORIDA (FL)",
+      "branch": "WEST PALM BEACH",
+      "city": "WEST PALM BEACH",
+      "source": "COPART",
+      "lat": 26.7153,
+      "lng": -80.0534,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1175,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3075
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "state": "FLORIDA (FL)",
+      "branch": "ORLANDO",
+      "city": "ORLANDO",
+      "source": "IAAI",
+      "lat": 28.5383,
+      "lng": -81.3792,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1140,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3040
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "state": "FLORIDA (FL)",
+      "branch": "MIAMI CENTRAL",
+      "city": "MIAMI",
+      "source": "COPART",
+      "lat": 25.7617,
+      "lng": -80.1918,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1175,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3075
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "state": "FLORIDA (FL)",
+      "branch": "MIAMI SOUTH",
+      "city": "HOMESTEAD",
+      "source": "COPART",
+      "lat": 25.4687,
+      "lng": -80.4776,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1175,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3075
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "state": "FLORIDA (FL)",
+      "branch": "PENSACOLA",
+      "city": "MILTON",
+      "source": "IAAI",
+      "lat": 30.6324,
+      "lng": -87.0397,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1150,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3050
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "state": "FLORIDA (FL)",
+      "branch": "MIAMI NORTH",
+      "city": "OPA LOCKA",
+      "source": "COPART",
+      "lat": 25.9023,
+      "lng": -80.2503,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1175,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3075
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "state": "FLORIDA (FL)",
+      "branch": "MIAMI NORTH",
+      "city": "PEMBROKE PINES",
+      "source": "IAAI",
+      "lat": 26.007,
+      "lng": -80.2962,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1175,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3075
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "state": "FLORIDA (FL)",
+      "branch": "FORT MYERS",
+      "city": "FORT MYERS",
+      "source": "IAAI",
+      "lat": 26.6406,
+      "lng": -81.8406,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1175,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3075
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "state": "FLORIDA (FL)",
+      "branch": "MIAMI NORTH",
+      "city": "OPA LOCKA",
+      "source": "COPART",
+      "lat": 25.9023,
+      "lng": -80.2503,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1175,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3075
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "state": "FLORIDA (FL)",
+      "branch": "ST PETE",
+      "city": "CLEARWATER",
+      "source": "IAAI",
+      "lat": 27.9659,
+      "lng": -82.8001,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1125,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3025
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "state": "FLORIDA (FL)",
+      "branch": "TALLAHASSEE",
+      "city": "MIDWAY",
+      "source": "COPART",
+      "lat": 30.4955,
+      "lng": -84.4543,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1140,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3040
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "state": "FLORIDA (FL)",
+      "branch": "OCALA",
+      "city": "OCALA",
+      "source": "COPART",
+      "lat": 29.1872,
+      "lng": -82.1401,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1140,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3040
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "state": "FLORIDA (FL)",
+      "branch": "JACKSONVILLE",
+      "city": "JACKSONVILLE",
+      "source": "IAAI",
+      "lat": 30.3322,
+      "lng": -81.6557,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1015,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2915
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "state": "FLORIDA (FL)",
+      "branch": "PUNTA GORDA",
+      "city": "ARCADIA",
+      "source": "COPART",
+      "lat": 27.2159,
+      "lng": -81.8587,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1125,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3025
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "state": "FLORIDA (FL)",
+      "branch": "ORLANDO NORTH",
+      "city": "APOPKA",
+      "source": "COPART",
+      "lat": 28.6934,
+      "lng": -81.5322,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1125,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3025
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "state": "FLORIDA (FL)",
+      "branch": "TAMPA NORTH",
+      "city": "THONOTOSASSA",
+      "source": "COPART",
+      "lat": 28.0614,
+      "lng": -82.3023,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1150,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3050
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "state": "FLORIDA (FL)",
+      "branch": "ORLANDO",
+      "city": "ORLANDO",
+      "source": "COPART",
+      "lat": 28.5383,
+      "lng": -81.3792,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1140,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3040
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "state": "FLORIDA (FL)",
+      "branch": "WEST PALM BEACH",
+      "city": "WEST PALM BEACH",
+      "source": "COPART",
+      "lat": 26.7153,
+      "lng": -80.0534,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1175,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3075
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "state": "GEORGIA (GA)",
+      "branch": "ATLANTA EAST",
+      "city": "LOGANVILLE",
+      "source": "COPART",
+      "lat": 33.839,
+      "lng": -83.9007,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1050,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2950
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "state": "GEORGIA (GA)",
+      "branch": "ATLANTA SOUTH",
+      "city": "ELLENWOOD",
+      "source": "COPART",
+      "lat": 33.6165,
+      "lng": -84.3291,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1050,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2950
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "state": "GEORGIA (GA)",
+      "branch": "ATLANTA WEST",
+      "city": "AUSTELL",
+      "source": "COPART",
+      "lat": 33.8126,
+      "lng": -84.6344,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1070,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2970
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "state": "GEORGIA (GA)",
+      "branch": "TIFTON",
+      "city": "TIFTON",
+      "source": "COPART",
+      "lat": 31.4505,
+      "lng": -83.5085,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1045,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2945
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "state": "GEORGIA (GA)",
+      "branch": "MACON",
+      "city": "MACON",
+      "source": "COPART",
+      "lat": 32.8407,
+      "lng": -83.6324,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1050,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2950
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "state": "GEORGIA (GA)",
+      "branch": "MACON",
+      "city": "BYRON",
+      "source": "COPART",
+      "lat": 32.6538,
+      "lng": -83.7596,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1050,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2950
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "state": "GEORGIA (GA)",
+      "branch": "ATLANTA EAST",
+      "city": "WINDER",
+      "source": "COPART",
+      "lat": 33.9926,
+      "lng": -83.7202,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1055,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2955
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "state": "GEORGIA (GA)",
+      "branch": "ATLANTA SOUTH",
+      "city": "CARTERSVILLE",
+      "source": "COPART",
+      "lat": 34.1651,
+      "lng": -84.7999,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1140,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3040
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "state": "GEORGIA (GA)",
+      "branch": "ATLANTA NORTH",
+      "city": "GAINESVILLE",
+      "source": "COPART",
+      "lat": 34.2979,
+      "lng": -83.8241,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1060,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2960
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "state": "GEORGIA (GA)",
+      "branch": "ATLANTA NORTH",
+      "city": "ACWORTH",
+      "source": "COPART",
+      "lat": 34.0754,
+      "lng": -84.6474,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1090,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2990
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "state": "GEORGIA (GA)",
+      "branch": "SAVANNAH",
+      "city": "RINCON",
+      "source": "COPART",
+      "lat": 32.296,
+      "lng": -81.2354,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 960,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2860
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "state": "GEORGIA (GA)",
+      "branch": "FAIRBURN",
+      "city": "FAIRBURN",
+      "source": "COPART",
+      "lat": 33.5671,
+      "lng": -84.5816,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1075,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2975
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "state": "GEORGIA (GA)",
+      "branch": "ATLANTA WEST",
+      "city": "ROCKMART",
+      "source": "COPART",
+      "lat": 34.0026,
+      "lng": -85.0413,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "ship": 1075,
+          "herat": 1900,
+          "total": 2975
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "state": "GEORGIA (GA)",
+      "branch": "AUGUSTA",
+      "city": "AUGUSTA",
+      "source": "COPART",
+      "lat": 33.4735,
+      "lng": -82.0105,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1065,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2965
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "state": "KENTUCKY (KY)",
+      "branch": "BOWLING GREEN",
+      "city": "BOWLING GREEN",
+      "source": "COPART",
+      "lat": 36.9685,
+      "lng": -86.4808,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1310,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3210
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "state": "KENTUCKY (KY)",
+      "branch": "GREENVILLE",
+      "city": "GREENVILLE",
+      "source": "COPART",
+      "lat": 37.2011,
+      "lng": -87.1789,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1090,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2990
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "state": "KENTUCKY (KY)",
+      "branch": "WALTON",
+      "city": "WALTON",
+      "source": "COPART",
+      "lat": 38.8756,
+      "lng": -84.6102,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1325,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3225
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "state": "KENTUCKY (KY)",
+      "branch": "LOUISVILLE",
+      "city": "SHEPHERDSVILLE",
+      "source": "COPART",
+      "lat": 37.9884,
+      "lng": -85.7152,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1325,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3225
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "state": "KENTUCKY (KY)",
+      "branch": "LOUISVILLE NORTH",
+      "city": "EMINENCE",
+      "source": "COPART",
+      "lat": 38.3701,
+      "lng": -85.18,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1325,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3225
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "state": "KENTUCKY (KY)",
+      "branch": "PADUCAH",
+      "city": "PADUCAH",
+      "source": "COPART",
+      "lat": 37.0834,
+      "lng": -88.6,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1415,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3315
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "state": "KENTUCKY (KY)",
+      "branch": "LEXINGTON EAST",
+      "city": "LEXINGTON",
+      "source": "COPART",
+      "lat": 37.9901,
+      "lng": -84.51,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1325,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3225
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "state": "KENTUCKY (KY)",
+      "branch": "LEXINGTON WEST",
+      "city": "LAWRENCEBURG",
+      "source": "COPART",
+      "lat": 38.0487,
+      "lng": -84.8966,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1325,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3225
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "state": "KENTUCKY (KY)",
+      "branch": "LOUISVILLE",
+      "city": "LOUISVILLE",
+      "source": "COPART",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1325,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3225
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "state": "KENTUCKY (KY)",
+      "branch": "ASHLAND",
+      "city": "ASHLAND",
+      "source": "COPART",
+      "lat": 38.4784,
+      "lng": -82.6379,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1350,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3250
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "state": "KENTUCKY (KY)",
+      "branch": "EARLINGTON",
+      "city": "EARLINGTON",
+      "source": "COPART",
+      "lat": 37.2745,
+      "lng": -87.5119,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1325,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3225
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "state": "MISSISSIPPI (MS)",
+      "branch": "GRENADA",
+      "city": "GRENADA",
+      "source": "COPART",
+      "lat": 33.769,
+      "lng": -89.8084,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1275,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3175
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "state": "MISSISSIPPI (MS)",
+      "branch": "GULF COAST",
+      "city": "MOSS POINT",
+      "source": "COPART",
+      "lat": 30.4116,
+      "lng": -88.5345,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1200,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3100
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "state": "MISSISSIPPI (MS)",
+      "branch": "JACKSON",
+      "city": "FLORENCE",
+      "source": "COPART",
+      "lat": 32.1535,
+      "lng": -90.1318,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1215,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3115
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "state": "MISSISSIPPI (MS)",
+      "branch": "JACKSON",
+      "city": "BYRAM",
+      "source": "COPART",
+      "lat": 32.1813,
+      "lng": -90.2454,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1215,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3115
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "state": "NORTH CAROLINA (NC)",
+      "branch": "GASTONIA",
+      "city": "GASTONIA",
+      "source": "COPART",
+      "lat": 35.2621,
+      "lng": -81.1873,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1075,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2975
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "state": "NORTH CAROLINA (NC)",
+      "branch": "WILMINGTON",
+      "city": "CASTLE HAYNE",
+      "source": "COPART",
+      "lat": 34.3554,
+      "lng": -77.8997,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1140,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3040
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "state": "NORTH CAROLINA (NC)",
+      "branch": "CHINA GROVE",
+      "city": "CHINA GROVE",
+      "source": "COPART",
+      "lat": 35.5718,
+      "lng": -80.5817,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1090,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2990
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "state": "NORTH CAROLINA (NC)",
+      "branch": "HIGH POINT",
+      "city": "HIGH POINT",
+      "source": "COPART",
+      "lat": 35.9557,
+      "lng": -80.0053,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1125,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3025
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "state": "NORTH CAROLINA (NC)",
+      "branch": "RALEIGH NORTH",
+      "city": "RALEIGH NORTH",
+      "source": "COPART",
+      "lat": 35.9,
+      "lng": -78.62,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1075,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2975
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "state": "NORTH CAROLINA (NC)",
+      "branch": "RALEIGH NORTH",
+      "city": "KNIGHTDALE",
+      "source": "COPART",
+      "lat": 35.7877,
+      "lng": -78.4806,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1075,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2975
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "state": "NORTH CAROLINA (NC)",
+      "branch": "GREENSBORO",
+      "city": "GRAHAM",
+      "source": "COPART",
+      "lat": 36.069,
+      "lng": -79.4,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1140,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3040
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "state": "NORTH CAROLINA (NC)",
+      "branch": "CHARLOTTE",
+      "city": "CHARLOTTE",
+      "source": "COPART",
+      "lat": 35.2271,
+      "lng": -80.8431,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1115,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 3015
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "state": "NORTH CAROLINA (NC)",
+      "branch": "LUMBERTON",
+      "city": "LUMBERTON",
+      "source": "COPART",
+      "lat": 34.6182,
+      "lng": -79.0086,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1065,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2965
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "state": "NORTH CAROLINA (NC)",
+      "branch": "RALEIGH",
+      "city": "DUNN",
+      "source": "COPART",
+      "lat": 35.3063,
+      "lng": -78.6089,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1090,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2990
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "state": "NORTH CAROLINA (NC)",
+      "branch": "RALEIGH",
+      "city": "CLAYTON",
+      "source": "COPART",
+      "lat": 35.6507,
+      "lng": -78.4564,
+      "ports": [
+        {
+          "name": "GEORGIA, USA",
+          "ship": 1075,
+          "lat": 32.0762,
+          "lng": -81.0884,
+          "herat": 1900,
+          "total": 2975
+        }
+      ]
+    },
+    {
       "id": 85,
       "state": "NORTH CAROLINA (NC)",
       "branch": "CONCORD",
@@ -796,6 +2392,7473 @@
           "lng": -74.1724,
           "herat": 1900,
           "total": 3370
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "state": "IOWA (IA)",
+      "branch": "ELDRIDGE",
+      "city": "ELDRIDGE",
+      "source": "IAAI",
+      "lat": 41.6436,
+      "lng": -90.5846,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1470,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3370
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "state": "IOWA (IA)",
+      "branch": "DES MOINES",
+      "city": "DES MOINES",
+      "source": "IAAI",
+      "lat": 41.5868,
+      "lng": -93.625,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1630,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3530
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "state": "MAINE (ME)",
+      "branch": "PORTLAND GORHAM",
+      "city": "GORHAM",
+      "source": "IAAI",
+      "lat": 43.6795,
+      "lng": -70.4442,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1305,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3205
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "state": "MAINE (ME)",
+      "branch": "LYMAN",
+      "city": "LYMAN",
+      "source": "IAAI",
+      "lat": 43.4951,
+      "lng": -70.6726,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1305,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3205
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "state": "MAINE (ME)",
+      "branch": "WINDHAM",
+      "city": "WINDHAM",
+      "source": "IAAI",
+      "lat": 43.8006,
+      "lng": -70.4089,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1345,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3245
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "state": "MARYLAND (MD)",
+      "branch": "WASHINGTON DC",
+      "city": "WALDORF",
+      "source": "IAAI",
+      "lat": 38.6246,
+      "lng": -76.9391,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1180,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3080
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "state": "MARYLAND (MD)",
+      "branch": "BALTIMORE EAST",
+      "city": "WHITE MARSH",
+      "source": "IAAI",
+      "lat": 39.3834,
+      "lng": -76.4394,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1180,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3080
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "state": "MARYLAND (MD)",
+      "branch": "BALTIMORE",
+      "city": "BALTIMORE",
+      "source": "IAAI",
+      "lat": 39.2904,
+      "lng": -76.6122,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1180,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3080
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "state": "MARYLAND (MD)",
+      "branch": "ELKTON",
+      "city": "ELKTON",
+      "source": "IAAI",
+      "lat": 39.6068,
+      "lng": -75.833,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1180,
+          "herat": 1900,
+          "total": 3080
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "state": "MARYLAND (MD)",
+      "branch": "BALTIMORE EAST",
+      "city": "BALTIMORE EAST",
+      "source": "IAAI",
+      "lat": 39.3834,
+      "lng": -76.4394,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1180,
+          "herat": 1900,
+          "total": 3080
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "state": "MARYLAND (MD)",
+      "branch": "METRO DC",
+      "city": "BRANDYWINE",
+      "source": "IAAI",
+      "lat": 38.6968,
+      "lng": -76.8475,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1180,
+          "herat": 1900,
+          "total": 3080
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "state": "MARYLAND (MD)",
+      "branch": "BALTIMORE",
+      "city": "FINKSBURG",
+      "source": "IAAI",
+      "lat": 39.4962,
+      "lng": -76.8966,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1180,
+          "herat": 1900,
+          "total": 3080
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "state": "MASSACHUSETTS (MA)",
+      "branch": "TAUNTON EAST",
+      "city": "TAUNTON",
+      "source": "IAAI",
+      "lat": 41.9001,
+      "lng": -71.0898,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1190,
+          "herat": 1900,
+          "total": 3090
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "state": "MASSACHUSETTS (MA)",
+      "branch": "NORTH BOSTON",
+      "city": "NORTH BILLERICA",
+      "source": "IAAI",
+      "lat": 42.5584,
+      "lng": -71.2689,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1190,
+          "herat": 1900,
+          "total": 3090
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "state": "MASSACHUSETTS (MA)",
+      "branch": "WEST",
+      "city": "WARREN",
+      "source": "IAAI",
+      "lat": 42.2126,
+      "lng": -72.1912,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1190,
+          "herat": 1900,
+          "total": 3090
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "state": "MASSACHUSETTS (MA)",
+      "branch": "FREETOWN",
+      "city": "FREETOWN",
+      "source": "IAAI",
+      "lat": 41.7668,
+      "lng": -71.0328,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1220,
+          "herat": 1900,
+          "total": 3120
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "state": "MASSACHUSETTS (MA)",
+      "branch": "FREETOWN",
+      "city": "ASSONET",
+      "source": "IAAI",
+      "lat": 41.8001,
+      "lng": -71.06,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1220,
+          "herat": 1900,
+          "total": 3120
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "state": "MASSACHUSETTS (MA)",
+      "branch": "TEMPLETON",
+      "city": "TEMPLETON",
+      "source": "IAAI",
+      "lat": 42.5559,
+      "lng": -72.0651,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1220,
+          "herat": 1900,
+          "total": 3120
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "state": "MASSACHUSETTS (MA)",
+      "branch": "BOSTON SHIRLEY",
+      "city": "SHIRLEY",
+      "source": "IAAI",
+      "lat": 42.5437,
+      "lng": -71.6495,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1205,
+          "herat": 1900,
+          "total": 3105
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "state": "MICHIGAN (MI)",
+      "branch": "IONIA",
+      "city": "IONIA",
+      "source": "COPART",
+      "lat": 42.9873,
+      "lng": -85.0711,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1480,
+          "herat": 1900,
+          "total": 3380
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "state": "MICHIGAN (MI)",
+      "branch": "GRAND RAPIDS",
+      "city": "BYRON CENTER",
+      "source": "COPART",
+      "lat": 42.8123,
+      "lng": -85.7228,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1480,
+          "herat": 1900,
+          "total": 3380
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "state": "MICHIGAN (MI)",
+      "branch": "DETROIT",
+      "city": "BELLEVILLE",
+      "source": "COPART",
+      "lat": 42.2048,
+      "lng": -83.4852,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1380,
+          "herat": 1900,
+          "total": 3280
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "state": "MICHIGAN (MI)",
+      "branch": "IONIA",
+      "city": "PORTLAND",
+      "source": "COPART",
+      "lat": 42.8695,
+      "lng": -84.9036,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1480,
+          "herat": 1900,
+          "total": 3380
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "state": "MICHIGAN (MI)",
+      "branch": "DETROIT",
+      "city": "WOODHAVEN",
+      "source": "COPART",
+      "lat": 42.1389,
+      "lng": -83.2416,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1405,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "state": "MICHIGAN (MI)",
+      "branch": "WAYLAND",
+      "city": "WAYLAND",
+      "source": "COPART",
+      "lat": 42.6739,
+      "lng": -85.6447,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1505,
+          "herat": 1900,
+          "total": 3405
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "state": "MICHIGAN (MI)",
+      "branch": "KINCHELOE",
+      "city": "KINCHELOE",
+      "source": "COPART",
+      "lat": 46.25,
+      "lng": -84.48,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1880,
+          "herat": 1900,
+          "total": 3780
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "state": "MICHIGAN (MI)",
+      "branch": "LANSING",
+      "city": "LANSING",
+      "source": "COPART",
+      "lat": 42.7325,
+      "lng": -84.5555,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1455,
+          "herat": 1900,
+          "total": 3355
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "state": "MICHIGAN (MI)",
+      "branch": "FLINT",
+      "city": "DAVISON",
+      "source": "COPART",
+      "lat": 43.0347,
+      "lng": -83.518,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1455,
+          "herat": 1900,
+          "total": 3355
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "state": "MINNESOTA (MN)",
+      "branch": "ST CLOUD",
+      "city": "AVON",
+      "source": "COPART",
+      "lat": 45.6097,
+      "lng": -94.5025,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1530,
+          "herat": 1900,
+          "total": 3430
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "state": "MINNESOTA (MN)",
+      "branch": "MINNEAPOLIS NORTH",
+      "city": "ELK RIVER MN",
+      "source": "COPART",
+      "lat": 45.3039,
+      "lng": -93.5672,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1480,
+          "herat": 1900,
+          "total": 3380
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "state": "MINNESOTA (MN)",
+      "branch": "MINNEAPOLIS NORTH",
+      "city": "HAM LAKE",
+      "source": "COPART",
+      "lat": 45.2502,
+      "lng": -93.2491,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1480,
+          "herat": 1900,
+          "total": 3380
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "state": "MINNESOTA (MN)",
+      "branch": "MINNEAPOLIS / ST. PA",
+      "city": "SAINT PAUL",
+      "source": "COPART",
+      "lat": 44.9537,
+      "lng": -93.09,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1480,
+          "herat": 1900,
+          "total": 3380
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "state": "MINNESOTA (MN)",
+      "branch": "MINNEAPOLIS",
+      "city": "BLAINE",
+      "source": "COPART",
+      "lat": 45.1608,
+      "lng": -93.2349,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1480,
+          "herat": 1900,
+          "total": 3380
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "state": "MINNESOTA (MN)",
+      "branch": "RANDOLPH",
+      "city": "RANDOLPH",
+      "source": "COPART",
+      "lat": 44.528,
+      "lng": -93.0194,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1530,
+          "herat": 1900,
+          "total": 3430
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "state": "NEBRASKA (NE)",
+      "branch": "LINCOLN",
+      "city": "GREENWOOD",
+      "source": "COPART",
+      "lat": 40.9667,
+      "lng": -96.4444,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1530,
+          "herat": 1900,
+          "total": 3430
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "state": "NEBRASKA (NE)",
+      "branch": "OMAHA",
+      "city": "SPRINGFIELD",
+      "source": "COPART",
+      "lat": 40.9667,
+      "lng": -96.1561,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1580,
+          "herat": 1900,
+          "total": 3480
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "state": "NEW HAMPSHIRE (NH)",
+      "branch": "MANCHESTER",
+      "city": "SALEM",
+      "source": "IAAI",
+      "lat": 42.7884,
+      "lng": -71.2009,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1270,
+          "herat": 1900,
+          "total": 3170
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "state": "NEW HAMPSHIRE (NH)",
+      "branch": "CANDIA",
+      "city": "CANDIA",
+      "source": "IAAI",
+      "lat": 43.077,
+      "lng": -71.2778,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1270,
+          "herat": 1900,
+          "total": 3170
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "state": "NEW JERSEY (NJ)",
+      "branch": "AVENEL",
+      "city": "AVENEL",
+      "source": "COPART",
+      "lat": 40.5804,
+      "lng": -74.2851,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1035,
+          "herat": 1900,
+          "total": 2935
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "state": "NEW JERSEY (NJ)",
+      "branch": "TRENTON",
+      "city": "WINDSOR",
+      "source": "COPART",
+      "lat": 40.2489,
+      "lng": -74.5818,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1035,
+          "herat": 1900,
+          "total": 2935
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "state": "NEW JERSEY (NJ)",
+      "branch": "CENTRAL NEW JERSEY",
+      "city": "MORGANVILLE",
+      "source": "COPART",
+      "lat": 40.3762,
+      "lng": -74.2446,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1030,
+          "herat": 1900,
+          "total": 2930
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "state": "NEW JERSEY (NJ)",
+      "branch": "ENGLISHTOWN",
+      "city": "MANALAPAN",
+      "source": "COPART",
+      "lat": 40.2859,
+      "lng": -74.346,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1055,
+          "herat": 1900,
+          "total": 2955
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "state": "NEW JERSEY (NJ)",
+      "branch": "SOMERVILLE",
+      "city": "HILLSBOROUGH",
+      "source": "COPART",
+      "lat": 40.5015,
+      "lng": -74.6482,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1035,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 2935
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "state": "NEW JERSEY (NJ)",
+      "branch": "PORT MURRAY",
+      "city": "PORT MURRAY",
+      "source": "COPART",
+      "lat": 40.7887,
+      "lng": -74.9141,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1090,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 2990
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "state": "NEW JERSEY (NJ)",
+      "branch": "SAYREVILLE",
+      "city": "SAYREVILLE",
+      "source": "COPART",
+      "lat": 40.4593,
+      "lng": -74.36,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1055,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 2955
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "state": "NEW JERSEY (NJ)",
+      "branch": "SOUTHERN NEW JERSEY",
+      "city": "TURNERSVILLE",
+      "source": "COPART",
+      "lat": 39.773,
+      "lng": -75.0513,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1080,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 2980
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "state": "NEW JERSEY (NJ)",
+      "branch": "NEWTON",
+      "city": "NEWTON",
+      "source": "COPART",
+      "lat": 41.0582,
+      "lng": -74.7527,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1380,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3280
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "state": "NEW JERSEY (NJ)",
+      "branch": "SOMERVILLE",
+      "city": "SOUTH AMBOY",
+      "source": "COPART",
+      "lat": 40.4774,
+      "lng": -74.2907,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1035,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 2935
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "state": "NEW YORK (NY)",
+      "branch": "LONG ISLAND",
+      "city": "MEDFORD",
+      "source": "COPART",
+      "lat": 40.8176,
+      "lng": -73.0001,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1120,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3020
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "state": "NEW YORK (NY)",
+      "branch": "ROCHESTER",
+      "city": "BERGEN",
+      "source": "COPART",
+      "lat": 43.0792,
+      "lng": -77.9425,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1280,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3180
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "state": "NEW YORK (NY)",
+      "branch": "MONTICELLO",
+      "city": "MONTICELLO",
+      "source": "COPART",
+      "lat": 41.6556,
+      "lng": -74.6893,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1145,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3045
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "state": "NEW YORK (NY)",
+      "branch": "NEWBURGH",
+      "city": "MARLBORO",
+      "source": "COPART",
+      "lat": 41.6059,
+      "lng": -73.9715,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1105,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3005
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "state": "NEW YORK (NY)",
+      "branch": "NEWBURGH",
+      "city": "ROCK TAVERN",
+      "source": "COPART",
+      "lat": 41.4579,
+      "lng": -74.179,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1105,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3005
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "state": "NEW YORK (NY)",
+      "branch": "BUFFALO",
+      "city": "ANGOLA",
+      "source": "COPART",
+      "lat": 42.6384,
+      "lng": -79.0253,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1320,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3220
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "state": "NEW YORK (NY)",
+      "branch": "ALBANY",
+      "city": "ALBANY",
+      "source": "COPART",
+      "lat": 42.6526,
+      "lng": -73.7562,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1130,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3030
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "state": "NEW YORK (NY)",
+      "branch": "ALBANY",
+      "city": "SCHENECTADY",
+      "source": "COPART",
+      "lat": 42.8142,
+      "lng": -73.9396,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1130,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3030
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "state": "NEW YORK (NY)",
+      "branch": "SYRACUSE",
+      "city": "CICERO",
+      "source": "COPART",
+      "lat": 43.1756,
+      "lng": -76.1194,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1230,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3130
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "state": "NEW YORK (NY)",
+      "branch": "SYRACUSE",
+      "city": "CENTRAL SQUARE",
+      "source": "COPART",
+      "lat": 43.2867,
+      "lng": -76.1485,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1220,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3120
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "state": "NEW YORK (NY)",
+      "branch": "BUFFALO",
+      "city": "BUFFALO",
+      "source": "COPART",
+      "lat": 42.8864,
+      "lng": -78.8784,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1345,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3245
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "state": "NORTH DAKOTA (ND)",
+      "branch": "FARGO",
+      "city": "FARGO",
+      "source": "COPART",
+      "lat": 46.8772,
+      "lng": -96.7898,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1930,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3830
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "state": "NORTH DAKOTA (ND)",
+      "branch": "BISMARCK",
+      "city": "BISMARCK",
+      "source": "COPART",
+      "lat": 46.8083,
+      "lng": -100.7837,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 2110,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 4010
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "state": "OHIO (OH)",
+      "branch": "DAYTON",
+      "city": "MORAINE",
+      "source": "COPART",
+      "lat": 39.7062,
+      "lng": -84.2194,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1405,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "state": "OHIO (OH)",
+      "branch": "CLEVELAND",
+      "city": "LORAIN",
+      "source": "COPART",
+      "lat": 41.4528,
+      "lng": -82.1824,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1405,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "state": "OHIO (OH)",
+      "branch": "CINCINNATI",
+      "city": "WEST CHESTER",
+      "source": "COPART",
+      "lat": 39.3364,
+      "lng": -84.4173,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1405,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "state": "OHIO (OH)",
+      "branch": "COLUMBUS",
+      "city": "COLUMBUS",
+      "source": "COPART",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1405,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "state": "OHIO (OH)",
+      "branch": "CLEVELAND EAST",
+      "city": "NORTHFIELD",
+      "source": "COPART",
+      "lat": 41.3451,
+      "lng": -81.5287,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1405,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "state": "OHIO (OH)",
+      "branch": "CLEVELAND WEST",
+      "city": "COLUMBIA STATION",
+      "source": "COPART",
+      "lat": 41.3117,
+      "lng": -82.0735,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1405,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "state": "OHIO (OH)",
+      "branch": "BARBERTON",
+      "city": "BARBERTON",
+      "source": "COPART",
+      "lat": 41.0128,
+      "lng": -81.6051,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1380,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3280
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "state": "OHIO (OH)",
+      "branch": "CLEVELAND",
+      "city": "LORAIN",
+      "source": "COPART",
+      "lat": 41.4528,
+      "lng": -82.1824,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1405,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "state": "OHIO (OH)",
+      "branch": "AKRON-CANTON",
+      "city": "NEW PHILADELPHIA",
+      "source": "COPART",
+      "lat": 40.4898,
+      "lng": -81.4457,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1380,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3280
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "ALTOONA",
+      "city": "EBENSBURG",
+      "source": "COPART",
+      "lat": 40.4851,
+      "lng": -78.7247,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1255,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3155
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "ALTOONA EAST",
+      "city": "EAST FREEDOM",
+      "source": "COPART",
+      "lat": 40.3523,
+      "lng": -78.4472,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1255,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3155
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "ERIE",
+      "city": "GARLAND",
+      "source": "COPART",
+      "lat": 41.8864,
+      "lng": -79.3534,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1405,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PITTSBURGH",
+      "city": "ALIQUIPPA",
+      "source": "COPART",
+      "lat": 40.6367,
+      "lng": -80.2401,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1305,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3205
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "CHAMBERSBURG",
+      "city": "CHAMBERSBURG",
+      "source": "COPART",
+      "lat": 39.9376,
+      "lng": -77.6611,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1220,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3120
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PITTSBURGH SOUTH",
+      "city": "WEST MIFFLIN",
+      "source": "COPART",
+      "lat": 40.3634,
+      "lng": -79.8664,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1305,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3205
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "BRIDGEPORT",
+      "city": "BRIDGEPORT",
+      "source": "COPART",
+      "lat": 40.1848,
+      "lng": -75.2063,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1120,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3020
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "YORK HAVEN",
+      "city": "YORK HAVEN",
+      "source": "COPART",
+      "lat": 40.1104,
+      "lng": -76.9244,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1145,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3045
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "SCRANTON",
+      "city": "PITTSTON",
+      "source": "COPART",
+      "lat": 41.3259,
+      "lng": -75.7894,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1150,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3050
+        }
+      ]
+    },
+    {
+      "id": 206,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PHILADELPHIA EAST",
+      "city": "PHILADELPHIA EAST",
+      "source": "COPART",
+      "lat": 40.0284,
+      "lng": -74.9635,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1115,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3015
+        }
+      ]
+    },
+    {
+      "id": 207,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PITTSBURGH WEST",
+      "city": "WEST MIFFLIN",
+      "source": "COPART",
+      "lat": 40.3634,
+      "lng": -79.8664,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1305,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3205
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PITTSBURGH NORTH",
+      "city": "GIBSONIA",
+      "source": "COPART",
+      "lat": 40.627,
+      "lng": -79.97,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1320,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3220
+        }
+      ]
+    },
+    {
+      "id": 209,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "SCRANTON",
+      "city": "DURYEA",
+      "source": "COPART",
+      "lat": 41.3439,
+      "lng": -75.7852,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1150,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3050
+        }
+      ]
+    },
+    {
+      "id": 210,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PHILADELPHIA EAST",
+      "city": "CHALFONT",
+      "source": "COPART",
+      "lat": 40.2884,
+      "lng": -75.2091,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "ship": 1115,
+          "herat": 1900,
+          "total": 3015
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "HARRISBURG",
+      "city": "GRANTVILLE",
+      "source": "COPART",
+      "lat": 40.3765,
+      "lng": -76.6647,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1195,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3095
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PHILADELPHIA",
+      "city": "CONSHOHOCKEN",
+      "source": "COPART",
+      "lat": 40.0793,
+      "lng": -75.3016,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1130,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3030
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "state": "RHODE ISLAND (RI)",
+      "branch": "PROVIDENCE",
+      "city": "RIVERSIDE",
+      "source": "IAAI",
+      "lat": 41.8359,
+      "lng": -71.3701,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1220,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3120
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "state": "RHODE ISLAND (RI)",
+      "branch": "EXETER",
+      "city": "EXETER",
+      "source": "IAAI",
+      "lat": 41.577,
+      "lng": -71.5376,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1205,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3105
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "state": "SOUTH DAKOTA (SD)",
+      "branch": "SIOUX FALLS",
+      "city": "LENNOX",
+      "source": "COPART",
+      "lat": 43.3547,
+      "lng": -96.2206,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 2030,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3930
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "state": "SOUTH DAKOTA (SD)",
+      "branch": "RAPID CITY",
+      "city": "RAPID CITY",
+      "source": "COPART",
+      "lat": 44.0805,
+      "lng": -103.231,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 2030,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3930
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "state": "VERMONT (VT)",
+      "branch": "RUTLAND CENTER",
+      "city": "RUTLAND",
+      "source": "IAAI",
+      "lat": 43.6106,
+      "lng": -72.9726,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1325,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3225
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "state": "VERMONT (VT)",
+      "branch": "BURLINGTON",
+      "city": "ESSEX",
+      "source": "IAAI",
+      "lat": 44.4906,
+      "lng": -73.1109,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1370,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3270
+        }
+      ]
+    },
+    {
+      "id": 219,
+      "state": "VIRGINIA (VA)",
+      "branch": "PULASKI",
+      "city": "PULASKI",
+      "source": "COPART",
+      "lat": 37.0479,
+      "lng": -80.7798,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1330,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3230
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "state": "VIRGINIA (VA)",
+      "branch": "CULPEPER",
+      "city": "CULPEPER",
+      "source": "COPART",
+      "lat": 38.4729,
+      "lng": -77.9964,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1230,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3130
+        }
+      ]
+    },
+    {
+      "id": 221,
+      "state": "VIRGINIA (VA)",
+      "branch": "SUFFOLK",
+      "city": "SUFFOLK",
+      "source": "COPART",
+      "lat": 36.7282,
+      "lng": -76.5836,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1280,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3180
+        }
+      ]
+    },
+    {
+      "id": 222,
+      "state": "VIRGINIA (VA)",
+      "branch": "ROANOKE",
+      "city": "MONTVALE",
+      "source": "COPART",
+      "lat": 37.384,
+      "lng": -79.7295,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1330,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3230
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "state": "VIRGINIA (VA)",
+      "branch": "FREDERICKSBURG",
+      "city": "FREDERICKSBURG",
+      "source": "COPART",
+      "lat": 38.3032,
+      "lng": -77.4605,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1230,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3130
+        }
+      ]
+    },
+    {
+      "id": 224,
+      "state": "VIRGINIA (VA)",
+      "branch": "TIDEWATER",
+      "city": "YORKTOWN",
+      "source": "COPART",
+      "lat": 37.2388,
+      "lng": -76.5097,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1230,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3130
+        }
+      ]
+    },
+    {
+      "id": 225,
+      "state": "VIRGINIA (VA)",
+      "branch": "NORTHERN VIRGINIA",
+      "city": "FREDERICKSBURG",
+      "source": "COPART",
+      "lat": 38.3032,
+      "lng": -77.4605,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1230,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3130
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "state": "VIRGINIA (VA)",
+      "branch": "HAMPTON",
+      "city": "HAMPTON",
+      "source": "COPART",
+      "lat": 37.0299,
+      "lng": -76.3452,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1255,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3155
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "state": "VIRGINIA (VA)",
+      "branch": "RICHMOND EAST",
+      "city": "CHARLES CITY",
+      "source": "COPART",
+      "lat": 37.3532,
+      "lng": -77.0736,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1255,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3155
+        }
+      ]
+    },
+    {
+      "id": 228,
+      "state": "VIRGINIA (VA)",
+      "branch": "RICHMOND",
+      "city": "SANDSTON",
+      "source": "COPART",
+      "lat": 37.5099,
+      "lng": -77.3128,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1245,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3145
+        }
+      ]
+    },
+    {
+      "id": 229,
+      "state": "VIRGINIA (VA)",
+      "branch": "RICHMOND EAST",
+      "city": "CHARLES CITY",
+      "source": "COPART",
+      "lat": 37.3532,
+      "lng": -77.0736,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1255,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3155
+        }
+      ]
+    },
+    {
+      "id": 230,
+      "state": "VIRGINIA (VA)",
+      "branch": "DANVILLE",
+      "city": "CHATHAM",
+      "source": "COPART",
+      "lat": 36.8257,
+      "lng": -79.3984,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1280,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3180
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "state": "VIRGINIA (VA)",
+      "branch": "RICHMOND",
+      "city": "ASHLAND",
+      "source": "COPART",
+      "lat": 37.7585,
+      "lng": -77.479,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1245,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3145
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "state": "WEST VIRGINIA (WV)",
+      "branch": "BUCKHANNON",
+      "city": "BUCKHANNON",
+      "source": "COPART",
+      "lat": 39.0007,
+      "lng": -80.232,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1405,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 233,
+      "state": "WEST VIRGINIA (WV)",
+      "branch": "CHARLESTON",
+      "city": "HURRICANE",
+      "source": "COPART",
+      "lat": 38.4326,
+      "lng": -82.0188,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1405,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 234,
+      "state": "WEST VIRGINIA (WV)",
+      "branch": "SHADY SPRING",
+      "city": "SHADY SPRING",
+      "source": "COPART",
+      "lat": 37.6951,
+      "lng": -80.9801,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1405,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 235,
+      "state": "WEST VIRGINIA (WV)",
+      "branch": "BUCKHANNON",
+      "city": "BUCKHANNON",
+      "source": "COPART",
+      "lat": 39.0007,
+      "lng": -80.232,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1405,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3305
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "state": "WISCONSIN (WI)",
+      "branch": "APPLETON",
+      "city": "APPLETON",
+      "source": "COPART",
+      "lat": 44.2619,
+      "lng": -88.4154,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1505,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3405
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "state": "WISCONSIN (WI)",
+      "branch": "MADISON SOUTH",
+      "city": "MCFARLAND",
+      "source": "COPART",
+      "lat": 43.0125,
+      "lng": -89.2898,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1505,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3405
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "state": "WISCONSIN (WI)",
+      "branch": "PORTAGE",
+      "city": "PORTAGE",
+      "source": "COPART",
+      "lat": 43.5391,
+      "lng": -89.4626,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1480,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3380
+        }
+      ]
+    },
+    {
+      "id": 239,
+      "state": "WISCONSIN (WI)",
+      "branch": "MILWAUKEE NORTH",
+      "city": "MILWAUKEE",
+      "source": "COPART",
+      "lat": 43.0389,
+      "lng": -87.9065,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1505,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3405
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "state": "WISCONSIN (WI)",
+      "branch": "MILWAUKEE SOUTH",
+      "city": "FRANKLIN",
+      "source": "COPART",
+      "lat": 42.8886,
+      "lng": -88.0384,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1505,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3405
+        }
+      ]
+    },
+    {
+      "id": 241,
+      "state": "WISCONSIN (WI)",
+      "branch": "MILWAUKEE",
+      "city": "SUSSEX",
+      "source": "COPART",
+      "lat": 43.1339,
+      "lng": -88.222,
+      "ports": [
+        {
+          "name": "NEW JERSEY, USA",
+          "ship": 1505,
+          "lat": 40.7357,
+          "lng": -74.1724,
+          "herat": 1900,
+          "total": 3405
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "state": "ARIZONA (AZ)",
+      "branch": "TUCSON",
+      "city": "TUCSON",
+      "source": "COPART",
+      "lat": 32.2226,
+      "lng": -110.9747,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2165,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4065
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "state": "ARIZONA (AZ)",
+      "branch": "TOLLESON",
+      "city": "TOLLESON",
+      "source": "COPART",
+      "lat": 33.45,
+      "lng": -112.2593,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2095,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3995
+        }
+      ]
+    },
+    {
+      "id": 244,
+      "state": "ARIZONA (AZ)",
+      "branch": "PHOENIX NORTH",
+      "city": "PHOENIX",
+      "source": "COPART",
+      "lat": 33.4484,
+      "lng": -112.074,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 1831,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3731
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "state": "ARIZONA (AZ)",
+      "branch": "CHANDLER",
+      "city": "CHANDLER",
+      "source": "COPART",
+      "lat": 33.3062,
+      "lng": -111.8413,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2105,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4005
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "state": "CALIFORNIA (CA)",
+      "branch": "SANTA CLARITA",
+      "city": "SANTA CLARITA",
+      "source": "COPART",
+      "lat": 34.3917,
+      "lng": -118.5426,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 1970,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3870
+        }
+      ]
+    },
+    {
+      "id": 247,
+      "state": "CALIFORNIA (CA)",
+      "branch": "SUN VALLEY",
+      "city": "SUN VALLEY",
+      "source": "COPART",
+      "lat": 34.1936,
+      "lng": -118.3551,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 1970,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3870
+        }
+      ]
+    },
+    {
+      "id": 248,
+      "state": "CALIFORNIA (CA)",
+      "branch": "EAST BAY",
+      "city": "BAY POINT",
+      "source": "COPART",
+      "lat": 38.0291,
+      "lng": -121.9614,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2170,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4070
+        }
+      ]
+    },
+    {
+      "id": 249,
+      "state": "CALIFORNIA (CA)",
+      "branch": "MIRALOMA",
+      "city": "MIRALOMA",
+      "source": "COPART",
+      "lat": 34.1208,
+      "lng": -117.9412,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 1985,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3885
+        }
+      ]
+    },
+    {
+      "id": 250,
+      "state": "CALIFORNIA (CA)",
+      "branch": "SAN BERNARDINO",
+      "city": "COLTON",
+      "source": "COPART",
+      "lat": 34.0739,
+      "lng": -117.3137,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 1970,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3870
+        }
+      ]
+    },
+    {
+      "id": 251,
+      "state": "CALIFORNIA (CA)",
+      "branch": "BURBANK",
+      "city": "BURBANK",
+      "source": "COPART",
+      "lat": 34.1808,
+      "lng": -118.309,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 1970,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3870
+        }
+      ]
+    },
+    {
+      "id": 252,
+      "state": "CALIFORNIA (CA)",
+      "branch": "NORTH HOLLYWOOD",
+      "city": "HOLLYWOOD",
+      "source": "COPART",
+      "lat": 34.1522,
+      "lng": -118.3428,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 1970,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3870
+        }
+      ]
+    },
+    {
+      "id": 253,
+      "state": "CALIFORNIA (CA)",
+      "branch": "LOS ANGELES SOUTH",
+      "city": "LOS ANGELES SOUTH",
+      "source": "COPART",
+      "lat": 33.8314,
+      "lng": -118.2615,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 1970,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3870
+        }
+      ]
+    },
+    {
+      "id": 254,
+      "state": "CALIFORNIA (CA)",
+      "branch": "HIGH DESERT",
+      "city": "HESPERIA",
+      "source": "COPART",
+      "lat": 34.4264,
+      "lng": -117.3009,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2070,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3970
+        }
+      ]
+    },
+    {
+      "id": 255,
+      "state": "CALIFORNIA (CA)",
+      "branch": "SAN MARTIN",
+      "city": "SAN MARTIN",
+      "source": "COPART",
+      "lat": 37.0849,
+      "lng": -121.6102,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2220,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4120
+        }
+      ]
+    },
+    {
+      "id": 256,
+      "state": "CALIFORNIA (CA)",
+      "branch": "RIVERSIDE",
+      "city": "RIVERSIDE",
+      "source": "COPART",
+      "lat": 33.9806,
+      "lng": -117.3755,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 1980,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3880
+        }
+      ]
+    },
+    {
+      "id": 257,
+      "state": "CALIFORNIA (CA)",
+      "branch": "FREMONT",
+      "city": "FREMONT",
+      "source": "COPART",
+      "lat": 37.5485,
+      "lng": -121.9886,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2220,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4120
+        }
+      ]
+    },
+    {
+      "id": 258,
+      "state": "CALIFORNIA (CA)",
+      "branch": "CARSON",
+      "city": "GARDENA",
+      "source": "COPART",
+      "lat": 33.8883,
+      "lng": -118.309,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 1995,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3895
+        }
+      ]
+    },
+    {
+      "id": 259,
+      "state": "CALIFORNIA (CA)",
+      "branch": "RANCHO CUCAMONGA",
+      "city": "PERRIS",
+      "source": "COPART",
+      "lat": 33.7825,
+      "lng": -117.2286,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2045,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3945
+        }
+      ]
+    },
+    {
+      "id": 260,
+      "state": "CALIFORNIA (CA)",
+      "branch": "FONTANA",
+      "city": "FONTANA",
+      "source": "COPART",
+      "lat": 34.0922,
+      "lng": -117.435,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 1980,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3880
+        }
+      ]
+    },
+    {
+      "id": 261,
+      "state": "CALIFORNIA (CA)",
+      "branch": "FONTANA",
+      "city": "CALABASH",
+      "source": "COPART",
+      "lat": 34.0922,
+      "lng": -117.435,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 1980,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3880
+        }
+      ]
+    },
+    {
+      "id": 262,
+      "state": "CALIFORNIA (CA)",
+      "branch": "RIVERSIDE",
+      "city": "RIVERSIDE",
+      "source": "COPART",
+      "lat": 33.9806,
+      "lng": -117.3755,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 1980,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3880
+        }
+      ]
+    },
+    {
+      "id": 263,
+      "state": "CALIFORNIA (CA)",
+      "branch": "BAKERSFIELD",
+      "city": "BAKERSFIELD",
+      "source": "COPART",
+      "lat": 35.3733,
+      "lng": -119.0187,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2045,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3945
+        }
+      ]
+    },
+    {
+      "id": 264,
+      "state": "CALIFORNIA (CA)",
+      "branch": "SAN DIEGO",
+      "city": "SAN DIEGO",
+      "source": "COPART",
+      "lat": 32.7157,
+      "lng": -117.1611,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2020,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3920
+        }
+      ]
+    },
+    {
+      "id": 265,
+      "state": "CALIFORNIA (CA)",
+      "branch": "SANTA PAULA",
+      "city": "SANTA PAULA",
+      "source": "COPART",
+      "lat": 34.3542,
+      "lng": -119.0593,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2045,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3945
+        }
+      ]
+    },
+    {
+      "id": 266,
+      "state": "CALIFORNIA (CA)",
+      "branch": "SOUTHERN CALIFORNIA",
+      "city": "FONTANA",
+      "source": "COPART",
+      "lat": 34.0922,
+      "lng": -117.435,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 1980,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3880
+        }
+      ]
+    },
+    {
+      "id": 267,
+      "state": "CALIFORNIA (CA)",
+      "branch": "VALLEJO",
+      "city": "VALLEJO",
+      "source": "COPART",
+      "lat": 38.1041,
+      "lng": -122.2566,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2220,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4120
+        }
+      ]
+    },
+    {
+      "id": 268,
+      "state": "CALIFORNIA (CA)",
+      "branch": "MENTONE",
+      "city": "MENTONE",
+      "source": "COPART",
+      "lat": 34.0667,
+      "lng": -117.1831,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2070,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3970
+        }
+      ]
+    },
+    {
+      "id": 269,
+      "state": "CALIFORNIA (CA)",
+      "branch": "LANCASTER",
+      "city": "LANCASTER",
+      "source": "COPART",
+      "lat": 34.6868,
+      "lng": -118.1542,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2070,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3970
+        }
+      ]
+    },
+    {
+      "id": 270,
+      "state": "CALIFORNIA (CA)",
+      "branch": "VAN NUYS",
+      "city": "VAN NUYS",
+      "source": "COPART",
+      "lat": 34.1867,
+      "lng": -118.449,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2020,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3920
+        }
+      ]
+    },
+    {
+      "id": 271,
+      "state": "CALIFORNIA (CA)",
+      "branch": "ADELANTO",
+      "city": "ADELANTO",
+      "source": "COPART",
+      "lat": 34.5828,
+      "lng": -117.4092,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2060,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3960
+        }
+      ]
+    },
+    {
+      "id": 272,
+      "state": "CALIFORNIA (CA)",
+      "branch": "RANCHO CUCAMONGA",
+      "city": "RANCHO CUCAMONGA",
+      "source": "COPART",
+      "lat": 34.1064,
+      "lng": -117.5931,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2020,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3920
+        }
+      ]
+    },
+    {
+      "id": 273,
+      "state": "CALIFORNIA (CA)",
+      "branch": "TRACY",
+      "city": "TRACY",
+      "source": "COPART",
+      "lat": 37.7397,
+      "lng": -121.4252,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2190,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4090
+        }
+      ]
+    },
+    {
+      "id": 274,
+      "state": "CALIFORNIA (CA)",
+      "branch": "FONTANA",
+      "city": "JURUPA VALLEY",
+      "source": "COPART",
+      "lat": 33.9975,
+      "lng": -117.4856,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 1990,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3890
+        }
+      ]
+    },
+    {
+      "id": 275,
+      "state": "CALIFORNIA (CA)",
+      "branch": "ANAHEIM",
+      "city": "ANAHEIM",
+      "source": "COPART",
+      "lat": 33.8366,
+      "lng": -117.9143,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 1970,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3870
+        }
+      ]
+    },
+    {
+      "id": 276,
+      "state": "CALIFORNIA (CA)",
+      "branch": "STOCKTON",
+      "city": "STOCKTON",
+      "source": "COPART",
+      "lat": 37.9577,
+      "lng": -121.2908,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2160,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4060
+        }
+      ]
+    },
+    {
+      "id": 277,
+      "state": "CALIFORNIA (CA)",
+      "branch": "LOS ANGELES",
+      "city": "LOS ANGELES",
+      "source": "COPART",
+      "lat": 34.0522,
+      "lng": -118.2437,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 1955,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3855
+        }
+      ]
+    },
+    {
+      "id": 278,
+      "state": "CALIFORNIA (CA)",
+      "branch": "REDDING",
+      "city": "REDDING",
+      "source": "COPART",
+      "lat": 40.5865,
+      "lng": -122.3917,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2420,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4320
+        }
+      ]
+    },
+    {
+      "id": 279,
+      "state": "CALIFORNIA (CA)",
+      "branch": "HAYWARD",
+      "city": "HAYWARD",
+      "source": "COPART",
+      "lat": 37.6688,
+      "lng": -122.0808,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2175,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4075
+        }
+      ]
+    },
+    {
+      "id": 280,
+      "state": "CALIFORNIA (CA)",
+      "branch": "LONG BEACH",
+      "city": "WILMINGTON",
+      "source": "COPART",
+      "lat": 33.7701,
+      "lng": -118.2626,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 1965,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3865
+        }
+      ]
+    },
+    {
+      "id": 281,
+      "state": "CALIFORNIA (CA)",
+      "branch": "EAST BAY",
+      "city": "PITTSBURG",
+      "source": "COPART",
+      "lat": 38.027,
+      "lng": -121.8847,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2170,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4070
+        }
+      ]
+    },
+    {
+      "id": 282,
+      "state": "CALIFORNIA (CA)",
+      "branch": "ANTELOPE",
+      "city": "ANTELOPE",
+      "source": "COPART",
+      "lat": 38.7096,
+      "lng": -121.3299,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2170,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4070
+        }
+      ]
+    },
+    {
+      "id": 283,
+      "state": "CALIFORNIA (CA)",
+      "branch": "MARTINEZ",
+      "city": "MARTINEZ",
+      "source": "COPART",
+      "lat": 38.0194,
+      "lng": -122.1341,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2170,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4070
+        }
+      ]
+    },
+    {
+      "id": 284,
+      "state": "CALIFORNIA (CA)",
+      "branch": "FRESNO",
+      "city": "FRESNO",
+      "source": "COPART",
+      "lat": 36.7378,
+      "lng": -119.7871,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2095,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 3995
+        }
+      ]
+    },
+    {
+      "id": 285,
+      "state": "CALIFORNIA (CA)",
+      "branch": "SACRAMENTO",
+      "city": "SACRAMENTO",
+      "source": "COPART",
+      "lat": 38.5816,
+      "lng": -121.4944,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2170,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4070
+        }
+      ]
+    },
+    {
+      "id": 286,
+      "state": "CALIFORNIA (CA)",
+      "branch": "SOUTH SACRAMENTO",
+      "city": "SACRAMENTO",
+      "source": "COPART",
+      "lat": 38.5816,
+      "lng": -121.4944,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2170,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4070
+        }
+      ]
+    },
+    {
+      "id": 287,
+      "state": "CALIFORNIA (CA)",
+      "branch": "NAPA",
+      "city": "AMERICAN CANYON",
+      "source": "COPART",
+      "lat": 38.1749,
+      "lng": -122.2608,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2270,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4170
+        }
+      ]
+    },
+    {
+      "id": 288,
+      "state": "CALIFORNIA (CA)",
+      "branch": "SAN JOSE",
+      "city": "SAN MARTIN",
+      "source": "COPART",
+      "lat": 37.0849,
+      "lng": -121.6102,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2170,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4070
+        }
+      ]
+    },
+    {
+      "id": 289,
+      "state": "COLORADO (CO)",
+      "branch": "DENVER",
+      "city": "BRIGHTON",
+      "source": "COPART",
+      "lat": 39.9853,
+      "lng": -104.8205,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2335,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4235
+        }
+      ]
+    },
+    {
+      "id": 290,
+      "state": "COLORADO (CO)",
+      "branch": "LITTLETON",
+      "city": "LITTLETON",
+      "source": "COPART",
+      "lat": 39.6133,
+      "lng": -105.0166,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2335,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4235
+        }
+      ]
+    },
+    {
+      "id": 291,
+      "state": "COLORADO (CO)",
+      "branch": "MACK",
+      "city": "MACK",
+      "source": "COPART",
+      "lat": 39.1022,
+      "lng": -108.6604,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2365,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4265
+        }
+      ]
+    },
+    {
+      "id": 292,
+      "state": "COLORADO (CO)",
+      "branch": "NUNN",
+      "city": "NUNN",
+      "source": "COPART",
+      "lat": 40.7058,
+      "lng": -104.7808,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2375,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4275
+        }
+      ]
+    },
+    {
+      "id": 293,
+      "state": "COLORADO (CO)",
+      "branch": "COLORADO SPRINGS",
+      "city": "COLORADO SPRINGS",
+      "source": "COPART",
+      "lat": 38.8339,
+      "lng": -104.8214,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2420,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4320
+        }
+      ]
+    },
+    {
+      "id": 294,
+      "state": "COLORADO (CO)",
+      "branch": "DENVER EAST",
+      "city": "DENVER EAST",
+      "source": "COPART",
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2335,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4235
+        }
+      ]
+    },
+    {
+      "id": 295,
+      "state": "COLORADO (CO)",
+      "branch": "DENVER SOUTH",
+      "city": "COMMERCE CITY",
+      "source": "COPART",
+      "lat": 39.8083,
+      "lng": -104.9339,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2335,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4235
+        }
+      ]
+    },
+    {
+      "id": 296,
+      "state": "COLORADO (CO)",
+      "branch": "DENVER CENTRAL",
+      "city": "DENVER",
+      "source": "COPART",
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2335,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4235
+        }
+      ]
+    },
+    {
+      "id": 297,
+      "state": "COLORADO (CO)",
+      "branch": "WESTERN COLORADO",
+      "city": "DELTA",
+      "source": "COPART",
+      "lat": 38.7422,
+      "lng": -108.0689,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2520,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4420
+        }
+      ]
+    },
+    {
+      "id": 298,
+      "state": "MONTANA (MT)",
+      "branch": "BILLING",
+      "city": "BILLING",
+      "source": "COPART",
+      "lat": 45.7833,
+      "lng": -108.5007,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2770,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4670
+        }
+      ]
+    },
+    {
+      "id": 299,
+      "state": "MONTANA (MT)",
+      "branch": "MISSOULA",
+      "city": "MISSOULA",
+      "source": "COPART",
+      "lat": 46.8721,
+      "lng": -113.994,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2770,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4670
+        }
+      ]
+    },
+    {
+      "id": 300,
+      "state": "MONTANA (MT)",
+      "branch": "HELENA",
+      "city": "HELENA",
+      "source": "COPART",
+      "lat": 46.5891,
+      "lng": -112.0391,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2770,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4670
+        }
+      ]
+    },
+    {
+      "id": 301,
+      "state": "NEVADA (NV)",
+      "branch": "LAS VEGAS",
+      "city": "LAS VEGAS",
+      "source": "COPART",
+      "lat": 36.1699,
+      "lng": -115.1398,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2120,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4020
+        }
+      ]
+    },
+    {
+      "id": 302,
+      "state": "NEVADA (NV)",
+      "branch": "LAS VEGAS WEST",
+      "city": "LAS VEGAS WEST",
+      "source": "COPART",
+      "lat": 36.1699,
+      "lng": -115.1398,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2120,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4020
+        }
+      ]
+    },
+    {
+      "id": 303,
+      "state": "NEVADA (NV)",
+      "branch": "NEVADA",
+      "city": "LAS VEGAS",
+      "source": "COPART",
+      "lat": 36.1699,
+      "lng": -115.1398,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2120,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4020
+        }
+      ]
+    },
+    {
+      "id": 304,
+      "state": "NEVADA (NV)",
+      "branch": "LAS VEGAS NORTH",
+      "city": "LAS VEGAS",
+      "source": "COPART",
+      "lat": 36.1699,
+      "lng": -115.1398,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2120,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4020
+        }
+      ]
+    },
+    {
+      "id": 305,
+      "state": "NEVADA (NV)",
+      "branch": "RENO",
+      "city": "RENO",
+      "source": "COPART",
+      "lat": 39.5296,
+      "lng": -119.8138,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2270,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4170
+        }
+      ]
+    },
+    {
+      "id": 306,
+      "state": "NEVADA (NV)",
+      "branch": "LAS VEGAS",
+      "city": "HENDERSON",
+      "source": "COPART",
+      "lat": 36.0395,
+      "lng": -114.9817,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2120,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4020
+        }
+      ]
+    },
+    {
+      "id": 307,
+      "state": "NEVADA (NV)",
+      "branch": "RENO",
+      "city": "SPARKS",
+      "source": "COPART",
+      "lat": 39.5349,
+      "lng": -119.7527,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2420,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4320
+        }
+      ]
+    },
+    {
+      "id": 308,
+      "state": "NEW MEXICO (NM)",
+      "branch": "ALBUQUERQUE",
+      "city": "ALBUQUERQUE",
+      "source": "COPART",
+      "lat": 35.0844,
+      "lng": -106.6504,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2320,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4220
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "state": "NORTH DAKOTA (ND)",
+      "branch": "FARGO",
+      "city": "FARGO",
+      "source": "COPART",
+      "lat": 46.8772,
+      "lng": -96.7898,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2870,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4770
+        }
+      ]
+    },
+    {
+      "id": 310,
+      "state": "OREGON (OR)",
+      "branch": "PORTLAND",
+      "city": "PORTLAND",
+      "source": "COPART",
+      "lat": 45.5152,
+      "lng": -122.6784,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2410,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4310
+        }
+      ]
+    },
+    {
+      "id": 311,
+      "state": "OREGON (OR)",
+      "branch": "WOOD VILLAGE",
+      "city": "WOOD VILLAGE",
+      "source": "COPART",
+      "lat": 45.5343,
+      "lng": -122.4187,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2290,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4190
+        }
+      ]
+    },
+    {
+      "id": 312,
+      "state": "OREGON (OR)",
+      "branch": "PORTLAND SOUTH",
+      "city": "PORTLAND SOUTH",
+      "source": "COPART",
+      "lat": 45.4354,
+      "lng": -122.5659,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2420,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4320
+        }
+      ]
+    },
+    {
+      "id": 313,
+      "state": "OREGON (OR)",
+      "branch": "PORTLAND NORTH",
+      "city": "PORTLAND NORTH",
+      "source": "COPART",
+      "lat": 45.5907,
+      "lng": -122.5931,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2420,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4320
+        }
+      ]
+    },
+    {
+      "id": 314,
+      "state": "OREGON (OR)",
+      "branch": "EUGENE",
+      "city": "EUGENE",
+      "source": "COPART",
+      "lat": 44.0521,
+      "lng": -123.0868,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2415,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4315
+        }
+      ]
+    },
+    {
+      "id": 315,
+      "state": "UTAH (UT)",
+      "branch": "SALT LAKE CITY",
+      "city": "SALT LAKE CITY",
+      "source": "COPART",
+      "lat": 40.7608,
+      "lng": -111.891,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2230,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4130
+        }
+      ]
+    },
+    {
+      "id": 316,
+      "state": "UTAH (UT)",
+      "branch": "SALT LAKE CITY",
+      "city": "OGDEN",
+      "source": "COPART",
+      "lat": 41.223,
+      "lng": -111.9738,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2230,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4130
+        }
+      ]
+    },
+    {
+      "id": 317,
+      "state": "UTAH (UT)",
+      "branch": "UTAH",
+      "city": "WOODS CROSS",
+      "source": "COPART",
+      "lat": 40.8716,
+      "lng": -111.8927,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2265,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4165
+        }
+      ]
+    },
+    {
+      "id": 318,
+      "state": "UTAH (UT)",
+      "branch": "OGDEN",
+      "city": "FARR WEST",
+      "source": "COPART",
+      "lat": 41.2972,
+      "lng": -112.0277,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2220,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4120
+        }
+      ]
+    },
+    {
+      "id": 319,
+      "state": "UTAH (UT)",
+      "branch": "SALT LAKE CITY",
+      "city": "MAGNA",
+      "source": "COPART",
+      "lat": 40.7091,
+      "lng": -112.1016,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2230,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4130
+        }
+      ]
+    },
+    {
+      "id": 320,
+      "state": "UTAH (UT)",
+      "branch": "SALT LAKE CITY",
+      "city": "TOOELE",
+      "source": "COPART",
+      "lat": 40.5308,
+      "lng": -112.2983,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2270,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4170
+        }
+      ]
+    },
+    {
+      "id": 321,
+      "state": "UTAH (UT)",
+      "branch": "PROVO",
+      "city": "NEPHI",
+      "source": "COPART",
+      "lat": 39.7102,
+      "lng": -111.8377,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2270,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4170
+        }
+      ]
+    },
+    {
+      "id": 322,
+      "state": "WASHINGTON (WA)",
+      "branch": "SEATTLE",
+      "city": "SEATTLE",
+      "source": "COPART",
+      "lat": 47.6062,
+      "lng": -122.3321,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2420,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4320
+        }
+      ]
+    },
+    {
+      "id": 323,
+      "state": "WASHINGTON (WA)",
+      "branch": "SEATTLE",
+      "city": "PUYALLUP",
+      "source": "COPART",
+      "lat": 47.1854,
+      "lng": -122.2929,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2470,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4370
+        }
+      ]
+    },
+    {
+      "id": 324,
+      "state": "WASHINGTON (WA)",
+      "branch": "SPOKANE",
+      "city": "AIRWAY HEIGHTS",
+      "source": "COPART",
+      "lat": 47.6446,
+      "lng": -117.5933,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2720,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4620
+        }
+      ]
+    },
+    {
+      "id": 325,
+      "state": "WASHINGTON (WA)",
+      "branch": "PASCO",
+      "city": "PASCO",
+      "source": "COPART",
+      "lat": 46.2396,
+      "lng": -119.1006,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 3020,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4920
+        }
+      ]
+    },
+    {
+      "id": 326,
+      "state": "WASHINGTON (WA)",
+      "branch": "NORTH SEATTLE",
+      "city": "ARLINGTON",
+      "source": "COPART",
+      "lat": 48.1987,
+      "lng": -122.1251,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2420,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4320
+        }
+      ]
+    },
+    {
+      "id": 327,
+      "state": "WASHINGTON (WA)",
+      "branch": "GRAHAM",
+      "city": "GRAHAM",
+      "source": "COPART",
+      "lat": 47.0529,
+      "lng": -122.2943,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2465,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4365
+        }
+      ]
+    },
+    {
+      "id": 328,
+      "state": "WASHINGTON (WA)",
+      "branch": "NORTH SEATTLE",
+      "city": "NORTH SEATTLE",
+      "source": "COPART",
+      "lat": 47.6062,
+      "lng": -122.3321,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2470,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4370
+        }
+      ]
+    },
+    {
+      "id": 329,
+      "state": "WASHINGTON (WA)",
+      "branch": "SPANAWAY",
+      "city": "SPANAWAY",
+      "source": "COPART",
+      "lat": 47.1039,
+      "lng": -122.4346,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2410,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4310
+        }
+      ]
+    },
+    {
+      "id": 330,
+      "state": "WASHINGTON (WA)",
+      "branch": "VANCOUVER",
+      "city": "VANCOUVER",
+      "source": "COPART",
+      "lat": 45.6387,
+      "lng": -122.6615,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 2520,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 4420
+        }
+      ]
+    },
+    {
+      "id": 331,
+      "state": "WYOMING (WY)",
+      "branch": "SUNDANCE",
+      "city": "SUNDANCE",
+      "source": "COPART",
+      "lat": 44.4064,
+      "lng": -104.375,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 3195,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 5095
+        }
+      ]
+    },
+    {
+      "id": 332,
+      "state": "WYOMING (WY)",
+      "branch": "CASPER",
+      "city": "CASPER",
+      "source": "COPART",
+      "lat": 42.8501,
+      "lng": -106.3252,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 3195,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 5095
+        }
+      ]
+    },
+    {
+      "id": 333,
+      "state": "WYOMING (WY)",
+      "branch": "CASPER WEST",
+      "city": "CASPER WEST",
+      "source": "COPART",
+      "lat": 42.8501,
+      "lng": -106.3252,
+      "ports": [
+        {
+          "name": "CALIFORNIA, USA",
+          "ship": 3195,
+          "lat": 33.7701,
+          "lng": -118.1937,
+          "herat": 1900,
+          "total": 5095
+        }
+      ]
+    },
+    {
+      "id": 334,
+      "state": "ARIZONA (AZ)",
+      "branch": "PHOENIX",
+      "city": "PHOENIX",
+      "source": "COPART",
+      "lat": 33.4484,
+      "lng": -112.074,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1720,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3620
+        }
+      ]
+    },
+    {
+      "id": 335,
+      "state": "ARIZONA (AZ)",
+      "branch": "PHOENIX NORTH",
+      "city": "PHOENIX",
+      "source": "COPART",
+      "lat": 33.4484,
+      "lng": -112.074,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1720,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3620
+        }
+      ]
+    },
+    {
+      "id": 336,
+      "state": "ARIZONA (AZ)",
+      "branch": "PHOENIX",
+      "city": "PHOENIX",
+      "source": "COPART",
+      "lat": 33.4484,
+      "lng": -112.074,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1720,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3620
+        }
+      ]
+    },
+    {
+      "id": 337,
+      "state": "ARKANSAS (AR)",
+      "branch": "LITTLE ROCK",
+      "city": "CONWAY",
+      "source": "COPART",
+      "lat": 35.0887,
+      "lng": -92.4421,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1395,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3295
+        }
+      ]
+    },
+    {
+      "id": 338,
+      "state": "ARKANSAS (AR)",
+      "branch": "FAYETTEVILLE",
+      "city": "PRAIRIE GROVE",
+      "source": "COPART",
+      "lat": 35.9754,
+      "lng": -94.3177,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1345,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3245
+        }
+      ]
+    },
+    {
+      "id": 339,
+      "state": "ARKANSAS (AR)",
+      "branch": "FAYETTEVILLE",
+      "city": "LINCOLN",
+      "source": "COPART",
+      "lat": 35.9495,
+      "lng": -94.4233,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1345,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3245
+        }
+      ]
+    },
+    {
+      "id": 340,
+      "state": "ARKANSAS (AR)",
+      "branch": "LITTLE ROCK",
+      "city": "SCOTT",
+      "source": "COPART",
+      "lat": 34.6851,
+      "lng": -92.0957,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1395,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3295
+        }
+      ]
+    },
+    {
+      "id": 341,
+      "state": "COLORADO (CO)",
+      "branch": "DENVER EAST",
+      "city": "COMMERCE CITY",
+      "source": "COPART",
+      "lat": 39.8083,
+      "lng": -104.9339,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1570,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3470
+        }
+      ]
+    },
+    {
+      "id": 342,
+      "state": "COLORADO (CO)",
+      "branch": "DENVER CENTRAL",
+      "city": "DENVER",
+      "source": "COPART",
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1570,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3470
+        }
+      ]
+    },
+    {
+      "id": 343,
+      "state": "COLORADO (CO)",
+      "branch": "COLORADO SPRINGS",
+      "city": "COLORADO SPRINGS",
+      "source": "COPART",
+      "lat": 38.8339,
+      "lng": -104.8214,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1570,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3470
+        }
+      ]
+    },
+    {
+      "id": 344,
+      "state": "COLORADO (CO)",
+      "branch": "DENVER",
+      "city": "BRIGHTON",
+      "source": "COPART",
+      "lat": 39.9853,
+      "lng": -104.8205,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1570,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3470
+        }
+      ]
+    },
+    {
+      "id": 345,
+      "state": "COLORADO (CO)",
+      "branch": "DENVER SOUTH",
+      "city": "LITTLETON",
+      "source": "COPART",
+      "lat": 39.6133,
+      "lng": -105.0166,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1570,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3470
+        }
+      ]
+    },
+    {
+      "id": 346,
+      "state": "COLORADO (CO)",
+      "branch": "WESTERN COLORADO",
+      "city": "DELTA",
+      "source": "COPART",
+      "lat": 38.7422,
+      "lng": -108.0689,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1845,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3745
+        }
+      ]
+    },
+    {
+      "id": 347,
+      "state": "KANSAS (KS)",
+      "branch": "KANSAS CITY",
+      "city": "KANSAS CITY",
+      "source": "COPART",
+      "lat": 39.1142,
+      "lng": -94.6275,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1495,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3395
+        }
+      ]
+    },
+    {
+      "id": 348,
+      "state": "KANSAS (KS)",
+      "branch": "WICHITA",
+      "city": "PARK CITY",
+      "source": "COPART",
+      "lat": 37.8,
+      "lng": -97.3184,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1495,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3395
+        }
+      ]
+    },
+    {
+      "id": 349,
+      "state": "KANSAS (KS)",
+      "branch": "WICHITA",
+      "city": "WICHITA",
+      "source": "COPART",
+      "lat": 37.6872,
+      "lng": -97.3301,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1445,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3345
+        }
+      ]
+    },
+    {
+      "id": 350,
+      "state": "LOUISIANA (LA)",
+      "branch": "LAFAYETTE",
+      "city": "SCOTT",
+      "source": "COPART",
+      "lat": 30.2358,
+      "lng": -92.0946,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1245,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3145
+        }
+      ]
+    },
+    {
+      "id": 351,
+      "state": "LOUISIANA (LA)",
+      "branch": "NEW ORLEANS",
+      "city": "NEW ORLEANS",
+      "source": "COPART",
+      "lat": 29.9511,
+      "lng": -90.0715,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1270,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3170
+        }
+      ]
+    },
+    {
+      "id": 352,
+      "state": "LOUISIANA (LA)",
+      "branch": "NEW ORLEANS EAST",
+      "city": "NEW ORLEANS",
+      "source": "COPART",
+      "lat": 30.01,
+      "lng": -89.95,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1295,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3195
+        }
+      ]
+    },
+    {
+      "id": 353,
+      "state": "LOUISIANA (LA)",
+      "branch": "BATON ROUGE",
+      "city": "GREENWELL SPRINGS",
+      "source": "COPART",
+      "lat": 30.5519,
+      "lng": -90.9815,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1265,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3165
+        }
+      ]
+    },
+    {
+      "id": 354,
+      "state": "LOUISIANA (LA)",
+      "branch": "BATON ROUGE",
+      "city": "CARVILLE",
+      "source": "COPART",
+      "lat": 30.2238,
+      "lng": -91.0987,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1270,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3170
+        }
+      ]
+    },
+    {
+      "id": 355,
+      "state": "LOUISIANA (LA)",
+      "branch": "SHREVEPORT",
+      "city": "SHREVEPORT",
+      "source": "COPART",
+      "lat": 32.5252,
+      "lng": -93.7502,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1265,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3165
+        }
+      ]
+    },
+    {
+      "id": 356,
+      "state": "MISSOURI (MO)",
+      "branch": "COLUMBIA",
+      "city": "COLUMBIA",
+      "source": "COPART",
+      "lat": 38.9517,
+      "lng": -92.3341,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1505,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3405
+        }
+      ]
+    },
+    {
+      "id": 357,
+      "state": "MISSOURI (MO)",
+      "branch": "ST. LOUIS",
+      "city": "BRIDGETON",
+      "source": "COPART",
+      "lat": 38.767,
+      "lng": -90.4115,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1505,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3405
+        }
+      ]
+    },
+    {
+      "id": 358,
+      "state": "MISSOURI (MO)",
+      "branch": "KANSAS CITY EAST",
+      "city": "ODESSA",
+      "source": "COPART",
+      "lat": 38.9992,
+      "lng": -94.1452,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1505,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3405
+        }
+      ]
+    },
+    {
+      "id": 359,
+      "state": "MISSOURI (MO)",
+      "branch": "SPRINGFIELD",
+      "city": "ROGERSVILLE",
+      "source": "COPART",
+      "lat": 37.117,
+      "lng": -93.0555,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1505,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3405
+        }
+      ]
+    },
+    {
+      "id": 360,
+      "state": "MISSOURI (MO)",
+      "branch": "SIKESTON",
+      "city": "SIKESTON",
+      "source": "COPART",
+      "lat": 36.8767,
+      "lng": -89.5879,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1505,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3405
+        }
+      ]
+    },
+    {
+      "id": 361,
+      "state": "NEW MEXICO (NM)",
+      "branch": "ALBUQUERQUE",
+      "city": "ALBUQUERQUE",
+      "source": "COPART",
+      "lat": 35.0844,
+      "lng": -106.6504,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1520,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3420
+        }
+      ]
+    },
+    {
+      "id": 362,
+      "state": "OKLAHOMA (OK)",
+      "branch": "OKLAHOMA",
+      "city": "TULSA",
+      "source": "COPART",
+      "lat": 36.154,
+      "lng": -95.9928,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1345,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3245
+        }
+      ]
+    },
+    {
+      "id": 363,
+      "state": "OKLAHOMA (OK)",
+      "branch": "OKLAHOMA CITY",
+      "city": "OKLAHOMA CITY",
+      "source": "COPART",
+      "lat": 35.4676,
+      "lng": -97.5164,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1325,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3225
+        }
+      ]
+    },
+    {
+      "id": 364,
+      "state": "OKLAHOMA (OK)",
+      "branch": "TULSA",
+      "city": "TULSA",
+      "source": "COPART",
+      "lat": 36.154,
+      "lng": -95.9928,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1345,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3245
+        }
+      ]
+    },
+    {
+      "id": 365,
+      "state": "TEXAS (TX)",
+      "branch": "AMARILLO",
+      "city": "AMARILLO",
+      "source": "COPART",
+      "lat": 35.222,
+      "lng": -101.8313,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1345,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3245
+        }
+      ]
+    },
+    {
+      "id": 366,
+      "state": "TEXAS (TX)",
+      "branch": "HOUSTON NORTH",
+      "city": "HOUSTON NORTH",
+      "source": "COPART",
+      "lat": 29.9002,
+      "lng": -95.5008,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1095,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 2995
+        }
+      ]
+    },
+    {
+      "id": 367,
+      "state": "TEXAS (TX)",
+      "branch": "HOUSTON",
+      "city": "HOUSTON SOUTH",
+      "source": "COPART",
+      "lat": 29.65,
+      "lng": -95.25,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1095,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 2995
+        }
+      ]
+    },
+    {
+      "id": 368,
+      "state": "TEXAS (TX)",
+      "branch": "LUBBOCK",
+      "city": "LUBBOCK",
+      "source": "COPART",
+      "lat": 33.5779,
+      "lng": -101.8552,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1345,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3245
+        }
+      ]
+    },
+    {
+      "id": 369,
+      "state": "TEXAS (TX)",
+      "branch": "LONGVIEW",
+      "city": "LONGVIEW",
+      "source": "COPART",
+      "lat": 32.5007,
+      "lng": -94.7405,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1195,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3095
+        }
+      ]
+    },
+    {
+      "id": 370,
+      "state": "TEXAS (TX)",
+      "branch": "WACO",
+      "city": "TEMPLE",
+      "source": "COPART",
+      "lat": 31.0982,
+      "lng": -97.3428,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1230,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3130
+        }
+      ]
+    },
+    {
+      "id": 371,
+      "state": "TEXAS (TX)",
+      "branch": "SAN ANTONIO",
+      "city": "SAN ANTONIO",
+      "source": "COPART",
+      "lat": 29.4241,
+      "lng": -98.4936,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1195,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3095
+        }
+      ]
+    },
+    {
+      "id": 372,
+      "state": "TEXAS (TX)",
+      "branch": "DALLAS SOUTH",
+      "city": "DALLAS SOUTH",
+      "source": "COPART",
+      "lat": 32.7767,
+      "lng": -96.797,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1190,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3090
+        }
+      ]
+    },
+    {
+      "id": 373,
+      "state": "TEXAS (TX)",
+      "branch": "DALLAS/FT WORTH",
+      "city": "GRAND PRAIRIE",
+      "source": "COPART",
+      "lat": 32.7459,
+      "lng": -96.9978,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1195,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3095
+        }
+      ]
+    },
+    {
+      "id": 374,
+      "state": "TEXAS (TX)",
+      "branch": "DALLAS SOUTH",
+      "city": "WILMER",
+      "source": "COPART",
+      "lat": 32.5896,
+      "lng": -96.6853,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1190,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3090
+        }
+      ]
+    },
+    {
+      "id": 375,
+      "state": "TEXAS (TX)",
+      "branch": "MCALLEN",
+      "city": "MERCEDES",
+      "source": "COPART",
+      "lat": 26.1498,
+      "lng": -97.9136,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1190,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3090
+        }
+      ]
+    },
+    {
+      "id": 376,
+      "state": "TEXAS (TX)",
+      "branch": "JACKSON",
+      "city": "FLORENCE",
+      "source": "COPART",
+      "lat": 32.1535,
+      "lng": -90.1318,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1215,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3115
+        }
+      ]
+    },
+    {
+      "id": 377,
+      "state": "TEXAS (TX)",
+      "branch": "FT. WORTH",
+      "city": "HASLET",
+      "source": "COPART",
+      "lat": 32.9557,
+      "lng": -97.3475,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1220,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3120
+        }
+      ]
+    },
+    {
+      "id": 378,
+      "state": "TEXAS (TX)",
+      "branch": "SAN ANTONIO SOUTH",
+      "city": "SAN ANTONIO SOUTH",
+      "source": "COPART",
+      "lat": 29.4241,
+      "lng": -98.4936,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1195,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3095
+        }
+      ]
+    },
+    {
+      "id": 379,
+      "state": "TEXAS (TX)",
+      "branch": "SAN ANTONIO",
+      "city": "SAN ANTONIO",
+      "source": "COPART",
+      "lat": 29.4241,
+      "lng": -98.4936,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1195,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3095
+        }
+      ]
+    },
+    {
+      "id": 380,
+      "state": "TEXAS (TX)",
+      "branch": "ARLINGTON",
+      "city": "ARLINGTON",
+      "source": "COPART",
+      "lat": 32.7357,
+      "lng": -97.1081,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1325,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3225
+        }
+      ]
+    },
+    {
+      "id": 381,
+      "state": "TEXAS (TX)",
+      "branch": "MCALLEN",
+      "city": "DONNA",
+      "source": "COPART",
+      "lat": 26.1703,
+      "lng": -98.0519,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1190,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3090
+        }
+      ]
+    },
+    {
+      "id": 382,
+      "state": "TEXAS (TX)",
+      "branch": "NORTH AUSTIN",
+      "city": "TAYLOR",
+      "source": "COPART",
+      "lat": 30.5708,
+      "lng": -97.4094,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1195,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3095
+        }
+      ]
+    },
+    {
+      "id": 383,
+      "state": "TEXAS (TX)",
+      "branch": "ABILENE",
+      "city": "HAWLEY",
+      "source": "COPART",
+      "lat": 32.6101,
+      "lng": -99.8115,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1310,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3210
+        }
+      ]
+    },
+    {
+      "id": 384,
+      "state": "TEXAS (TX)",
+      "branch": "EL PASO",
+      "city": "EL PASO",
+      "source": "COPART",
+      "lat": 31.7619,
+      "lng": -106.485,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1335,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3235
+        }
+      ]
+    },
+    {
+      "id": 385,
+      "state": "TEXAS (TX)",
+      "branch": "PERMIAN BASIN",
+      "city": "ODESSA",
+      "source": "COPART",
+      "lat": 31.8457,
+      "lng": -102.3676,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1320,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3220
+        }
+      ]
+    },
+    {
+      "id": 386,
+      "state": "TEXAS (TX)",
+      "branch": "HOUSTON EAST",
+      "city": "HOUSTON",
+      "source": "COPART",
+      "lat": 29.7604,
+      "lng": -95.3698,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1095,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 2995
+        }
+      ]
+    },
+    {
+      "id": 387,
+      "state": "TEXAS (TX)",
+      "branch": "ANDREWS",
+      "city": "ANDREWS",
+      "source": "COPART",
+      "lat": 32.3187,
+      "lng": -102.5457,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1345,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3245
+        }
+      ]
+    },
+    {
+      "id": 388,
+      "state": "TEXAS (TX)",
+      "branch": "FORT WORTH NORTH",
+      "city": "JUSTIN",
+      "source": "COPART",
+      "lat": 33.0848,
+      "lng": -97.2961,
+      "ports": [
+        {
+          "name": "TEXAS, USA",
+          "ship": 1220,
+          "lat": 29.7604,
+          "lng": -95.3698,
+          "herat": 1900,
+          "total": 3120
+        }
+      ]
+    },
+    {
+      "id": 389,
+      "state": "ILLINOIS (IL)",
+      "branch": "PEORIA",
+      "city": "PEKIN",
+      "source": "COPART",
+      "lat": 40.5675,
+      "lng": -89.6407,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1583,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3483
+        }
+      ]
+    },
+    {
+      "id": 390,
+      "state": "ILLINOIS (IL)",
+      "branch": "SOUTHERN ILLINOIS",
+      "city": "ALORTON",
+      "source": "COPART",
+      "lat": 38.635,
+      "lng": -90.1843,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1583,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3483
+        }
+      ]
+    },
+    {
+      "id": 391,
+      "state": "ILLINOIS (IL)",
+      "branch": "SOUTHERN ILLINOIS",
+      "city": "CAHOKIA HEIGHTS",
+      "source": "COPART",
+      "lat": 38.5709,
+      "lng": -90.1576,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1583,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3483
+        }
+      ]
+    },
+    {
+      "id": 392,
+      "state": "ILLINOIS (IL)",
+      "branch": "BARTLETT",
+      "city": "BARTLETT",
+      "source": "COPART",
+      "lat": 41.995,
+      "lng": -88.1856,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1458,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3358
+        }
+      ]
+    },
+    {
+      "id": 393,
+      "state": "ILLINOIS (IL)",
+      "branch": "CHICAGO WEST",
+      "city": "AURORA",
+      "source": "COPART",
+      "lat": 41.7606,
+      "lng": -88.3201,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1533,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3433
+        }
+      ]
+    },
+    {
+      "id": 394,
+      "state": "ILLINOIS (IL)",
+      "branch": "ST. LOUIS",
+      "city": "GRANITE CITY",
+      "source": "COPART",
+      "lat": 38.7014,
+      "lng": -90.1487,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1583,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3483
+        }
+      ]
+    },
+    {
+      "id": 395,
+      "state": "ILLINOIS (IL)",
+      "branch": "CHICAGO SOUTH",
+      "city": "MARKHAM",
+      "source": "COPART",
+      "lat": 41.5936,
+      "lng": -87.6945,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1558,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3458
+        }
+      ]
+    },
+    {
+      "id": 396,
+      "state": "ILLINOIS (IL)",
+      "branch": "CHICAGA",
+      "city": "CHICAGA",
+      "source": "COPART",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1508,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3408
+        }
+      ]
+    },
+    {
+      "id": 397,
+      "state": "ILLINOIS (IL)",
+      "branch": "WHEELING",
+      "city": "WHEELING",
+      "source": "COPART",
+      "lat": 42.1392,
+      "lng": -87.9289,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1508,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3408
+        }
+      ]
+    },
+    {
+      "id": 398,
+      "state": "ILLINOIS (IL)",
+      "branch": "ST. LOUIS",
+      "city": "CASEYVILLE",
+      "source": "COPART",
+      "lat": 38.6368,
+      "lng": -90.0254,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1533,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3433
+        }
+      ]
+    },
+    {
+      "id": 399,
+      "state": "ILLINOIS (IL)",
+      "branch": "CHICAGO SOUTH",
+      "city": "CHICAGO HEIGHTS",
+      "source": "COPART",
+      "lat": 41.5061,
+      "lng": -87.6356,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1533,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3433
+        }
+      ]
+    },
+    {
+      "id": 400,
+      "state": "ILLINOIS (IL)",
+      "branch": "CHICAGO NORTH",
+      "city": "ELGIN",
+      "source": "COPART",
+      "lat": 42.0354,
+      "lng": -88.2826,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1533,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3433
+        }
+      ]
+    },
+    {
+      "id": 401,
+      "state": "ILLINOIS (IL)",
+      "branch": "WESTCHESTER",
+      "city": "WESTCHESTER",
+      "source": "COPART",
+      "lat": 41.8506,
+      "lng": -87.9,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1558,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3458
+        }
+      ]
+    },
+    {
+      "id": 402,
+      "state": "ILLINOIS (IL)",
+      "branch": "MATTESON",
+      "city": "MATTESON",
+      "source": "COPART",
+      "lat": 41.5039,
+      "lng": -87.7378,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1608,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3508
+        }
+      ]
+    },
+    {
+      "id": 403,
+      "state": "ILLINOIS (IL)",
+      "branch": "CHICAGO",
+      "city": "CHICAGO",
+      "source": "COPART",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1508,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3408
+        }
+      ]
+    },
+    {
+      "id": 404,
+      "state": "ILLINOIS (IL)",
+      "branch": "LINCOLN",
+      "city": "LINCOLN",
+      "source": "COPART",
+      "lat": 40.1484,
+      "lng": -89.364,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1583,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3483
+        }
+      ]
+    },
+    {
+      "id": 405,
+      "state": "INDIANA (IN)",
+      "branch": "INDIANAPOLIS SOUTH",
+      "city": "INDIANAPOLIS SOUTH",
+      "source": "COPART",
+      "lat": 39.6667,
+      "lng": -86.1581,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1558,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3458
+        }
+      ]
+    },
+    {
+      "id": 406,
+      "state": "INDIANA (IN)",
+      "branch": "INDIANAPOLIS SOUTH",
+      "city": "CROTHERSVILLE",
+      "source": "COPART",
+      "lat": 38.8117,
+      "lng": -85.8425,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1658,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3558
+        }
+      ]
+    },
+    {
+      "id": 407,
+      "state": "INDIANA (IN)",
+      "branch": "FORT WAYNE",
+      "city": "FORT WAYNE",
+      "source": "COPART",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1558,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3458
+        }
+      ]
+    },
+    {
+      "id": 408,
+      "state": "INDIANA (IN)",
+      "branch": "SOUTH BEND",
+      "city": "SOUTH BEND",
+      "source": "COPART",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1558,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3458
+        }
+      ]
+    },
+    {
+      "id": 409,
+      "state": "INDIANA (IN)",
+      "branch": "HAMMOND",
+      "city": "HAMMOND",
+      "source": "COPART",
+      "lat": 41.5834,
+      "lng": -87.5,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1558,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3458
+        }
+      ]
+    },
+    {
+      "id": 410,
+      "state": "INDIANA (IN)",
+      "branch": "COLUMBUS.",
+      "city": "COLUMBUS",
+      "source": "COPART",
+      "lat": 39.2014,
+      "lng": -85.9214,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1558,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3458
+        }
+      ]
+    },
+    {
+      "id": 411,
+      "state": "INDIANA (IN)",
+      "branch": "CICERO",
+      "city": "CICERO",
+      "source": "COPART",
+      "lat": 40.1231,
+      "lng": -86.0133,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1558,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3458
+        }
+      ]
+    },
+    {
+      "id": 412,
+      "state": "INDIANA (IN)",
+      "branch": "INDIANAPOLIS",
+      "city": "INDIANAPOLIS",
+      "source": "COPART",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1018,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 2918
+        }
+      ]
+    },
+    {
+      "id": 413,
+      "state": "INDIANA (IN)",
+      "branch": "DYER",
+      "city": "DYER",
+      "source": "COPART",
+      "lat": 41.4942,
+      "lng": -87.5217,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1558,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3458
+        }
+      ]
+    },
+    {
+      "id": 414,
+      "state": "IOWA (IA)",
+      "branch": "DES MOINES",
+      "city": "DES MOINES",
+      "source": "COPART",
+      "lat": 41.5868,
+      "lng": -93.625,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1618,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3518
+        }
+      ]
+    },
+    {
+      "id": 415,
+      "state": "IOWA (IA)",
+      "branch": "DAVENPORT",
+      "city": "ELDRIDGE",
+      "source": "COPART",
+      "lat": 41.6436,
+      "lng": -90.5846,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1618,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3518
+        }
+      ]
+    },
+    {
+      "id": 416,
+      "state": "IOWA (IA)",
+      "branch": "DES MOINES",
+      "city": "DE SOTO",
+      "source": "COPART",
+      "lat": 41.5311,
+      "lng": -94.0136,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1618,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3518
+        }
+      ]
+    },
+    {
+      "id": 417,
+      "state": "IOWA (IA)",
+      "branch": "ELDRIDGE",
+      "city": "ELDRIDGE",
+      "source": "COPART",
+      "lat": 41.6436,
+      "lng": -90.5846,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1628,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3528
+        }
+      ]
+    },
+    {
+      "id": 418,
+      "state": "IOWA (IA)",
+      "branch": "CEDAR RAPIDS",
+      "city": "CEDAR RAPIDS",
+      "source": "COPART",
+      "lat": 41.9779,
+      "lng": -91.6656,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1908,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3808
+        }
+      ]
+    },
+    {
+      "id": 419,
+      "state": "MARYLAND (MD)",
+      "branch": "SALISBURY",
+      "city": "SALISBURY",
+      "source": "COPART",
+      "lat": 38.3607,
+      "lng": -75.5994,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1243,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3143
+        }
+      ]
+    },
+    {
+      "id": 420,
+      "state": "MARYLAND (MD)",
+      "branch": "ELKRIDGE EAST",
+      "city": "TAUNTON",
+      "source": "COPART",
+      "lat": 39.2126,
+      "lng": -76.7136,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1243,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3143
+        }
+      ]
+    },
+    {
+      "id": 421,
+      "state": "MARYLAND (MD)",
+      "branch": "LAUREL",
+      "city": "LAUREL",
+      "source": "COPART",
+      "lat": 39.0993,
+      "lng": -76.8483,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1243,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3143
+        }
+      ]
+    },
+    {
+      "id": 422,
+      "state": "MARYLAND (MD)",
+      "branch": "METRO DC",
+      "city": "BRANDYWINE",
+      "source": "COPART",
+      "lat": 38.6968,
+      "lng": -76.8475,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1243,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3143
+        }
+      ]
+    },
+    {
+      "id": 423,
+      "state": "MARYLAND (MD)",
+      "branch": "ROSEDALE",
+      "city": "ROSEDALE",
+      "source": "COPART",
+      "lat": 39.3204,
+      "lng": -76.5158,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1243,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3143
+        }
+      ]
+    },
+    {
+      "id": 424,
+      "state": "MARYLAND (MD)",
+      "branch": "WASHINGTON DC",
+      "city": "WHITE PLAINS",
+      "source": "COPART",
+      "lat": 38.5932,
+      "lng": -77.0197,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1258,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3158
+        }
+      ]
+    },
+    {
+      "id": 425,
+      "state": "MARYLAND (MD)",
+      "branch": "TANEYTOWN",
+      "city": "TANEYTOWN",
+      "source": "COPART",
+      "lat": 39.6579,
+      "lng": -77.1747,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1263,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3163
+        }
+      ]
+    },
+    {
+      "id": 426,
+      "state": "MARYLAND (MD)",
+      "branch": "FRUITLAND",
+      "city": "FRUITLAND",
+      "source": "COPART",
+      "lat": 38.3221,
+      "lng": -75.6202,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1508,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3408
+        }
+      ]
+    },
+    {
+      "id": 427,
+      "state": "MARYLAND (MD)",
+      "branch": "CONOWINGO",
+      "city": "CONOWINGO",
+      "source": "COPART",
+      "lat": 39.6551,
+      "lng": -76.2927,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1308,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3208
+        }
+      ]
+    },
+    {
+      "id": 428,
+      "state": "MARYLAND (MD)",
+      "branch": "ELKTON",
+      "city": "ELKTON",
+      "source": "COPART",
+      "lat": 39.6068,
+      "lng": -75.833,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1308,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3208
+        }
+      ]
+    },
+    {
+      "id": 429,
+      "state": "MARYLAND (MD)",
+      "branch": "WASHINGTON DC",
+      "city": "WALDORF",
+      "source": "COPART",
+      "lat": 38.6246,
+      "lng": -76.9391,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1243,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3143
+        }
+      ]
+    },
+    {
+      "id": 430,
+      "state": "MARYLAND (MD)",
+      "branch": "BALTIMORE EAST",
+      "city": "WHITE MARSH",
+      "source": "COPART",
+      "lat": 39.3834,
+      "lng": -76.4394,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1258,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3158
+        }
+      ]
+    },
+    {
+      "id": 431,
+      "state": "MARYLAND (MD)",
+      "branch": "BALTIMORE",
+      "city": "BALTIMORE",
+      "source": "COPART",
+      "lat": 39.2904,
+      "lng": -76.6122,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1243,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3143
+        }
+      ]
+    },
+    {
+      "id": 432,
+      "state": "MARYLAND (MD)",
+      "branch": "BALTIMORE EAST",
+      "city": "BALTIMORE EAST",
+      "source": "COPART",
+      "lat": 39.3834,
+      "lng": -76.4394,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1243,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3143
+        }
+      ]
+    },
+    {
+      "id": 433,
+      "state": "MARYLAND (MD)",
+      "branch": "DUNDALK",
+      "city": "DUNDALK",
+      "source": "COPART",
+      "lat": 39.2507,
+      "lng": -76.5205,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1243,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3143
+        }
+      ]
+    },
+    {
+      "id": 434,
+      "state": "MARYLAND (MD)",
+      "branch": "BALTIMORE",
+      "city": "FINKSBURG",
+      "source": "COPART",
+      "lat": 39.4962,
+      "lng": -76.8966,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1243,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3143
+        }
+      ]
+    },
+    {
+      "id": 435,
+      "state": "MICHIGAN (MI)",
+      "branch": "KINCHELOE",
+      "city": "KINCHELOE",
+      "source": "COPART",
+      "lat": 46.25,
+      "lng": -84.48,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1908,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3808
+        }
+      ]
+    },
+    {
+      "id": 436,
+      "state": "MICHIGAN (MI)",
+      "branch": "NEW BOSTON",
+      "city": "NEW BOSTON",
+      "source": "COPART",
+      "lat": 42.1959,
+      "lng": -83.4002,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1508,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3408
+        }
+      ]
+    },
+    {
+      "id": 437,
+      "state": "MICHIGAN (MI)",
+      "branch": "LANSING",
+      "city": "LANSING",
+      "source": "COPART",
+      "lat": 42.7325,
+      "lng": -84.5555,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1533,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3433
+        }
+      ]
+    },
+    {
+      "id": 438,
+      "state": "MICHIGAN (MI)",
+      "branch": "IONIA",
+      "city": "IONIA",
+      "source": "COPART",
+      "lat": 42.9873,
+      "lng": -85.0711,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1608,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3508
+        }
+      ]
+    },
+    {
+      "id": 439,
+      "state": "MICHIGAN (MI)",
+      "branch": "IONIA",
+      "city": "PORTLAND",
+      "source": "COPART",
+      "lat": 42.8695,
+      "lng": -84.9036,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1608,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3508
+        }
+      ]
+    },
+    {
+      "id": 440,
+      "state": "MICHIGAN (MI)",
+      "branch": "GRAND RAPIDS",
+      "city": "BYRON CENTER",
+      "source": "COPART",
+      "lat": 42.8123,
+      "lng": -85.7228,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1608,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3508
+        }
+      ]
+    },
+    {
+      "id": 441,
+      "state": "MICHIGAN (MI)",
+      "branch": "DETROIT",
+      "city": "WOODHAVEN",
+      "source": "COPART",
+      "lat": 42.1389,
+      "lng": -83.2416,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1533,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3433
+        }
+      ]
+    },
+    {
+      "id": 442,
+      "state": "MICHIGAN (MI)",
+      "branch": "DIVISION",
+      "city": "DIVISION",
+      "source": "COPART",
+      "lat": 42.3314,
+      "lng": -83.0458,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1508,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3408
+        }
+      ]
+    },
+    {
+      "id": 443,
+      "state": "MICHIGAN (MI)",
+      "branch": "PORTLAND",
+      "city": "PORTLAND",
+      "source": "COPART",
+      "lat": 42.8695,
+      "lng": -84.9036,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1508,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3408
+        }
+      ]
+    },
+    {
+      "id": 444,
+      "state": "MICHIGAN (MI)",
+      "branch": "DETROIT",
+      "city": "BELLEVILLE",
+      "source": "COPART",
+      "lat": 42.2048,
+      "lng": -83.4852,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1508,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3408
+        }
+      ]
+    },
+    {
+      "id": 445,
+      "state": "MICHIGAN (MI)",
+      "branch": "UTICA",
+      "city": "UTICA ACV",
+      "source": "COPART",
+      "lat": 42.6264,
+      "lng": -82.985,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1608,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3508
+        }
+      ]
+    },
+    {
+      "id": 446,
+      "state": "MICHIGAN (MI)",
+      "branch": "FLINT",
+      "city": "DAVISON",
+      "source": "COPART",
+      "lat": 43.0347,
+      "lng": -83.518,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1518,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3418
+        }
+      ]
+    },
+    {
+      "id": 447,
+      "state": "NEBRASKA (NE)",
+      "branch": "LINCOLN",
+      "city": "GREENWOOD",
+      "source": "COPART",
+      "lat": 40.9667,
+      "lng": -96.4444,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1658,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3558
+        }
+      ]
+    },
+    {
+      "id": 448,
+      "state": "NEBRASKA (NE)",
+      "branch": "OMAHA",
+      "city": "SPRINGFIELD",
+      "source": "COPART",
+      "lat": 41.0831,
+      "lng": -96.1328,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1708,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3608
+        }
+      ]
+    },
+    {
+      "id": 449,
+      "state": "OHIO (OH)",
+      "branch": "CINCINNATI-SOUTH",
+      "city": "AMELIA",
+      "source": "COPART",
+      "lat": 39.0284,
+      "lng": -84.2177,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1493,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3393
+        }
+      ]
+    },
+    {
+      "id": 450,
+      "state": "OHIO (OH)",
+      "branch": "CLEVELAND",
+      "city": "VERMILION",
+      "source": "COPART",
+      "lat": 41.4212,
+      "lng": -82.3646,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1508,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3408
+        }
+      ]
+    },
+    {
+      "id": 451,
+      "state": "OHIO (OH)",
+      "branch": "COLUMBUS",
+      "city": "COLUMBUS",
+      "source": "COPART",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1558,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3458
+        }
+      ]
+    },
+    {
+      "id": 452,
+      "state": "OHIO (OH)",
+      "branch": "COLUMBUS",
+      "city": "GROVE CITY",
+      "source": "COPART",
+      "lat": 39.8815,
+      "lng": -83.093,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1458,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3358
+        }
+      ]
+    },
+    {
+      "id": 453,
+      "state": "OHIO (OH)",
+      "branch": "DAYTON",
+      "city": "MORAINE",
+      "source": "COPART",
+      "lat": 39.7062,
+      "lng": -84.2194,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1478,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3378
+        }
+      ]
+    },
+    {
+      "id": 454,
+      "state": "OHIO (OH)",
+      "branch": "AMELIA",
+      "city": "AMELIA",
+      "source": "COPART",
+      "lat": 39.0284,
+      "lng": -84.2177,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1458,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3358
+        }
+      ]
+    },
+    {
+      "id": 455,
+      "state": "OHIO (OH)",
+      "branch": "CINCINNATI",
+      "city": "WEST CHESTER",
+      "source": "COPART",
+      "lat": 39.3364,
+      "lng": -84.4173,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1493,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3393
+        }
+      ]
+    },
+    {
+      "id": 456,
+      "state": "OHIO (OH)",
+      "branch": "CLEVELAND",
+      "city": "LORAIN",
+      "source": "COPART",
+      "lat": 41.4528,
+      "lng": -82.1824,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1473,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3373
+        }
+      ]
+    },
+    {
+      "id": 457,
+      "state": "OHIO (OH)",
+      "branch": "CLEVELAND EAST",
+      "city": "NORTHFIELD",
+      "source": "COPART",
+      "lat": 41.3451,
+      "lng": -81.5287,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1458,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3358
+        }
+      ]
+    },
+    {
+      "id": 458,
+      "state": "OHIO (OH)",
+      "branch": "CLEVELAND WEST",
+      "city": "COLUMBIA STATION",
+      "source": "COPART",
+      "lat": 41.3117,
+      "lng": -82.0735,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1458,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3358
+        }
+      ]
+    },
+    {
+      "id": 459,
+      "state": "OHIO (OH)",
+      "branch": "AKRON-CANTON",
+      "city": "NEW PHILADELPHIA",
+      "source": "COPART",
+      "lat": 40.4898,
+      "lng": -81.4457,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1508,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3408
+        }
+      ]
+    },
+    {
+      "id": 460,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PITTSBURGH",
+      "city": "ALIQUIPPA",
+      "source": "COPART",
+      "lat": 40.6367,
+      "lng": -80.2401,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1433,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3333
+        }
+      ]
+    },
+    {
+      "id": 461,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PITTSBURGH SOUTH",
+      "city": "WEST MIFFLIN",
+      "source": "COPART",
+      "lat": 40.3634,
+      "lng": -79.8664,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1433,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3333
+        }
+      ]
+    },
+    {
+      "id": 462,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "YORK SPRINGS",
+      "city": "YORK SPRINGS",
+      "source": "COPART",
+      "lat": 40.0104,
+      "lng": -77.1169,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1273,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3173
+        }
+      ]
+    },
+    {
+      "id": 463,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "ADAMSBURGH",
+      "city": "ADAMSBURGH",
+      "source": "COPART",
+      "lat": 40.3201,
+      "lng": -79.4359,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1418,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3318
+        }
+      ]
+    },
+    {
+      "id": 464,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "YORK HAVEN",
+      "city": "YORK HAVEN",
+      "source": "COPART",
+      "lat": 40.1104,
+      "lng": -76.9244,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1273,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3173
+        }
+      ]
+    },
+    {
+      "id": 465,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PITTSBURGH",
+      "city": "UNIONTOWN ACV",
+      "source": "COPART",
+      "lat": 39.9001,
+      "lng": -79.7164,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1608,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3508
+        }
+      ]
+    },
+    {
+      "id": 466,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "SCRANTON",
+      "city": "DURYEA",
+      "source": "COPART",
+      "lat": 41.3439,
+      "lng": -75.7852,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1408,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3308
+        }
+      ]
+    },
+    {
+      "id": 467,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PHILADELPHIA",
+      "city": "PHILADELPHIA",
+      "source": "COPART",
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1283,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3183
+        }
+      ]
+    },
+    {
+      "id": 468,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PHILADELPHIA",
+      "city": "PENNSBURG",
+      "source": "COPART",
+      "lat": 40.3909,
+      "lng": -75.4921,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1258,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3158
+        }
+      ]
+    },
+    {
+      "id": 469,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "HARRISBURG",
+      "city": "GRANTVILLE",
+      "source": "COPART",
+      "lat": 40.3765,
+      "lng": -76.6647,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1258,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3158
+        }
+      ]
+    },
+    {
+      "id": 470,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PHILADELPHIA EAST",
+      "city": "CHALFONT",
+      "source": "COPART",
+      "lat": 40.2884,
+      "lng": -75.2091,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1243,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3143
+        }
+      ]
+    },
+    {
+      "id": 471,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PITTSBURGH NORTH",
+      "city": "ELLWOOD CITY",
+      "source": "COPART",
+      "lat": 40.8617,
+      "lng": -80.2867,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1433,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3333
+        }
+      ]
+    },
+    {
+      "id": 472,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PITTSBURG SOUTH",
+      "city": "WEST MIFFLIN",
+      "source": "COPART",
+      "lat": 40.3634,
+      "lng": -79.8664,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1433,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3333
+        }
+      ]
+    },
+    {
+      "id": 473,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PHILADELPHIA",
+      "city": "GRANTVILLE",
+      "source": "COPART",
+      "lat": 40.3765,
+      "lng": -76.6647,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1258,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3158
+        }
+      ]
+    },
+    {
+      "id": 474,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PENNSYLVANIA",
+      "city": "PENNSYLVANIA",
+      "source": "COPART",
+      "lat": 40.8781,
+      "lng": -77.7996,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1258,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3158
+        }
+      ]
+    },
+    {
+      "id": 475,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "SCRANTON",
+      "city": "PITTSTON",
+      "source": "COPART",
+      "lat": 41.3259,
+      "lng": -75.7894,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1278,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3178
+        }
+      ]
+    },
+    {
+      "id": 476,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PHILADELPHIA",
+      "city": "PHILADELPHIA",
+      "source": "COPART",
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1283,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3183
+        }
+      ]
+    },
+    {
+      "id": 477,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PHILADELPHIA",
+      "city": "MALVERN",
+      "source": "COPART",
+      "lat": 40.0362,
+      "lng": -75.5138,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1308,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3208
+        }
+      ]
+    },
+    {
+      "id": 478,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "COOPERSBURG",
+      "city": "COOPERSBURG",
+      "source": "COPART",
+      "lat": 40.5115,
+      "lng": -75.3907,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1308,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3208
+        }
+      ]
+    },
+    {
+      "id": 479,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PHILADELPHIA",
+      "city": "CONSHOHOCKEN",
+      "source": "COPART",
+      "lat": 40.0793,
+      "lng": -75.3016,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1333,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3233
+        }
+      ]
+    },
+    {
+      "id": 480,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PHILADELPHIA EAST",
+      "city": "ADAMSBURG",
+      "source": "COPART",
+      "lat": 40.3201,
+      "lng": -79.4359,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1398,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3298
+        }
+      ]
+    },
+    {
+      "id": 481,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PITTSBURG EAST",
+      "city": "ADAMSBURG",
+      "source": "COPART",
+      "lat": 40.3201,
+      "lng": -79.4359,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1398,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3298
+        }
+      ]
+    },
+    {
+      "id": 482,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PITTSBURGH WEST",
+      "city": "WEST MIFFLIN",
+      "source": "COPART",
+      "lat": 40.3634,
+      "lng": -79.8664,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1433,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3333
+        }
+      ]
+    },
+    {
+      "id": 483,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "PITTSBURGH NORTH",
+      "city": "GIBSONIA",
+      "source": "COPART",
+      "lat": 40.627,
+      "lng": -79.97,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1458,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3358
+        }
+      ]
+    },
+    {
+      "id": 484,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "BRIDGEPORT",
+      "city": "BRIDGEPORT",
+      "source": "COPART",
+      "lat": 40.1848,
+      "lng": -75.2063,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1248,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3148
+        }
+      ]
+    },
+    {
+      "id": 485,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "CHAMBERSBURG",
+      "city": "CHAMBERSBURG",
+      "source": "COPART",
+      "lat": 39.9376,
+      "lng": -77.6611,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1358,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3258
+        }
+      ]
+    },
+    {
+      "id": 486,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "ALTOONA",
+      "city": "EBENSBURG",
+      "source": "COPART",
+      "lat": 40.4851,
+      "lng": -78.7247,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1383,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3283
+        }
+      ]
+    },
+    {
+      "id": 487,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "ERIE",
+      "city": "GARLAND",
+      "source": "COPART",
+      "lat": 41.8864,
+      "lng": -79.3534,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1483,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3383
+        }
+      ]
+    },
+    {
+      "id": 488,
+      "state": "PENNSYLVANIA (PA)",
+      "branch": "ALTOONA EAST",
+      "city": "FREEDOM",
+      "source": "COPART",
+      "lat": 40.3751,
+      "lng": -78.3734,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1383,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3283
+        }
+      ]
+    },
+    {
+      "id": 489,
+      "state": "SOUTH DAKOTH (SD)",
+      "branch": "SIOUX FALLS",
+      "city": "LENNOX",
+      "source": "COPART",
+      "lat": 43.3547,
+      "lng": -96.2206,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 2258,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 4158
+        }
+      ]
+    },
+    {
+      "id": 490,
+      "state": "SOUTH DAKOTH (SD)",
+      "branch": "RAPID CITY",
+      "city": "RAPID CITY",
+      "source": "COPART",
+      "lat": 44.0805,
+      "lng": -103.231,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 2258,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 4158
+        }
+      ]
+    },
+    {
+      "id": 491,
+      "state": "VIRGINIA (VA)",
+      "branch": "NORTHERN VERGINIA",
+      "city": "NORTHERN VERGINIA",
+      "source": "COPART",
+      "lat": 38.8462,
+      "lng": -77.3064,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1328,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3228
+        }
+      ]
+    },
+    {
+      "id": 492,
+      "state": "VIRGINIA (VA)",
+      "branch": "PULASKI",
+      "city": "PULASKI",
+      "source": "COPART",
+      "lat": 37.0479,
+      "lng": -80.7798,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1443,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3343
+        }
+      ]
+    },
+    {
+      "id": 493,
+      "state": "VIRGINIA (VA)",
+      "branch": "SUFFOLK",
+      "city": "SUFFOLK",
+      "source": "COPART",
+      "lat": 36.7282,
+      "lng": -76.5836,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1448,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3348
+        }
+      ]
+    },
+    {
+      "id": 494,
+      "state": "VIRGINIA (VA)",
+      "branch": "TIDEWATER",
+      "city": "YORKTOWN",
+      "source": "COPART",
+      "lat": 37.2388,
+      "lng": -76.5097,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1358,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3258
+        }
+      ]
+    },
+    {
+      "id": 495,
+      "state": "VIRGINIA (VA)",
+      "branch": "ROANOKE",
+      "city": "MONTVALE",
+      "source": "COPART",
+      "lat": 37.384,
+      "lng": -79.7295,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1458,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3358
+        }
+      ]
+    },
+    {
+      "id": 496,
+      "state": "VIRGINIA (VA)",
+      "branch": "RICHMOND EAST",
+      "city": "CHARLES CITY",
+      "source": "COPART",
+      "lat": 37.3532,
+      "lng": -77.0736,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1348,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3248
+        }
+      ]
+    },
+    {
+      "id": 497,
+      "state": "VIRGINIA (VA)",
+      "branch": "KING GEORGE",
+      "city": "KING GEORGE",
+      "source": "COPART",
+      "lat": 38.2682,
+      "lng": -77.1628,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1398,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3298
+        }
+      ]
+    },
+    {
+      "id": 498,
+      "state": "VIRGINIA (VA)",
+      "branch": "SALEM",
+      "city": "SALEM",
+      "source": "COPART",
+      "lat": 37.2935,
+      "lng": -80.0548,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1468,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3368
+        }
+      ]
+    },
+    {
+      "id": 499,
+      "state": "VIRGINIA (VA)",
+      "branch": "HAMPTON",
+      "city": "HAMPTON",
+      "source": "COPART",
+      "lat": 37.0299,
+      "lng": -76.3452,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1358,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3258
+        }
+      ]
+    },
+    {
+      "id": 500,
+      "state": "VIRGINIA (VA)",
+      "branch": "DANVILLE",
+      "city": "CHATHAM",
+      "source": "COPART",
+      "lat": 36.8257,
+      "lng": -79.3984,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1408,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3308
+        }
+      ]
+    },
+    {
+      "id": 501,
+      "state": "VIRGINIA (VA)",
+      "branch": "ALEXANDRIA",
+      "city": "ALEXANDRIA",
+      "source": "COPART",
+      "lat": 38.8048,
+      "lng": -77.0469,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1308,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3308
+        }
+      ]
+    },
+    {
+      "id": 502,
+      "state": "VIRGINIA (VA)",
+      "branch": "RICHMOND",
+      "city": "SANDSTON",
+      "source": "COPART",
+      "lat": 37.5099,
+      "lng": -77.3128,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1348,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3248
+        }
+      ]
+    },
+    {
+      "id": 503,
+      "state": "VIRGINIA (VA)",
+      "branch": "CHARLES CITY",
+      "city": "CHARLES CITY",
+      "source": "COPART",
+      "lat": 37.3532,
+      "lng": -77.0736,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1363,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3263
+        }
+      ]
+    },
+    {
+      "id": 504,
+      "state": "VIRGINIA (VA)",
+      "branch": "RUSTBURG",
+      "city": "RUSTBURG",
+      "source": "COPART",
+      "lat": 37.2757,
+      "lng": -79.1017,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1373,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3273
+        }
+      ]
+    },
+    {
+      "id": 505,
+      "state": "VIRGINIA (VA)",
+      "branch": "HARRISONBURG",
+      "city": "HARRISONBURG",
+      "source": "COPART",
+      "lat": 38.4496,
+      "lng": -78.8689,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1408,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3308
+        }
+      ]
+    },
+    {
+      "id": 506,
+      "state": "VIRGINIA (VA)",
+      "branch": "BRISTOL",
+      "city": "BRISTOL",
+      "source": "COPART",
+      "lat": 36.5951,
+      "lng": -82.1887,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1458,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3358
+        }
+      ]
+    },
+    {
+      "id": 507,
+      "state": "VIRGINIA (VA)",
+      "branch": "FREDERICKSBURG",
+      "city": "FREDERICKSBURG",
+      "source": "COPART",
+      "lat": 38.3032,
+      "lng": -77.4605,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1323,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3223
+        }
+      ]
+    },
+    {
+      "id": 508,
+      "state": "VIRGINIA (VA)",
+      "branch": "DANVILLE",
+      "city": "BEDFORD",
+      "source": "COPART",
+      "lat": 37.3343,
+      "lng": -79.5231,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1408,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3308
+        }
+      ]
+    },
+    {
+      "id": 509,
+      "state": "VIRGINIA (VA)",
+      "branch": "DANVILLE",
+      "city": "CULPEPER",
+      "source": "COPART",
+      "lat": 38.4732,
+      "lng": -77.9967,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1358,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3258
+        }
+      ]
+    },
+    {
+      "id": 510,
+      "state": "VIRGINIA (VA)",
+      "branch": "CULPEPER",
+      "city": "CULPEPER",
+      "source": "COPART",
+      "lat": 38.4732,
+      "lng": -77.9967,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1358,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3258
+        }
+      ]
+    },
+    {
+      "id": 511,
+      "state": "VIRGINIA (VA)",
+      "branch": "ASHLAND",
+      "city": "ASHLAND",
+      "source": "COPART",
+      "lat": 37.759,
+      "lng": -77.4799,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1353,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3253
+        }
+      ]
+    },
+    {
+      "id": 512,
+      "state": "WEST VIRGINIA (WV)",
+      "branch": "SUNDANCE",
+      "city": "PORTAGE",
+      "source": "COPART",
+      "lat": 39.2234,
+      "lng": -78.9309,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1908,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3808
+        }
+      ]
+    },
+    {
+      "id": 513,
+      "state": "WEST VIRGINIA (WV)",
+      "branch": "SHADY SPRINGS",
+      "city": "SHADY SPRINGS",
+      "source": "COPART",
+      "lat": 37.7026,
+      "lng": -80.9801,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1583,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3483
+        }
+      ]
+    },
+    {
+      "id": 514,
+      "state": "WEST VIRGINIA (WV)",
+      "branch": "CHARLESTON",
+      "city": "HURRICANE",
+      "source": "COPART",
+      "lat": 38.4326,
+      "lng": -82.0185,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1553,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3453
+        }
+      ]
+    },
+    {
+      "id": 515,
+      "state": "WEST VIRGINIA (WV)",
+      "branch": "BUCKHANNON",
+      "city": "BUCKHANNON",
+      "source": "COPART",
+      "lat": 38.9939,
+      "lng": -80.232,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1473,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3373
+        }
+      ]
+    },
+    {
+      "id": 516,
+      "state": "WISCONSIN (WI)",
+      "branch": "PORTAGE",
+      "city": "PORTAGE",
+      "source": "COPART",
+      "lat": 43.5391,
+      "lng": -89.4626,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1608,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3508
+        }
+      ]
+    },
+    {
+      "id": 517,
+      "state": "WISCONSIN (WI)",
+      "branch": "MADISON",
+      "city": "MADISON",
+      "source": "COPART",
+      "lat": 43.0731,
+      "lng": -89.4012,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1658,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3558
+        }
+      ]
+    },
+    {
+      "id": 518,
+      "state": "WISCONSIN (WI)",
+      "branch": "MADISON SOUTH",
+      "city": "MCFARLAND",
+      "source": "COPART",
+      "lat": 43.0147,
+      "lng": -89.2898,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1658,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3558
+        }
+      ]
+    },
+    {
+      "id": 519,
+      "state": "WISCONSIN (WI)",
+      "branch": "APPLETON",
+      "city": "APPLETON",
+      "source": "COPART",
+      "lat": 44.2619,
+      "lng": -88.4154,
+      "ports": [
+        {
+          "name": "MARYLAND, USA",
+          "ship": 1608,
+          "lat": 39.0458,
+          "lng": -76.6413,
+          "herat": 1900,
+          "total": 3508
         }
       ]
     }

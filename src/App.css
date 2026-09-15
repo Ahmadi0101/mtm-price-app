@@ -2166,3 +2166,49 @@ button {
   opacity: 0.7;
   pointer-events: none;
 }
+
+
+.location-header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 7px;
+}
+
+.location-source {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 5px 11px;
+
+  border-radius: 8px;
+
+  font-size: 11px;
+  font-weight: 900;
+
+  color: #ffffff;
+
+  line-height: 1;
+  min-width: 58px;
+
+  letter-spacing: 0.4px;
+}
+
+/* COPART */
+
+.location-source.source-copart {
+  background: #2563eb;
+}
+
+/* IAAI */
+
+.location-source.source-iaai {
+  background: #dc2626;
+}
+
+/* OTHER */
+
+.location-source:not(.source-copart):not(.source-iaai) {
+  background: #111111;
+}
