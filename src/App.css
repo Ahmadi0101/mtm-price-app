@@ -2769,9 +2769,7 @@ button {
   width: 45px;
 }
 
-.vehicle-rates-table .col-car {
-  width: 30%;
-}
+ 
 
 .vehicle-rates-table .col-year {
   width: 70px;
@@ -2797,7 +2795,7 @@ button {
 
   justify-content: flex-start;
 
-  gap: 7px;
+  gap: 2px;
 
   min-width: 0;
 }
@@ -4057,4 +4055,1034 @@ button {
   background: rgba(255, 255, 255, 0.96);
 
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================
+   VEHICLE RATES LIST
+   FINAL / CLEAN VERSION
+========================================= */
+
+.vehicle-rates-list {
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+
+  padding: 4px;
+
+  direction: rtl;
+
+  /*
+    خود list اسکرول نمی‌گیرد.
+    اسکرول را wrapper انجام می‌دهد.
+  */
+  overflow: hidden;
+}
+
+
+/* =========================================
+   TABLE WRAPPER
+   عمودی + افقی
+========================================= */
+
+.vehicle-rates-table-wrapper {
+  width: 100%;
+  height: 100%;
+
+  overflow: auto;
+
+  border: 1px solid #ddd;
+  border-radius: 10px;
+
+  background: #fff;
+
+  -webkit-overflow-scrolling: touch;
+
+  /*
+    جلوگیری از فاصله اضافی
+  */
+  padding: 0;
+  margin: 0;
+}
+
+
+/* =========================================
+   TABLE
+========================================= */
+
+.vehicle-rates-table {
+  width: 100%;
+
+  /*
+    اگر صفحه کوچک باشد، جدول افقی اسکرول می‌گیرد.
+  */
+  min-width: 560px;
+
+  margin: 0;
+  padding: 0;
+
+  /*
+    auto باعث می‌شود ستون‌ها بی‌دلیل
+    فضای بسیار زیاد نگیرند.
+  */
+  table-layout: auto;
+
+  border-collapse: separate;
+  border-spacing: 0;
+
+  direction: rtl;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.vehicle-rates-table thead th {
+  position: sticky;
+  top: 0;
+
+  z-index: 100;
+
+  height: 36px;
+
+  margin: 0;
+  padding: 3px 4px;
+
+  background: #111 !important;
+  color: #fff !important;
+
+  border: none;
+  border-bottom: 1px solid #333;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  line-height: 1;
+
+  text-align: center;
+
+  white-space: nowrap;
+
+  vertical-align: middle;
+}
+
+
+/* =========================================
+   BODY ROW
+========================================= */
+
+.vehicle-rates-table tbody tr {
+  height: 36px;
+
+  margin: 0;
+  padding: 0;
+
+  transition: background 0.15s ease;
+}
+
+
+/* ردیف‌های یکی در میان */
+
+.vehicle-rates-table tbody tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.vehicle-rates-table tbody tr:nth-child(odd) {
+  background: #fff;
+}
+
+
+/* Hover */
+
+.vehicle-rates-table tbody tr:hover {
+  background: #eeeeee;
+}
+
+
+/* =========================================
+   BODY CELL
+========================================= */
+
+.vehicle-rates-table tbody td {
+  height: 36px;
+
+  margin: 0;
+  padding: 2px 3px;
+
+  border: none;
+  border-bottom: 1px solid #eeeeee;
+
+  background: transparent;
+  color: #222;
+
+  font-size: 12px;
+
+  line-height: 1;
+
+  text-align: center;
+
+  vertical-align: middle;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+}
+
+
+/* =========================================
+   COLUMN WIDTHS
+   خیلی فشرده
+========================================= */
+
+/* انتخاب */
+
+.vehicle-rates-table .col-select {
+  width: 45px;
+  min-width: 45px;
+  max-width: 45px;
+}
+
+
+/* شماره */
+
+.vehicle-rates-table .col-number {
+  width: 32px;
+  min-width: 32px;
+  max-width: 32px;
+}
+
+
+/* نام موتر
+   مهم‌ترین قسمت
+*/
+
+.vehicle-rates-table .col-car {
+  width: auto;
+
+  min-width: 145px;
+
+  max-width: 190px;
+}
+
+
+/* مدل */
+
+.vehicle-rates-table .col-year {
+  width: 55px;
+
+  min-width: 55px;
+  max-width: 55px;
+}
+
+
+/* افغانی */
+
+.vehicle-rates-table .col-afn {
+  width: 115px;
+
+  min-width: 115px;
+}
+
+
+/* دالر */
+
+.vehicle-rates-table .col-usd {
+  width: 105px;
+
+  min-width: 105px;
+}
+
+
+/* =========================================
+   VEHICLE NAME
+========================================= */
+
+.vehicle-table-car {
+  width: 100%;
+
+  min-width: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: flex-start;
+
+  gap: 3px;
+
+  overflow: hidden;
+
+  direction: rtl;
+}
+
+
+/* نام */
+
+.vehicle-table-car strong {
+  flex: 1;
+
+  min-width: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: block;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+
+  color: #111827;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  line-height: 1;
+}
+
+
+/* =========================================
+   CAR ICON
+========================================= */
+
+.vehicle-table-icon {
+  flex: 0 0 24px;
+
+  width: 24px;
+  height: 24px;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 6px;
+
+  background: #111;
+
+  color: #fff;
+
+  font-size: 11px;
+}
+
+
+/* =========================================
+   ROW NUMBER
+========================================= */
+
+.vehicle-row-number {
+  margin: 0;
+  padding: 0;
+
+  color: #777;
+
+  font-size: 11px;
+
+  font-weight: 700;
+}
+
+
+/* =========================================
+   YEAR
+========================================= */
+
+.vehicle-year {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  min-width: 42px;
+
+  height: 23px;
+
+  margin: 0;
+  padding: 0 4px;
+
+  border-radius: 6px;
+
+  background: #ededed;
+
+  color: #222;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  line-height: 1;
+}
+
+
+/* =========================================
+   PRICE
+========================================= */
+
+.vehicle-table-price {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 2px;
+
+  margin: 0;
+  padding: 0;
+
+  direction: ltr;
+
+  white-space: nowrap;
+
+  line-height: 1;
+}
+
+
+/* قیمت */
+
+.vehicle-table-price strong {
+  margin: 0;
+  padding: 0;
+
+  font-size: 11px;
+
+  font-weight: 800;
+
+  line-height: 1;
+
+  font-variant-numeric: tabular-nums;
+}
+
+
+/* علامت پول */
+
+.price-currency {
+  margin: 0;
+  padding: 0;
+
+  font-size: 11px;
+
+  font-weight: 800;
+
+  line-height: 1;
+}
+
+
+/* دالر */
+
+.usd-price {
+  direction: ltr;
+}
+
+
+/* =========================================
+   SELECT BUTTON
+========================================= */
+
+.vehicle-table-select {
+  width: 24px;
+  height: 24px;
+
+  margin: 0;
+  padding: 0;
+
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #aaa;
+
+  border-radius: 6px;
+
+  background: #fff;
+
+  color: #fff;
+
+  cursor: pointer;
+
+  font-size: 10px;
+}
+
+
+/* selected */
+
+.vehicle-table-select.selected {
+  background: #111;
+
+  border-color: #111;
+}
+
+
+/* =========================================
+   SELECTED ROW
+========================================= */
+
+.vehicle-table-row-selected {
+  background: #e9e9e9 !important;
+}
+
+.vehicle-table-row-selected td:first-child {
+  box-shadow:
+    inset -3px 0 0 #111;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+  .vehicle-rates-list {
+    padding: 3px;
+
+    overflow: hidden;
+  }
+
+
+  .vehicle-rates-table-wrapper {
+    width: 100%;
+    height: 100%;
+
+    overflow: auto;
+
+    border-radius: 9px;
+  }
+
+
+  .vehicle-rates-table {
+    /*
+      مهم:
+      جدول در موبایل کوچک‌تر از این نشود،
+      بنابراین اگر لازم بود افقی اسکرول می‌شود.
+    */
+    min-width: 560px;
+
+    width: max-content;
+
+    table-layout: auto;
+  }
+
+
+  /* ================================
+     MOBILE HEADER
+  ================================= */
+
+  .vehicle-rates-table thead th {
+    position: sticky;
+    top: 0;
+
+    z-index: 100;
+
+    height: 32px;
+
+    padding: 2px 3px;
+
+    background: #111 !important;
+    color: #fff !important;
+
+    font-size: 10px;
+
+    line-height: 1;
+  }
+
+
+  /* ================================
+     MOBILE ROW
+  ================================= */
+
+  .vehicle-rates-table tbody tr {
+    height: 33px;
+  }
+
+
+  .vehicle-rates-table tbody td {
+    height: 33px;
+
+    padding: 1px 2px;
+
+    font-size: 10px;
+
+    line-height: 1;
+  }
+
+
+  /* ================================
+     MOBILE COLUMNS
+  ================================= */
+
+  .vehicle-rates-table .col-select {
+    width: 40px;
+
+    min-width: 40px;
+    max-width: 40px;
+  }
+
+
+  .vehicle-rates-table .col-number {
+    width: 28px;
+
+    min-width: 28px;
+    max-width: 28px;
+  }
+
+
+  .vehicle-rates-table .col-car {
+    width: 170px;
+
+    min-width: 170px;
+    max-width: 170px;
+  }
+
+
+  .vehicle-rates-table .col-year {
+    width: 52px;
+
+    min-width: 52px;
+    max-width: 52px;
+  }
+
+
+  .vehicle-rates-table .col-afn {
+    width: 110px;
+
+    min-width: 110px;
+  }
+
+
+  .vehicle-rates-table .col-usd {
+    width: 100px;
+
+    min-width: 100px;
+  }
+
+
+  /* ================================
+     MOBILE CAR
+  ================================= */
+
+  .vehicle-table-car {
+    gap: 2px;
+  }
+
+
+  .vehicle-table-icon {
+    flex: 0 0 22px;
+
+    width: 22px;
+    height: 22px;
+
+    border-radius: 5px;
+
+    font-size: 10px;
+  }
+
+
+  .vehicle-table-car strong {
+    font-size: 11px;
+
+    line-height: 1;
+  }
+
+
+  /* ================================
+     MOBILE YEAR
+  ================================= */
+
+  .vehicle-year {
+    min-width: 38px;
+
+    height: 21px;
+
+    padding: 0 3px;
+
+    font-size: 10px;
+  }
+
+
+  /* ================================
+     MOBILE PRICE
+  ================================= */
+
+  .vehicle-table-price {
+    gap: 1px;
+  }
+
+  .vehicle-table-price strong,
+  .price-currency {
+    font-size: 10px;
+  }
+
+
+  /* ================================
+     MOBILE SELECT
+  ================================= */
+
+  .vehicle-table-select {
+    width: 22px;
+    height: 22px;
+
+    border-radius: 5px;
+
+    font-size: 9px;
+  }
+}
+
+
+/* =========================================
+   VERY SMALL PHONES
+========================================= */
+
+@media (max-width: 360px) {
+
+  .vehicle-rates-table {
+    min-width: 520px;
+  }
+
+
+  .vehicle-rates-table .col-car {
+    width: 155px;
+
+    min-width: 155px;
+    max-width: 155px;
+  }
+
+
+  .vehicle-rates-table thead th {
+    font-size: 9px;
+  }
+
+
+  .vehicle-rates-table tbody td {
+    font-size: 9px;
+  }
+
+
+  .vehicle-table-icon {
+    display: none;
+  }
+
+
+  .vehicle-table-car strong {
+    font-size: 10px;
+  }
+
+
+  .vehicle-table-price strong,
+  .price-currency {
+    font-size: 9px;
+  }
+}
+
+/* =========================================
+   MOBILE - ULTRA COMPACT
+========================================= */
+
+@media (max-width: 600px) {
+
+  .vehicle-rates-list {
+    padding: 1px;
+    overflow: hidden;
+  }
+
+  .vehicle-rates-table-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    border-radius: 7px;
+  }
+
+  .vehicle-rates-table {
+    min-width: 450px;
+    width: max-content;
+    table-layout: fixed;
+  }
+
+  /* ================================
+     HEADER
+  ================================= */
+
+  .vehicle-rates-table thead th {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    height: 27px;
+
+    padding: 1px 1px;
+
+    font-size: 9px;
+    line-height: 1;
+
+    background: #111 !important;
+    color: #fff !important;
+  }
+
+  /* ================================
+     ROW
+  ================================= */
+
+  .vehicle-rates-table tbody tr {
+    height: 29px;
+  }
+
+  .vehicle-rates-table tbody td {
+    height: 29px;
+
+    padding: 0 1px;
+
+    font-size: 9px;
+    line-height: 1;
+
+    border-bottom: 1px solid #ededed;
+  }
+
+  /* ================================
+     SELECT
+  ================================= */
+
+  .vehicle-rates-table .col-select {
+    width: 30px;
+    min-width: 30px;
+    max-width: 30px;
+  }
+
+  /* ================================
+     NUMBER
+  ================================= */
+
+  .vehicle-rates-table .col-number {
+    width: 22px;
+    min-width: 22px;
+    max-width: 22px;
+  }
+
+  /* ================================
+     CAR
+  ================================= */
+
+  .vehicle-rates-table .col-car {
+    width: 135px;
+    min-width: 135px;
+    max-width: 135px;
+  }
+
+  /* ================================
+     YEAR
+  ================================= */
+
+  .vehicle-rates-table .col-year {
+    width: 45px;
+    min-width: 45px;
+    max-width: 45px;
+  }
+
+  /* ================================
+     AFN
+  ================================= */
+
+  .vehicle-rates-table .col-afn {
+    width: 90px;
+    min-width: 90px;
+    max-width: 90px;
+  }
+
+  /* ================================
+     USD
+  ================================= */
+
+  .vehicle-rates-table .col-usd {
+    width: 80px;
+    min-width: 80px;
+    max-width: 80px;
+  }
+
+  /* ================================
+     CAR
+  ================================= */
+
+  .vehicle-table-car {
+    gap: 1px;
+    width: 100%;
+  }
+
+  .vehicle-table-icon {
+    flex: 0 0 18px;
+
+    width: 18px;
+    height: 18px;
+
+    border-radius: 4px;
+
+    font-size: 8px;
+  }
+
+  .vehicle-table-car strong {
+    font-size: 9px;
+    line-height: 1;
+  }
+
+  /* ================================
+     NUMBER
+  ================================= */
+
+  .vehicle-row-number {
+    font-size: 8px;
+  }
+
+  /* ================================
+     YEAR
+  ================================= */
+
+  .vehicle-year {
+    min-width: 32px;
+    height: 18px;
+
+    padding: 0 2px;
+
+    border-radius: 4px;
+
+    font-size: 8px;
+  }
+
+  /* ================================
+     PRICE
+  ================================= */
+
+  .vehicle-table-price {
+    gap: 1px;
+  }
+
+  .vehicle-table-price strong,
+  .price-currency {
+    font-size: 8px;
+  }
+
+  /* ================================
+     SELECT BUTTON
+  ================================= */
+
+  .vehicle-table-select {
+    width: 18px;
+    height: 18px;
+
+    border-radius: 4px;
+
+    font-size: 8px;
+  }
+}
+
+
+/* =========================================
+   VERY SMALL PHONES
+========================================= */
+
+@media (max-width: 360px) {
+
+  .vehicle-rates-table {
+    min-width: 405px;
+  }
+
+  .vehicle-rates-table thead th {
+    height: 25px;
+    padding: 0 1px;
+    font-size: 8px;
+  }
+
+  .vehicle-rates-table tbody tr {
+    height: 27px;
+  }
+
+  .vehicle-rates-table tbody td {
+    height: 27px;
+    padding: 0 1px;
+    font-size: 8px;
+  }
+
+  .vehicle-rates-table .col-select {
+    width: 27px;
+    min-width: 27px;
+    max-width: 27px;
+  }
+
+  .vehicle-rates-table .col-number {
+    width: 20px;
+    min-width: 20px;
+    max-width: 20px;
+  }
+
+  .vehicle-rates-table .col-car {
+    width: 120px;
+    min-width: 120px;
+    max-width: 120px;
+  }
+
+  .vehicle-rates-table .col-year {
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+  }
+
+  .vehicle-rates-table .col-afn {
+    width: 82px;
+    min-width: 82px;
+    max-width: 82px;
+  }
+
+  .vehicle-rates-table .col-usd {
+    width: 74px;
+    min-width: 74px;
+    max-width: 74px;
+  }
+
+  .vehicle-table-icon {
+    display: none;
+  }
+
+  .vehicle-table-car strong {
+    font-size: 8px;
+  }
+
+  .vehicle-row-number {
+    font-size: 7px;
+  }
+
+  .vehicle-year {
+    min-width: 29px;
+    height: 17px;
+    font-size: 7px;
+  }
+
+  .vehicle-table-price strong,
+  .price-currency {
+    font-size: 7px;
+  }
+
+  .vehicle-table-select {
+    width: 17px;
+    height: 17px;
+    font-size: 7px;
+  }
 }

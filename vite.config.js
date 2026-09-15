@@ -24,17 +24,18 @@ export default defineConfig({
 
         theme_color: '#ffffff',
         background_color: '#ffffff',
+        lang: 'en',
 
         icons: [
           {
             src: '/mtm-price-app/logo3.jpg',
             sizes: '192x192',
-            type: 'image/png',
+            type: 'image/jpeg',
           },
           {
             src: '/mtm-price-app/logo3.jpg',
             sizes: '512x512',
-            type: 'image/png',
+            type: 'image/jpeg',
           },
         ],
       },

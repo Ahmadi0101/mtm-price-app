@@ -450,8 +450,11 @@ function App() {
 
         <div className="vehicle-rates-search">
           <FaSearch />
+
           <input
-            type="text"
+            type="search"
+            inputMode="search"
+            enterKeyHint="search"
             placeholder="... جستجوی شهر، برنچ، ایالت یا پورت"
             value={search}
             onChange={(e) => handleSearch(e.target.value)}
