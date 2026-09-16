@@ -42,48 +42,48 @@ export default function Calculator({
   // وقتی موتر انتخاب / حذف می‌شود
   // ==========================================
 
-useEffect(() => {
-  setExtraCosts((prev) => {
-    // اگر موتر انتخاب نشده، ردیف گمرک حذف شود
-    if (!selectedVehicle || customsVehiclePrice <= 0) {
-      return prev.filter((item) => item.type !== 'customs');
-    }
+  useEffect(() => {
+    setExtraCosts((prev) => {
+      // اگر موتر انتخاب نشده، ردیف گمرک حذف شود
+      if (!selectedVehicle || customsVehiclePrice <= 0) {
+        return prev.filter((item) => item.type !== 'customs');
+      }
 
-    const customsIndex = prev.findIndex((item) => item.type === 'customs');
+      const customsIndex = prev.findIndex((item) => item.type === 'customs');
 
-    // اگر ردیف گمرک وجود ندارد، ایجاد شود
-    if (customsIndex === -1) {
-      return [
-        {
-          id: 'customs-product',
+      // اگر ردیف گمرک وجود ندارد، ایجاد شود
+      if (customsIndex === -1) {
+        return [
+          {
+            id: 'customs-product',
+            name: 'محصول گمرک',
+            value: customsVehiclePrice,
+            type: 'customs',
+            vehicleId: selectedVehicle.id,
+          },
+          ...prev,
+        ];
+      }
+
+      // اگر موتر جدید انتخاب شده، قیمت و مشخصات اولیه ردیف گمرک آپدیت شود
+      const currentCustoms = prev[customsIndex];
+
+      if (currentCustoms.vehicleId !== selectedVehicle.id) {
+        const updated = [...prev];
+
+        updated[customsIndex] = {
+          ...currentCustoms,
           name: 'محصول گمرک',
           value: customsVehiclePrice,
-          type: 'customs',
           vehicleId: selectedVehicle.id,
-        },
-        ...prev,
-      ];
-    }
+        };
 
-    // اگر موتر جدید انتخاب شده، قیمت و مشخصات اولیه ردیف گمرک آپدیت شود
-    const currentCustoms = prev[customsIndex];
+        return updated;
+      }
 
-    if (currentCustoms.vehicleId !== selectedVehicle.id) {
-      const updated = [...prev];
-
-      updated[customsIndex] = {
-        ...currentCustoms,
-        name: 'محصول گمرک',
-        value: customsVehiclePrice,
-        vehicleId: selectedVehicle.id,
-      };
-
-      return updated;
-    }
-
-    return prev;
-  });
-}, [selectedVehicle, selectedVehiclePriceUsd]);
+      return prev;
+    });
+  }, [selectedVehicle, selectedVehiclePriceUsd]);
 
   // ==========================================
   // SAVED
@@ -298,7 +298,7 @@ useEffect(() => {
   };
 
   // ==========================================
-  // UI
+  // UI →  ←
   // ==========================================
 
   return (
@@ -318,9 +318,9 @@ useEffect(() => {
               <h2>محاسبه قیمت انتقال</h2>
 
               <p>
-                {selectedPort?.name || '-'}
-                <span> ← </span>
                 {location?.city || '-'}
+                <span> → </span>
+                {selectedPort?.name || '-'}
               </p>
             </div>
           </div>
@@ -449,9 +449,6 @@ useEffect(() => {
             </div>
 
             <div className="section-actions">
-             
-
-            
               {/* --------------------------------
                   NORMAL COST
               -------------------------------- */}

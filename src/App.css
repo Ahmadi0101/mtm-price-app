@@ -39,7 +39,6 @@ button {
   min-height: 100vh;
 }
 
-
 /* =========================================
    HEADER
 ========================================= */
@@ -75,7 +74,6 @@ button {
   gap: 10px;
 }
 
-
 /* =========================================
    LOGO
 ========================================= */
@@ -104,7 +102,6 @@ button {
   object-fit: contain;
 }
 
-
 /* =========================================
    UPDATE STATUS
 ========================================= */
@@ -126,7 +123,6 @@ button {
   text-align: right;
   direction: rtl;
 }
-
 
 /* =========================================
    HEADER TITLE
@@ -154,7 +150,6 @@ button {
   line-height: 1.2;
 }
 
-
 /* =========================================
    MAIN CONTAINER
 ========================================= */
@@ -167,7 +162,6 @@ button {
 
   padding: 18px;
 }
-
 
 /* =========================================
    MAIN SEARCH
@@ -222,7 +216,6 @@ button {
     0 5px 18px rgba(0, 0, 0, 0.08);
 }
 
-
 /* =========================================
    SEARCH CLEAR
 ========================================= */
@@ -261,7 +254,6 @@ button {
   color: #111827;
 }
 
-
 /* =========================================
    RESULT COUNT
 ========================================= */
@@ -276,7 +268,6 @@ button {
 
   padding: 0 3px;
 }
-
 
 /* =========================================
    MAP
@@ -319,7 +310,6 @@ button {
   height: 100%;
 }
 
-
 /* =========================================
    LEAFLET
 ========================================= */
@@ -341,7 +331,6 @@ button {
   direction: ltr;
   text-align: left;
 }
-
 
 /* =========================================
    LOCATION CARD
@@ -380,7 +369,6 @@ button {
   box-shadow:
     0 8px 28px rgba(17, 24, 39, 0.14);
 }
-
 
 /* =========================================
    LOCATION HEADER
@@ -433,7 +421,6 @@ button {
   font-weight: bold;
 }
 
-
 /* =========================================
    LOCATION SOURCE
 ========================================= */
@@ -481,7 +468,6 @@ button {
 .location-source:not(.source-copart):not(.source-iaai) {
   background: #111;
 }
-
 
 /* =========================================
    LOCATION INFO
@@ -635,7 +621,6 @@ button {
   -webkit-backdrop-filter: blur(8px);
 }
 
-
 /* =========================================
    PORT CARD
 ========================================= */
@@ -661,7 +646,6 @@ button {
 
   font-size: 14px;
 }
-
 
 /* =========================================
    PRICE GRID
@@ -742,7 +726,6 @@ button {
   pointer-events: none;
 }
 
-
 /* =========================================
    CLICKABLE TOTAL
 ========================================= */
@@ -764,7 +747,6 @@ button {
   transform: scale(0.96);
 }
 
-
 /* =========================================
    COORDINATES
 ========================================= */
@@ -784,7 +766,6 @@ button {
 
   text-align: left;
 }
-
 
 /* =========================================
    LOCATIONS
@@ -816,7 +797,6 @@ button {
   padding-bottom: 5px;
 }
 
-
 /* =========================================
    SCROLLBAR
 ========================================= */
@@ -840,7 +820,6 @@ button {
 .locations-scroll::-webkit-scrollbar-thumb:hover {
   background: rgba(37, 99, 235, 0.7);
 }
-
 
 /* =========================================
    NO RESULT
@@ -884,7 +863,6 @@ button {
 .no-result span {
   font-size: 12px;
 }
-
 
 /* =========================================
    MAP PORT ICON
@@ -950,7 +928,6 @@ button {
 .port-pin.selected .port-pin-icon {
   font-size: 18px;
 }
-
 
 /* =========================================
    MAP POPUP
@@ -1074,7 +1051,6 @@ button {
   background: rgba(37, 99, 235, 0.7);
 }
 
-
 /* =========================================
    SELECTED PORT
 ========================================= */
@@ -1087,7 +1063,6 @@ button {
   box-shadow:
     0 0 0 2px rgba(33, 150, 243, 0.25);
 }
-
 
 /* =========================================
    CALCULATOR OVERLAY
@@ -1114,7 +1089,6 @@ button {
 
   overflow-y: auto;
 }
-
 
 /* =========================================
    CALCULATOR
@@ -1162,7 +1136,6 @@ button {
       scale(1);
   }
 }
-
 
 /* =========================================
    CALCULATOR HEADER
@@ -1234,7 +1207,6 @@ button {
   color: #94a3b8;
 }
 
-
 /* =========================================
    CLOSE BUTTON
 ========================================= */
@@ -1267,7 +1239,6 @@ button {
 
   transform: scale(1.05);
 }
-
 
 /* =========================================
    CALCULATOR LOCATION
@@ -1321,7 +1292,6 @@ button {
   font-size: 13px;
 }
 
-
 /* =========================================
    PORT SELECTOR
 ========================================= */
@@ -1371,7 +1341,6 @@ button {
     0 0 0 3px rgba(100, 116, 139, 0.12);
 }
 
-
 /* =========================================
    SELECTED PORT INFO
 ========================================= */
@@ -1417,7 +1386,6 @@ button {
 
   font-size: 15px;
 }
-
 
 /* =========================================
    PRICE CARD
@@ -1505,7 +1473,6 @@ button {
   direction: ltr;
 }
 
-
 /* =========================================
    CALCULATOR ROW
 ========================================= */
@@ -1528,7 +1495,6 @@ button {
 .calculator-row strong {
   white-space: nowrap;
 }
-
 
 /* =========================================
    BASE TOTAL
@@ -1582,7 +1548,6 @@ button {
   direction: ltr;
 }
 
-
 /* =========================================
    DIVIDER
 ========================================= */
@@ -1594,7 +1559,6 @@ button {
 
   margin: 8px 0;
 }
-
 
 /* =========================================
    EXTRA SECTION
@@ -1665,7 +1629,6 @@ button {
 .add-cost-small:hover {
   background: #334155;
 }
-
 
 /* =========================================
    EXTRA COSTS
@@ -1785,7 +1748,6 @@ button {
   text-align: left;
 }
 
-
 /* =========================================
    REMOVE COST
 ========================================= */
@@ -1819,7 +1781,6 @@ button {
   transform: scale(0.92);
 }
 
-
 /* =========================================
    ADD COST
 ========================================= */
@@ -1849,7 +1810,6 @@ button {
 .add-cost:hover {
   background: #f3f4f6;
 }
-
 
 /* =========================================
    EXTRA TOTAL
@@ -1882,7 +1842,6 @@ button {
 
   direction: ltr;
 }
-
 
 /* =========================================
    GRAND TOTAL
@@ -1939,7 +1898,6 @@ button {
   white-space: nowrap;
 }
 
-
 /* =========================================
    SAVE BUTTON
 ========================================= */
@@ -1978,7 +1936,6 @@ button {
   background: #166534;
 }
 
-
 /* =========================================
    DONE BUTTON
 ========================================= */
@@ -2011,7 +1968,6 @@ button {
 
   color: #334155;
 }
-
 
 /* =========================================
    FLOATING CUSTOMS BUTTON
@@ -2105,7 +2061,6 @@ button {
   transform: scale(0.93);
 }
 
-
 /* =========================================
    VEHICLE RATES OVERLAY
 ========================================= */
@@ -2151,7 +2106,6 @@ button {
     0 25px 70px rgba(0, 0, 0, 0.3),
     0 5px 20px rgba(0, 0, 0, 0.15);
 }
-
 
 /* =========================================
    VEHICLE RATES HEADER
@@ -2245,7 +2199,6 @@ button {
   transform: rotate(90deg);
 }
 
-
 /* =========================================
    VEHICLE DOLLAR RATE
 ========================================= */
@@ -2310,7 +2263,6 @@ button {
 
   font-variant-numeric: tabular-nums;
 }
-
 
 /* =========================================
    VEHICLE SEARCH
@@ -2404,7 +2356,6 @@ button {
   cursor: pointer;
 }
 
-
 /* =========================================
    VEHICLE SEARCH SUGGESTIONS
    فقط نام موتر
@@ -2471,12 +2422,9 @@ button {
   background: rgba(0, 0, 0, 0.35);
 }
 
-
 /* =========================================
    SUGGESTION ITEM
 ========================================= */
-
-
 
 .vehicle-search-suggestion {
   position: relative;
@@ -2553,9 +2501,6 @@ button {
   background: rgba(0, 0, 0, 0.08);
 }
 
- 
-
-
 /* =========================================
    SUGGESTION NAME
    فقط نام
@@ -2608,7 +2553,6 @@ button {
   line-height: 1;
 }
 
-
 /* =========================================
    SUGGESTION ANIMATION
 ========================================= */
@@ -2631,7 +2575,6 @@ button {
   }
 }
 
-
 /* =========================================
    VEHICLE COUNT
 ========================================= */
@@ -2649,7 +2592,6 @@ button {
 
   text-align: right;
 }
-
 
 /* =========================================
    VEHICLE RATES LIST
@@ -2671,7 +2613,6 @@ button {
   direction: rtl;
 }
 
-
 /* =========================================
    VEHICLE TABLE WRAPPER
 ========================================= */
@@ -2692,118 +2633,1260 @@ button {
   box-shadow:
     0 4px 14px rgba(0, 0, 0, 0.08);
 }
+/* =========================================================
+   GLOBAL
+========================================================= */
 
+* {
+  box-sizing: border-box;
+}
 
-/* =========================================
-   VEHICLE TABLE
-========================================= */
-
-.vehicle-rates-table {
+html,
+body,
+#root {
   width: 100%;
-
-  max-width: 100%;
-
-  min-width: 0;
-
-  table-layout: fixed;
-
-  border-collapse: collapse;
-
-  direction: rtl;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  touch-action: pan-x pan-y;
 }
 
-.vehicle-rates-table thead th {
-  height: 48px;
-
-  padding: 6px 8px;
-
-  background: #111;
-
-  color: #fff;
-
-  font-size: 14px;
-
-  font-weight: 700;
-
-  text-align: center;
-
-  white-space: nowrap;
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #111827;
 }
 
-.vehicle-rates-table tbody tr {
+button,
+input,
+select {
+  font-family: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+
+/* =========================================================
+   MAIN HEADER
+========================================================= */
+
+.header {
+  width: 100%;
   height: 58px;
+  min-height: 58px;
+  max-height: 58px;
 
-  transition: background 0.15s ease;
-}
+  padding: 0 12px;
 
-.vehicle-rates-table tbody tr:nth-child(even) {
-  background: #f7f7f7;
-}
+  background: #fbfbfb;
+  color: #000;
 
-.vehicle-rates-table tbody tr:hover {
-  background: #eeeeee;
-}
-
-.vehicle-rates-table td {
-  padding: 5px 7px;
-
-  text-align: center;
-
-  font-size: 14px;
-
-  color: #222;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
 
   overflow: hidden;
 }
 
+.header-content {
+  width: 100%;
+  max-width: 1400px;
+  height: 100%;
 
-/* =========================================
-   TABLE COLUMNS
-========================================= */
+  margin: 0 auto;
 
-.vehicle-rates-table .col-select {
-  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  direction: ltr;
+  gap: 10px;
 }
 
-.vehicle-rates-table .col-number {
-  width: 45px;
+.header-logo {
+  height: 100%;
+  min-width: 0;
+
+  display: flex;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
 }
 
- 
+.header-logo-image {
+  display: block;
 
-.vehicle-rates-table .col-year {
-  width: 70px;
+  width: auto;
+  height: 52px;
+
+  max-width: 170px;
+
+  object-fit: contain;
 }
 
-.vehicle-rates-table .col-afn {
-  width: 25%;
+.update-status {
+  flex-shrink: 0;
+
+  padding: 5px 8px;
+
+  border-radius: 8px;
+
+  color: #475569;
+
+  font-size: 10px;
+  line-height: 1.2;
+
+  white-space: nowrap;
+
+  text-align: right;
+  direction: rtl;
 }
 
-.vehicle-rates-table .col-usd {
-  width: 22%;
+.header-title {
+  min-width: 0;
+  text-align: right;
+}
+
+.header h1 {
+  margin: 0;
+
+  font-size: 19px;
+  line-height: 1.15;
+  font-weight: 800;
+}
+
+.header p {
+  margin: 2px 0 0;
+
+  color: #64748b;
+
+  font-size: 10px;
+  line-height: 1.2;
 }
 
 
-/* =========================================
-   VEHICLE NAME
-========================================= */
+/* =========================================================
+   MAIN CONTAINER
+========================================================= */
 
-.vehicle-table-car {
+.container {
+  width: 100%;
+  max-width: 760px;
+
+  margin: auto;
+
+  padding: 18px;
+}
+
+
+/* =========================================================
+   MAIN SEARCH
+========================================================= */
+
+.search-box {
+  position: sticky;
+  top: 10px;
+
+  z-index: 1000;
+
+  margin-bottom: 15px;
+}
+
+.search-box input {
+  width: 100%;
+  height: 52px;
+
+  border: 1px solid #d1d5db;
+
+  background: rgba(255, 255, 255, 0.96);
+  color: #111827;
+
+  border-radius: 15px;
+
+  padding: 0 48px 0 47px;
+
+  font-size: 15px;
+
+  outline: none;
+
+  direction: ltr;
+  text-align: left;
+
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+
+  transition: 0.2s;
+}
+
+.search-box input::placeholder {
+  color: #9ca3af;
+  direction: rtl;
+  text-align: right;
+}
+
+.search-box input:focus {
+  border-color: #111827;
+
+  box-shadow:
+    0 0 0 3px rgba(17, 24, 39, 0.08),
+    0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+.clear-search {
+  position: absolute;
+
+  right: 10px;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  width: 30px;
+  height: 30px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #f1f5f9;
+  color: #475569;
+
+  font-size: 20px;
+  line-height: 1;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.2s;
+}
+
+.clear-search:hover {
+  background: #e2e8f0;
+  color: #111827;
+}
+
+.result-count {
+  font-size: 13px;
+  color: #6b7280;
+
+  text-align: right;
+
+  margin-bottom: 12px;
+
+  padding: 0 3px;
+}
+
+
+/* =========================================================
+   MAP
+========================================================= */
+
+.map-section {
+  width: 100%;
+  height: 420px;
+
+  margin-bottom: 20px;
+
+  border-radius: 18px;
+
+  overflow: hidden;
+}
+
+.map-section .map-wrapper,
+.map-section .map {
+  width: 100%;
+  height: 100%;
+}
+
+.map-wrapper {
+  width: 100%;
+  height: 400px;
+
+  margin-bottom: 18px;
+
+  border-radius: 20px;
+
+  overflow: hidden;
+
+  background: #e5e7eb;
+
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.08);
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* =========================================================
+   LEAFLET
+========================================================= */
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+
+  font-family: Arial, sans-serif;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 14px;
+}
+
+.leaflet-popup-content {
+  margin: 12px 14px;
+
+  direction: ltr;
+  text-align: left;
+}
+
+
+/* =========================================================
+   LOCATION CARD
+========================================================= */
+
+.location-card {
+  background: #fff;
+
+  border-radius: 20px;
+
+  padding: 17px;
+
+  margin-bottom: 15px;
+
+  border: 2px solid transparent;
+
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.07);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.location-card:hover {
+  box-shadow: 0 9px 28px rgba(0, 0, 0, 0.1);
+}
+
+.location-card:active {
+  transform: scale(0.995);
+}
+
+.selected-location {
+  border-color: #111827;
+
+  box-shadow:
+    0 8px 28px rgba(17, 24, 39, 0.14);
+}
+
+
+/* =========================================================
+   LOCATION HEADER
+========================================================= */
+
+.location-header {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-start;
+
+  gap: 12px;
+
+  margin-bottom: 15px;
+}
+
+.location-header h2 {
+  margin: 0;
+
+  color: #111827;
+
+  font-size: 21px;
+  line-height: 1.2;
+
+  font-weight: 800;
+}
+
+.location-header span {
+  display: block;
+
+  margin-top: 5px;
+
+  color: #6b7280;
+
+  font-size: 13px;
+}
+
+.branch {
+  flex-shrink: 0;
+
+  background: #eef2ff;
+  color: #3730a3;
+
+  border-radius: 9px;
+
+  padding: 7px 10px;
+
+  font-size: 12px;
+
+  font-weight: bold;
+}
+
+.location-header-right {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-end;
+
+  gap: 7px;
+}
+
+.location-source {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 5px 11px;
+
+  border-radius: 8px;
+
+  font-size: 11px;
+  font-weight: 900;
+
+  color: #fff;
+
+  line-height: 1;
+
+  min-width: 58px;
+
+  letter-spacing: 0.4px;
+}
+
+.location-source.source-copart {
+  background: #2563eb;
+}
+
+.location-source.source-iaai {
+  background: #dc2626;
+}
+
+.location-source:not(.source-copart):not(.source-iaai) {
+  background: #111;
+}
+
+
+/* =========================================================
+   SELECTED LOCATION
+========================================================= */
+
+.selected-location-info {
+  min-width: 0;
+
   display: flex;
 
   align-items: center;
 
-  justify-content: flex-start;
+  gap: 8px;
 
-  gap: 2px;
+  direction: rtl;
+}
+
+.selected-location-icon {
+  width: 30px;
+  height: 30px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 9px;
+
+  background: rgba(0, 0, 0, 0.045);
+
+  font-size: 15px;
+}
+
+.selected-location-text {
+  min-width: 0;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 7px;
+
+  direction: rtl;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+.selected-location-text strong,
+.selected-location-text span {
+  color: white;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+.selected-location-text strong {
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.selected-location-text span {
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.selected-location-clear {
+  width: 27px;
+  height: 27px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 4px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: rgba(0, 0, 0, 0.055);
+
+  color: white;
+
+  font-size: 19px;
+  font-weight: 500;
+
+  line-height: 1;
+
+  cursor: pointer;
+
+  transition:
+    background 0.18s ease,
+    color 0.18s ease,
+    transform 0.18s ease;
+}
+
+.selected-location-clear:hover {
+  background: #fff;
+  color: #700e0e;
+  transform: scale(1.05);
+}
+
+.selected-location-clear:active {
+  transform: scale(0.94);
+}
+
+.selected-location-filter {
+  width: fit-content;
+  max-width: 100%;
+  height: 34px;
+
+  margin-bottom: 3px;
+  margin-left: auto;
+  margin-right: 0;
+
+  display: flex;
+
+  align-items: center;
+
+  padding: 4px 6px 4px 7px;
+
+  border-radius: 10px;
+
+  background: rgba(0, 0, 0, 0.68);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  color: #fff;
+
+  direction: rtl;
+
+  box-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+
+/* =========================================================
+   PORT CARD
+========================================================= */
+
+.port-card {
+  border: 1px solid #e5e7eb;
+
+  background: #fafafa;
+
+  border-radius: 15px;
+
+  padding: 13px;
+
+  margin-top: 10px;
+}
+
+.port-name {
+  font-weight: 800;
+
+  color: #111827;
+
+  margin-bottom: 12px;
+
+  font-size: 14px;
+}
+
+
+/* =========================================================
+   PRICE GRID
+========================================================= */
+
+.prices {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 8px;
+}
+
+.prices div {
+  min-width: 0;
+
+  background: #f3f4f6;
+
+  border-radius: 10px;
+
+  padding: 10px 7px;
+
+  text-align: center;
+
+  transition: 0.2s;
+}
+
+.prices span {
+  display: block;
+
+  font-size: 11px;
+
+  color: #6b7280;
+
+  margin-bottom: 5px;
+}
+
+.prices strong {
+  display: block;
+
+  font-size: 13px;
+
+  font-weight: 800;
+
+  white-space: nowrap;
+}
+
+.prices .total {
+  position: relative;
+
+  overflow: hidden;
+
+  background: #ecfdf5;
+}
+
+.prices .total span {
+  color: #047857;
+
+  font-weight: 700;
+}
+
+.prices .total strong {
+  color: #047857;
+
+  font-size: 14px;
+}
+
+.total-calculator-bg {
+  position: absolute;
+
+  top: 7px;
+  right: 8px;
+
+  font-size: 22px;
+
+  opacity: 0.7;
+
+  pointer-events: none;
+}
+
+.clickable-total {
+  cursor: pointer;
+  user-select: none;
+}
+
+.clickable-total:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 4px 12px rgba(4, 120, 87, 0.12);
+}
+
+.clickable-total:active {
+  transform: scale(0.96);
+}
+
+
+/* =========================================================
+   COORDINATES
+========================================================= */
+
+.coordinates {
+  margin-top: 13px;
+
+  padding-top: 10px;
+
+  border-top: 1px solid #f0f0f0;
+
+  font-size: 10px;
+
+  color: #9ca3af;
+
+  direction: ltr;
+
+  text-align: left;
+}
+
+
+/* =========================================================
+   LOCATIONS
+========================================================= */
+
+.locations-scroll {
+  width: 100%;
+
+  max-height: 520px;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  padding: 5px 8px 20px 5px;
+
+  scroll-behavior: smooth;
+}
+
+.locations {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(320px, 1fr));
+
+  gap: 16px;
+
+  padding-bottom: 5px;
+}
+
+.locations-scroll::-webkit-scrollbar {
+  width: 7px;
+}
+
+.locations-scroll::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.04);
+
+  border-radius: 20px;
+}
+
+.locations-scroll::-webkit-scrollbar-thumb {
+  background: rgba(37, 99, 235, 0.45);
+
+  border-radius: 20px;
+}
+
+.locations-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(37, 99, 235, 0.7);
+}
+
+
+/* =========================================================
+   NO RESULT
+========================================================= */
+
+.no-result {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 6px;
+
+  padding: 40px 20px;
+
+  text-align: center;
+
+  background: #fff;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 18px;
+
+  color: #64748b;
+}
+
+.no-result div {
+  font-size: 30px;
+  margin-bottom: 4px;
+}
+
+.no-result strong {
+  color: #111827;
+  font-size: 16px;
+}
+
+.no-result span {
+  font-size: 12px;
+}
+
+
+/* =========================================================
+   MAP PORT ICON
+========================================================= */
+
+.port-pin-wrapper {
+  background: transparent !important;
+  border: none !important;
+}
+
+.port-pin {
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+
+  background: #2563eb;
+
+  border: 2px solid #fff;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  box-shadow:
+    0 2px 7px rgba(0, 0, 0, 0.3);
+
+  pointer-events: auto;
+}
+
+.port-pin.selected {
+  width: 34px;
+  height: 34px;
+
+  background: #dc3838;
+
+  border: 3px solid #fff;
+
+  box-shadow:
+    0 0 0 4px rgba(220, 56, 56, 0.2),
+    0 3px 9px rgba(0, 0, 0, 0.35);
+}
+
+.port-pin-icon {
+  color: #fff;
+
+  font-size: 16px;
+  line-height: 1;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  user-select: none;
+}
+
+.port-pin.selected .port-pin-icon {
+  font-size: 18px;
+}
+
+
+/* =========================================================
+   MAP POPUP
+========================================================= */
+
+.map-popup {
+  font-family: Arial, sans-serif;
+}
+
+.popup-title {
+  font-size: 18px;
+
+  font-weight: 700;
+
+  text-align: left;
+
+  margin-bottom: 3px;
+}
+
+.popup-state {
+  font-size: 13px;
+
+  color: #555;
+
+  margin-bottom: 5px;
+}
+
+.popup-branch {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.popup-divider {
+  height: 1px;
+
+  background: #ddd;
+
+  margin: 10px 0;
+}
+
+.popup-port {
+  padding: 8px 0;
+}
+
+.popup-port-name {
+  font-size: 14px;
+
+  font-weight: 800;
+
+  margin-bottom: 8px;
+}
+
+.popup-price {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 20px;
+
+  padding: 3px 0;
+
+  font-size: 13px;
+}
+
+.popup-price strong {
+  font-weight: 800;
+}
+
+.popup-total {
+  margin-top: 4px;
+
+  padding: 7px 8px;
+
+  border-radius: 8px;
+
+  background: #f1f5f9;
+
+  font-size: 14px;
+}
+
+.popup-total strong {
+  font-size: 15px;
+}
+
+.popup-coordinates {
+  margin-top: 8px;
+
+  padding-top: 7px;
+
+  border-top: 1px solid #eee;
+
+  font-size: 10px;
+
+  color: #777;
+}
+
+.popup-port-list {
+  max-height: 230px;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.popup-port-list::-webkit-scrollbar {
+  width: 5px;
+}
+
+.popup-port-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.popup-port-list::-webkit-scrollbar-thumb {
+  background: rgba(37, 99, 235, 0.4);
+
+  border-radius: 10px;
+}
+
+.popup-port-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(37, 99, 235, 0.7);
+}
+
+.selected-port {
+  border-color: #2196f3 !important;
+
+  background: rgba(33, 150, 243, 0.12) !important;
+
+  box-shadow:
+    0 0 0 2px rgba(33, 150, 243, 0.25);
+}
+
+
+/* =========================================================
+   CALCULATOR OVERLAY
+========================================================= */
+
+.calculator-overlay {
+  position: fixed;
+
+  inset: 0;
+
+  z-index: 9999;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+
+  background: rgba(15, 23, 42, 0.55);
+
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  overflow-y: auto;
+}
+
+
+/* =========================================================
+   CALCULATOR
+========================================================= */
+
+.calculator {
+  width: 100%;
+  max-width: 520px;
+
+  max-height: calc(100vh - 30px);
+
+  overflow-y: auto;
+
+  background: #f8fafc;
+
+  border: 1px solid rgba(255, 255, 255, 0.8);
+
+  border-radius: 24px;
+
+  padding: 20px;
+
+  direction: rtl;
+
+  box-shadow:
+    0 25px 70px rgba(0, 0, 0, 0.25);
+
+  animation: calculatorOpen 0.22s ease;
+}
+
+@keyframes calculatorOpen {
+  from {
+    opacity: 0;
+
+    transform:
+      translateY(15px)
+      scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+
+    transform:
+      translateY(0)
+      scale(1);
+  }
+}
+
+
+/* =========================================================
+   CALCULATOR HEADER
+========================================================= */
+
+.calculator-header {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 15px;
+
+  margin-bottom: 18px;
+}
+
+.calculator-header-info {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
 
   min-width: 0;
 }
 
-.vehicle-table-car strong {
+.calculator-title-icon {
+  width: 46px;
+  height: 46px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #111827;
+
+  color: #fff;
+
+  border-radius: 14px;
+
+  font-size: 22px;
+}
+
+.calculator-header h2 {
+  margin: 0;
+
+  color: #111827;
+
+  font-size: 20px;
+
+  font-weight: 800;
+}
+
+.calculator-header p {
+  margin: 4px 0 0;
+
+  color: #64748b;
+
+  font-size: 13px;
+}
+
+.calculator-header p span {
+  margin: 0 4px;
+
+  color: #94a3b8;
+}
+
+
+/* =========================================================
+   CLOSE BUTTON
+========================================================= */
+
+.close-button {
+  width: 38px;
+  height: 38px;
+
+  flex-shrink: 0;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: #e2e8f0;
+
+  color: #334155;
+
+  font-size: 24px;
+
+  line-height: 1;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.close-button:hover {
+  background: #cbd5e1;
+
+  transform: scale(1.05);
+}
+
+
+/* =========================================================
+   CALCULATOR LOCATION
+========================================================= */
+
+.calculator-location {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 8px;
+
+  margin-bottom: 12px;
+}
+
+.location-item {
+  min-width: 0;
+
+  padding: 11px;
+
+  background: #fff;
+
+  border: 1px solid #e2e8f0;
+
+  border-radius: 13px;
+}
+
+.location-item span {
   display: block;
 
-  min-width: 0;
+  margin-bottom: 4px;
+
+  color: #64748b;
+
+  font-size: 14px;
+
+  font-weight: 700;
+}
+
+.location-item strong {
+  display: block;
 
   overflow: hidden;
 
@@ -2811,53 +3894,1696 @@ button {
 
   white-space: nowrap;
 
-  font-size: 14px;
+  color: #1e293b;
+
+  font-size: 13px;
+}
+
+
+/* =========================================================
+   PORT SELECTOR
+========================================================= */
+
+.port-selector {
+  margin-bottom: 12px;
+}
+
+.port-selector label {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: #334155;
+
+  font-size: 13px;
 
   font-weight: 700;
 }
 
+.port-selector select {
+  width: 100%;
 
-/* =========================================
-   VEHICLE ICON
-========================================= */
+  height: 46px;
 
-.vehicle-table-icon {
-  flex: 0 0 32px;
+  padding: 0 13px;
 
-  width: 32px;
-  height: 32px;
+  border: 1px solid #cbd5e1;
 
-  border-radius: 9px;
+  border-radius: 12px;
+
+  background: #fff;
+
+  color: #1e293b;
+
+  font-size: 14px;
+
+  outline: none;
+
+  cursor: pointer;
+}
+
+.port-selector select:focus {
+  border-color: #64748b;
+
+  box-shadow:
+    0 0 0 3px rgba(100, 116, 139, 0.12);
+}
+
+
+/* =========================================================
+   SELECTED PORT INFO
+========================================================= */
+
+.selected-port-info {
+  padding: 13px 15px;
+
+  margin-bottom: 12px;
+
+  background: #eff6ff;
+
+  border: 1px solid #bfdbfe;
+
+  border-radius: 14px;
+}
+
+.selected-port-info .selected-port-info-span {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: #64748b;
+
+  font-size: 16px !important;
+
+  font-weight: 700;
+
+  text-align: right;
+}
+
+.selected-port-info-div {
+  width: 100%;
+}
+
+.selected-port-info-div strong {
+  display: block;
+
+  direction: ltr;
+
+  text-align: left;
+
+  color: #1d4ed8;
+
+  font-size: 15px;
+}
+
+
+/* =========================================================
+   PRICE CARD
+========================================================= */
+
+.price-card {
+  background: #fff;
+
+  border: 1px solid #e2e8f0;
+
+  border-radius: 16px;
+
+  overflow: hidden;
+
+  margin-bottom: 12px;
+}
+
+.price-row {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 14px 15px;
+
+  gap: 15px;
+}
+
+.price-row + .price-row {
+  border-top: 1px solid #f1f5f9;
+}
+
+.price-label {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+}
+
+.price-icon {
+  width: 36px;
+  height: 36px;
 
   display: flex;
 
   align-items: center;
   justify-content: center;
 
-  background: #111;
+  background: #f1f5f9;
+
+  border-radius: 10px;
+
+  font-size: 17px;
+}
+
+.price-label strong {
+  display: block;
+
+  color: #334155;
+
+  font-size: 13px;
+}
+
+.price-label small {
+  display: block;
+
+  margin-top: 2px;
+
+  color: #475a75;
+
+  font-size: 10px;
+
+  direction: ltr;
+
+  text-align: right;
+}
+
+.price-value {
+  color: #111827;
+
+  font-size: 15px;
+
+  direction: ltr;
+}
+
+
+/* =========================================================
+   CALCULATOR ROW
+========================================================= */
+
+.calculator-row {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 15px;
+
+  padding: 10px 0;
+}
+
+.calculator-row span {
+  color: #6b7280;
+}
+
+.calculator-row strong {
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   BASE TOTAL
+========================================================= */
+
+.base-total {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 15px;
+
+  padding: 15px 17px;
+
+  margin-bottom: 15px;
+
+  background: #f1f5f9;
+
+  border-radius: 15px;
+}
+
+.base-total span {
+  display: block;
+
+  color: #334155;
+
+  font-size: 13px;
+
+  font-weight: 700;
+}
+
+.base-total small {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #424e60;
+
+  font-size: 10px;
+}
+
+.base-total strong {
+  color: #111827;
+
+  font-size: 17px;
+
+  white-space: nowrap;
+
+  direction: ltr;
+}
+
+.calculator-divider {
+  height: 1px;
+
+  background: #e5e7eb;
+
+  margin: 8px 0;
+}
+
+
+/* =========================================================
+   EXTRA SECTION
+========================================================= */
+
+.extra-section {
+  padding: 15px;
+
+  background: #fff;
+
+  border: 1px solid #e2e8f0;
+
+  border-radius: 17px;
+
+  margin-bottom: 12px;
+}
+
+.section-title {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 10px;
+
+  margin-bottom: 12px;
+}
+
+.section-title h3 {
+  margin: 0;
+
+  color: #1e293b;
+
+  font-size: 15px;
+}
+
+.section-title p {
+  margin: 3px 0 0;
+
+  color: #3f4957;
+
+  font-size: 13px;
+}
+
+.add-cost-small {
+  border: none;
+
+  padding: 8px 11px;
+
+  border-radius: 10px;
+
+  background: #111827;
+
+  color: #fff;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  white-space: nowrap;
+
+  transition: 0.2s;
+}
+
+.add-cost-small:hover {
+  background: #334155;
+}
+
+
+/* =========================================================
+   EXTRA COSTS
+========================================================= */
+
+.extra-costs-list {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.extra-cost {
+  display: flex;
+
+  align-items: center;
+
+  gap: 7px;
+}
+
+.extra-number {
+  width: 26px;
+  height: 26px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #f1f5f9;
+
+  color: #64748b;
+
+  border-radius: 8px;
+
+  font-size: 10px;
+
+  font-weight: 700;
+}
+
+.extra-cost > input {
+  min-width: 0;
+
+  flex: 1;
+
+  height: 40px;
+
+  padding: 0 10px;
+
+  border: 1px solid #dbe2ea;
+
+  border-radius: 10px;
+
+  background: #f8fafc;
+
+  color: #1e293b;
+
+  font-size: 12px;
+
+  outline: none;
+}
+
+.extra-cost > input:focus {
+  border-color: #64748b;
+
+  background: #fff;
+}
+
+.extra-price-input {
+  width: 95px;
+  height: 40px;
+
+  display: flex;
+
+  align-items: center;
+
+  direction: ltr;
+
+  border: 1px solid #dbe2ea;
+
+  border-radius: 10px;
+
+  background: #f8fafc;
+
+  overflow: hidden;
+}
+
+.extra-price-input span {
+  padding-left: 8px;
+
+  color: #64748b;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+.extra-price-input input {
+  width: 100%;
+  height: 100%;
+
+  padding: 0 7px;
+
+  border: none;
+
+  outline: none;
+
+  background: transparent;
+
+  color: #1e293b;
+
+  font-size: 12px;
+
+  text-align: left;
+}
+
+.remove-cost {
+  width: 32px;
+  height: 32px;
+
+  flex-shrink: 0;
+
+  border: none;
+
+  border-radius: 9px;
+
+  background: #fee2e2;
+
+  color: #dc2626;
+
+  font-size: 19px;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.remove-cost:hover {
+  background: #fecaca;
+}
+
+.remove-cost:active {
+  transform: scale(0.92);
+}
+
+.add-cost {
+  width: 100%;
+
+  min-height: 44px;
+
+  border: 1px dashed #9ca3af;
+
+  background: #f9fafb;
+
+  color: #374151;
+
+  border-radius: 10px;
+
+  padding: 11px;
+
+  cursor: pointer;
+
+  margin-top: 5px;
+
+  transition: 0.2s;
+}
+
+.add-cost:hover {
+  background: #f3f4f6;
+}
+
+.extra-total {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  margin-top: 13px;
+
+  padding-top: 12px;
+
+  border-top: 1px dashed #cbd5e1;
+}
+
+.extra-total span {
+  color: #64748b;
+
+  font-size: 12px;
+}
+
+.extra-total strong {
+  color: #334155;
+
+  font-size: 14px;
+
+  direction: ltr;
+}
+
+
+/* =========================================================
+   GRAND TOTAL
+========================================================= */
+
+.grand-total {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 15px;
+
+  padding: 18px;
+
+  margin-top: 4px;
+  margin-bottom: 12px;
+
+  background: #111827;
+
+  border-radius: 18px;
+
+  color: #fff;
+}
+
+.grand-total span {
+  display: block;
+
+  font-size: 16px;
+
+  font-weight: 800;
+}
+
+.grand-total small {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #94a3b8;
+
+  font-size: 10px;
+}
+
+.grand-total strong {
+  color: #fff;
+
+  font-size: 22px;
+
+  font-weight: 900;
+
+  direction: ltr;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   CALCULATOR BUTTONS
+========================================================= */
+
+.save-calculation {
+  width: 100%;
+  height: 48px;
+
+  border: none;
+
+  border-radius: 13px;
+
+  background: #16a34a;
 
   color: #fff;
 
   font-size: 14px;
+
+  font-weight: 800;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 5px 15px rgba(22, 163, 74, 0.2);
+
+  transition: 0.2s;
 }
 
+.save-calculation:hover {
+  background: #15803d;
 
-/* =========================================
-   ROW NUMBER
-========================================= */
+  transform: translateY(-1px);
+}
 
-.vehicle-row-number {
+.save-calculation.saved {
+  background: #166534;
+}
+
+.calculator-done {
+  width: 100%;
+  height: 42px;
+
+  margin-top: 8px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: #334155;
+
+  color: #fff;
+
   font-size: 13px;
 
   font-weight: 700;
 
-  color: #777;
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.calculator-done:hover {
+  background: #e2e8f0;
+
+  color: #334155;
 }
 
 
-/* =========================================
+/* =========================================================
+   FLOATING CUSTOMS BUTTON
+========================================================= */
+
+.floating-customs-button {
+  position: fixed;
+
+  right: 18px;
+  bottom: 20px;
+
+  width: 60px;
+  height: 60px;
+
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border: 2px solid rgba(255, 255, 255, 0.25);
+
+  border-radius: 50%;
+
+  background: #000;
+
+  box-shadow:
+    0 6px 20px rgba(0, 0, 0, 0.45),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+
+  overflow: hidden;
+
+  cursor: pointer;
+
+  z-index: 9999;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.floating-car-icon {
+  position: absolute;
+
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  overflow: hidden;
+
+  background: #000;
+}
+
+.floating-car-icon .flat-imge {
+  width: 100%;
+  height: 100%;
+
+  min-width: 100%;
+  min-height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  object-position: center center;
+
+  border-radius: 50%;
+
+  background: #000;
+}
+
+.floating-customs-button:hover {
+  transform: scale(1.08);
+
+  box-shadow:
+    0 8px 26px rgba(0, 0, 0, 0.55),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.15);
+}
+
+.floating-customs-button:active {
+  transform: scale(0.93);
+}
+
+
+/* =========================================================
+   VEHICLE RATES
+   FULL SCREEN GLASS OVERLAY
+========================================================= */
+
+.vehicle-rates-overlay {
+  position: fixed;
+
+  inset: 0;
+
+  z-index: 9999;
+
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: center;
+
+  /*
+    فاصله بالای صفحه مثل Calculator
+  */
+  padding:
+    max(52px, env(safe-area-inset-top) + 18px)
+    14px
+    14px;
+
+  overflow: hidden;
+
+  background: rgba(15, 23, 42, 0.20);
+
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+
+  isolation: isolate;
+}
+
+
+/* =========================================================
+   VEHICLE RATES PAGE
+========================================================= */
+
+.vehicle-rates-page {
+  position: relative;
+
+  z-index: 1;
+
+  width: min(760px, 100%);
+
+  height: min(
+    720px,
+    calc(100dvh - 70px)
+  );
+
+  min-height: 0;
+
+  display: flex;
+
+  flex-direction: column;
+
+  overflow: hidden;
+
+  border: 1px solid rgba(255, 255, 255, 0.72);
+
+  border-radius: 22px;
+
+  background: rgba(255, 255, 255, 0.88);
+
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+
+  box-shadow:
+    0 24px 70px rgba(15, 23, 42, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.75);
+
+  isolation: isolate;
+}
+
+
+/* =========================================================
+   VEHICLE RATES HEADER
+========================================================= */
+
+.vehicle-rates-header {
+  position: relative;
+
+  z-index: 30;
+
+  flex: 0 0 auto;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 12px;
+
+  padding: 16px 18px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+
+  background: rgba(255, 255, 255, 0.72);
+
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+}
+
+.vehicle-rates-title {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  min-width: 0;
+}
+
+.vehicle-rates-title-icon {
+  width: 46px;
+  height: 46px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px;
+
+  background: rgba(0, 0, 0, 0.08);
+
+  color: #111;
+
+  font-size: 21px;
+}
+
+.vehicle-rates-title h2 {
+  margin: 0;
+
+  font-size: 20px;
+
+  font-weight: 800;
+
+  color: #111;
+}
+
+.vehicle-rates-title p {
+  margin: 3px 0 0;
+
+  font-size: 13px;
+
+  color: #777;
+}
+
+.vehicle-rates-close {
+  width: 40px;
+  height: 40px;
+
+  flex-shrink: 0;
+
+  border: none;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(0, 0, 0, 0.07);
+
+  color: #333;
+
+  font-size: 17px;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.vehicle-rates-close:hover {
+  background: rgba(0, 0, 0, 0.14);
+
+  transform: rotate(90deg);
+}
+
+
+/* =========================================================
+   VEHICLE DOLLAR RATE
+========================================================= */
+
+.vehicle-dollar-rate {
+  flex-shrink: 0;
+
+  margin: 12px 16px 8px;
+
+  padding: 12px 15px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  direction: rtl;
+
+  border-radius: 13px;
+
+  background: rgba(0, 0, 0, 0.055);
+}
+
+.vehicle-n {
+  color: #4a4a4a;
+
+  font-size: 14px;
+}
+
+.dollar-value {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 5px;
+
+  direction: ltr;
+
+  white-space: nowrap;
+}
+
+.currency-symbol {
+  font-size: 18px;
+}
+
+.currency-number {
+  font-size: 17px;
+
+  font-weight: 800;
+
+  color: #111;
+
+  font-variant-numeric: tabular-nums;
+}
+
+
+/* =========================================================
+   VEHICLE SEARCH
+========================================================= */
+
+.vehicle-rates-search-container {
+  position: relative;
+
+  z-index: 200;
+
+  width: 100%;
+
+  flex-shrink: 0;
+
+  isolation: isolate;
+}
+
+.vehicle-rates-search {
+  position: relative;
+
+  z-index: 201;
+
+  margin: 8px 16px;
+
+  display: flex;
+
+  align-items: center;
+
+  height: 46px;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  border-radius: 13px;
+
+  background: #fff;
+
+  overflow: hidden;
+}
+
+.vehicle-rates-search > svg {
+  flex-shrink: 0;
+
+  margin-left: 14px;
+
+  color: #777;
+}
+
+.vehicle-rates-search input {
+  width: 100%;
+  height: 100%;
+
+  padding: 0 12px;
+
+  border: none;
+
+  outline: none;
+
+  direction: ltr;
+
+  text-align: left;
+
+  font-size: 14px;
+
+  background: transparent;
+
+  color: #111;
+}
+
+.vehicle-rates-search input::placeholder {
+  direction: rtl;
+
+  text-align: right;
+
+  color: #999;
+}
+
+.vehicle-rates-search-clear {
+  flex-shrink: 0;
+
+  width: 34px;
+  height: 34px;
+
+  margin-right: 6px;
+
+  border: none;
+
+  border-radius: 50%;
+
+  background: rgba(0, 0, 0, 0.07);
+
+  font-size: 20px;
+
+  line-height: 1;
+
+  cursor: pointer;
+}
+
+
+/* =========================================================
+   VEHICLE SEARCH SUGGESTIONS
+========================================================= */
+
+.vehicle-search-suggestions,
+.vehicle-search-results,
+.vehicle-search-list {
+  position: absolute;
+
+  top: calc(100% - 2px);
+
+  left: 16px;
+  right: 16px;
+
+  z-index: 1000;
+
+  max-height: 188px;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  padding: 6px;
+
+  background: rgba(255, 255, 255, 0.97);
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
+  border-radius: 15px;
+
+  box-shadow:
+    0 12px 35px rgba(0, 0, 0, 0.14),
+    0 3px 10px rgba(0, 0, 0, 0.06);
+
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  direction: ltr;
+
+  animation: vehicleSearchDropIn 0.18s ease-out;
+
+  -webkit-overflow-scrolling: touch;
+
+  scrollbar-width: thin;
+
+  scrollbar-color:
+    rgba(0, 0, 0, 0.22)
+    transparent;
+}
+
+.vehicle-search-suggestions::-webkit-scrollbar,
+.vehicle-search-results::-webkit-scrollbar,
+.vehicle-search-list::-webkit-scrollbar {
+  width: 5px;
+}
+
+.vehicle-search-suggestions::-webkit-scrollbar-track,
+.vehicle-search-results::-webkit-scrollbar-track,
+.vehicle-search-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.vehicle-search-suggestions::-webkit-scrollbar-thumb,
+.vehicle-search-results::-webkit-scrollbar-thumb,
+.vehicle-search-list::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.22);
+
+  border-radius: 20px;
+}
+
+
+/* =========================================================
+   SEARCH SUGGESTION ITEM
+========================================================= */
+
+.vehicle-search-suggestion {
+  position: relative;
+
+  width: 100%;
+  height: 42px;
+  min-height: 42px;
+
+  margin: 2px 0;
+
+  padding: 0 12px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: transparent;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: flex-start;
+
+  direction: ltr;
+
+  text-align: left;
+
+  font-family: inherit;
+
+  color: #222;
+
+  cursor: pointer;
+
+  transition:
+    background 0.15s ease,
+    transform 0.12s ease;
+}
+
+.vehicle-search-suggestion:not(:last-child)::after {
+  content: '';
+
+  position: absolute;
+
+  left: 12px;
+  right: 12px;
+
+  bottom: -1px;
+
+  height: 1px;
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 0, 0, 0.09),
+    transparent
+  );
+
+  pointer-events: none;
+}
+
+.vehicle-search-suggestion:hover {
+  background: rgba(0, 0, 0, 0.055);
+}
+
+.vehicle-search-suggestion:active {
+  transform: scale(0.985);
+
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.suggestion-name {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  flex: 1;
+
+  min-width: 0;
+
+  text-align: left;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  color: #222;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  line-height: 1.2;
+}
+
+.suggestion-year {
+  flex: 0 0 auto;
+
+  padding: 4px 8px;
+
+  border-radius: 7px;
+
+  background: rgba(0, 0, 0, 0.07);
+
+  color: #555;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  line-height: 1;
+}
+
+@keyframes vehicleSearchDropIn {
+  from {
+    opacity: 0;
+
+    transform:
+      translateY(-5px)
+      scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+
+    transform:
+      translateY(0)
+      scale(1);
+  }
+}
+
+
+/* =========================================================
+   VEHICLE COUNT
+========================================================= */
+
+.vehicle-rates-count {
+  flex-shrink: 0;
+
+  padding: 2px 18px 8px;
+
+  font-size: 12px;
+
+  color: #888;
+
+  direction: rtl;
+
+  text-align: right;
+}
+
+
+/* =========================================================
+   VEHICLE RATES LIST
+   فقط فضای جدول
+   اسکرول اصلی داخل TABLE WRAPPER است
+========================================================= */
+
+.vehicle-rates-list {
+  position: relative;
+
+  z-index: 1;
+
+  width: 100%;
+
+  flex: 1 1 auto;
+
+  min-height: 0;
+
+  overflow: hidden;
+
+  padding: 4px;
+
+  direction: rtl;
+}
+
+
+/* =========================================================
+   TABLE WRAPPER
+   تنها Scroll Container جدول
+========================================================= */
+
+.vehicle-rates-table-wrapper {
+  position: relative;
+
+  z-index: 1;
+
+  width: 100%;
+  height: 100%;
+
+  min-height: 0;
+
+  overflow-x: auto;
+  overflow-y: auto;
+
+  border: 1px solid #ddd;
+
+  border-radius: 10px;
+
+  background: #fff;
+
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.08);
+
+  -webkit-overflow-scrolling: touch;
+
+  overscroll-behavior: contain;
+
+  isolation: isolate;
+
+  scrollbar-width: thin;
+}
+
+
+/* =========================================================
+   TABLE
+========================================================= */
+
+.vehicle-rates-table {
+  position: relative;
+
+  width: 100%;
+
+  min-width: 560px;
+
+  margin: 0;
+  padding: 0;
+
+  table-layout: auto;
+
+  border-collapse: separate;
+
+  border-spacing: 0;
+
+  direction: rtl;
+}
+
+
+/* =========================================================
+   TABLE HEADER
+   بسیار مهم
+   فقط TH شناور است
+========================================================= */
+
+.vehicle-rates-table thead th {
+  position: sticky;
+
+  top: 0;
+
+  z-index: 100;
+
+  height: 36px;
+
+  margin: 0;
+  padding: 3px 4px;
+
+  background: #111 !important;
+
+  color: #fff !important;
+
+  border: none;
+
+  border-bottom: 1px solid #333;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  line-height: 1;
+
+  text-align: center;
+
+  white-space: nowrap;
+
+  vertical-align: middle;
+
+  /*
+    مهم برای Samsung:
+    هیدر کاملاً مات باشد
+  */
+  opacity: 1;
+
+  /*
+    جلوگیری از دیده شدن ردیف‌ها از پشت هیدر
+  */
+  box-shadow:
+    0 1px 0 #333,
+    0 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+
+/*
+  این دو مورد عمداً static هستند.
+  sticky فقط روی TH است.
+*/
+.vehicle-rates-table thead {
+  position: relative;
+
+  display: table-header-group;
+}
+
+.vehicle-rates-table thead tr {
+  position: relative;
+
+  display: table-row;
+}
+
+
+/* =========================================================
+   TABLE BODY
+========================================================= */
+
+.vehicle-rates-table tbody {
+  position: relative;
+}
+
+.vehicle-rates-table tbody tr {
+  height: 36px;
+
+  margin: 0;
+  padding: 0;
+
+  transition: background 0.15s ease;
+}
+
+.vehicle-rates-table tbody tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.vehicle-rates-table tbody tr:nth-child(odd) {
+  background: #fff;
+}
+
+.vehicle-rates-table tbody tr:hover {
+  background: #eeeeee;
+}
+
+.vehicle-rates-table tbody td {
+  height: 36px;
+
+  margin: 0;
+  padding: 2px 3px;
+
+  border: none;
+
+  border-bottom: 1px solid #eeeeee;
+
+  background: transparent;
+
+  color: #222;
+
+  font-size: 12px;
+
+  line-height: 1;
+
+  text-align: center;
+
+  vertical-align: middle;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   TABLE COLUMNS
+========================================================= */
+
+.vehicle-rates-table .col-select {
+  width: 45px;
+
+  min-width: 45px;
+  max-width: 45px;
+}
+
+.vehicle-rates-table .col-number {
+  width: 32px;
+
+  min-width: 32px;
+  max-width: 32px;
+}
+
+.vehicle-rates-table .col-car {
+  width: auto;
+
+  min-width: 145px;
+
+  max-width: 190px;
+}
+
+.vehicle-rates-table .col-year {
+  width: 55px;
+
+  min-width: 55px;
+  max-width: 55px;
+}
+
+.vehicle-rates-table .col-afn {
+  width: 115px;
+
+  min-width: 115px;
+}
+
+.vehicle-rates-table .col-usd {
+  width: 105px;
+
+  min-width: 105px;
+}
+
+
+/* =========================================================
+   VEHICLE TABLE CAR
+========================================================= */
+
+.vehicle-table-car {
+  width: 100%;
+
+  min-width: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: flex-start;
+
+  gap: 3px;
+
+  overflow: hidden;
+
+  direction: rtl;
+}
+
+.vehicle-table-car strong {
+  flex: 1;
+
+  min-width: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: block;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+
+  color: #111827;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  line-height: 1;
+}
+
+
+/* =========================================================
+   VEHICLE ICON
+========================================================= */
+
+.vehicle-table-icon {
+  flex: 0 0 24px;
+
+  width: 24px;
+  height: 24px;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 6px;
+
+  background: #111;
+
+  color: #fff;
+
+  font-size: 11px;
+}
+
+
+/* =========================================================
+   ROW NUMBER
+========================================================= */
+
+.vehicle-row-number {
+  margin: 0;
+  padding: 0;
+
+  color: #777;
+
+  font-size: 11px;
+
+  font-weight: 700;
+}
+
+
+/* =========================================================
    YEAR
-========================================= */
+========================================================= */
 
 .vehicle-year {
   display: inline-flex;
@@ -2865,54 +5591,71 @@ button {
   align-items: center;
   justify-content: center;
 
-  min-width: 48px;
+  min-width: 42px;
 
-  height: 28px;
+  height: 23px;
 
-  padding: 0 6px;
+  margin: 0;
+  padding: 0 4px;
 
-  border-radius: 7px;
+  border-radius: 6px;
 
   background: #ededed;
 
   color: #222;
 
-  font-size: 13px;
+  font-size: 11px;
 
   font-weight: 700;
+
+  line-height: 1;
 }
 
 
-/* =========================================
+/* =========================================================
    TABLE PRICE
-========================================= */
+========================================================= */
 
 .vehicle-table-price {
-  display: flex;
+  display: inline-flex;
 
   align-items: center;
-
   justify-content: center;
 
-  gap: 4px;
+  gap: 2px;
+
+  margin: 0;
+  padding: 0;
 
   direction: ltr;
 
   white-space: nowrap;
+
+  line-height: 1;
 }
 
 .vehicle-table-price strong {
-  font-size: 13px;
+  margin: 0;
+  padding: 0;
+
+  font-size: 11px;
 
   font-weight: 800;
+
+  line-height: 1;
 
   font-variant-numeric: tabular-nums;
 }
 
 .price-currency {
-  font-size: 13px;
+  margin: 0;
+  padding: 0;
+
+  font-size: 11px;
 
   font-weight: 800;
+
+  line-height: 1;
 }
 
 .usd-price {
@@ -2920,32 +5663,33 @@ button {
 }
 
 
-/* =========================================
-   TABLE SELECT BUTTON
-========================================= */
+/* =========================================================
+   TABLE SELECT
+========================================================= */
 
 .vehicle-table-select {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
 
+  margin: 0;
   padding: 0;
-
-  border: 1.5px solid #aaa;
-
-  border-radius: 8px;
-
-  background: #fff;
-
-  color: #fff;
 
   display: inline-flex;
 
   align-items: center;
   justify-content: center;
 
+  border: 1px solid #aaa;
+
+  border-radius: 6px;
+
+  background: #fff;
+
+  color: #fff;
+
   cursor: pointer;
 
-  font-size: 13px;
+  font-size: 10px;
 }
 
 .vehicle-table-select.selected {
@@ -2958,15 +5702,10 @@ button {
   background: #e9e9e9 !important;
 }
 
-.vehicle-table-row-selected td:first-child {
-  box-shadow:
-    inset -3px 0 0 #111;
-}
 
-
-/* =========================================
-   EMPTY
-========================================= */
+/* =========================================================
+   EMPTY TABLE
+========================================================= */
 
 .vehicle-rates-empty {
   height: 250px;
@@ -3002,9 +5741,326 @@ button {
 }
 
 
-/* =========================================
+/* =========================================================
+   CUSTOMS VEHICLE
+========================================================= */
+
+.customs-section {
+  position: relative;
+}
+
+.selected-customs-vehicle {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  width: 100%;
+
+  padding: 12px 14px;
+
+  border-radius: 14px;
+
+  background: rgba(255, 255, 255, 0.65);
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
+  direction: rtl;
+}
+
+.selected-customs-vehicle-icon {
+  width: 42px;
+  height: 42px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 11px;
+
+  background: rgba(0, 0, 0, 0.06);
+
+  color: #111;
+
+  font-size: 16px;
+}
+
+.selected-customs-vehicle-info {
+  flex: 1;
+
+  min-width: 0;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 4px;
+}
+
+.selected-customs-vehicle-info strong {
+  overflow: hidden;
+
+  color: #111;
+
+  font-size: 15px;
+
+  font-weight: 800;
+
+  white-space: nowrap;
+
+  text-overflow: ellipsis;
+}
+
+.selected-customs-vehicle-info span {
+  color: #64748b;
+
+  font-size: 11px;
+}
+
+.customs-vehicle-model {
+  color: #111 !important;
+
+  font-size: 13px;
+
+  font-weight: 600;
+}
+
+.selected-customs-vehicle-price {
+  display: flex;
+
+  align-items: center;
+
+  gap: 3px;
+
+  color: #111;
+
+  white-space: nowrap;
+
+  direction: ltr;
+}
+
+.selected-customs-vehicle-price span {
+  font-size: 14px;
+
+  font-weight: 700;
+}
+
+.selected-customs-vehicle-price strong {
+  color: #111;
+
+  font-size: 17px;
+
+  font-weight: 900;
+}
+
+.customs-remove-button {
+  width: 30px;
+  height: 30px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+
+  border-radius: 50%;
+
+  background: #ef4444;
+
+  color: white;
+
+  font-size: 20px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.customs-remove-button:hover {
+  transform: scale(1.08);
+
+  background: #dc2626;
+}
+
+.customs-select-button {
+  width: 100%;
+
+  min-height: 52px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 10px 14px;
+
+  border: 1px dashed rgba(0, 0, 0, 0.18);
+
+  border-radius: 14px;
+
+  background: rgba(255, 255, 255, 0.45);
+
+  color: #111;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.customs-select-button:hover {
+  background: rgba(255, 255, 255, 0.8);
+
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+.customs-select-button svg {
+  font-size: 18px;
+}
+
+.customs-select-button span {
+  font-weight: 700;
+}
+
+.customs-select-arrow {
+  margin-right: auto;
+
+  font-size: 18px;
+}
+
+.customs-cost {
+  background: #f8fafc;
+
+  border-radius: 10px;
+
+  padding: 3px;
+}
+
+.customs-cost input:disabled {
+  color: #334155;
+
+  opacity: 1;
+
+  cursor: not-allowed;
+}
+
+.customs-cost .extra-price-input {
+  background: #fff;
+
+  border-color: #dbeafe;
+}
+
+.customs-cost-check {
+  width: 28px;
+  height: 28px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 8px;
+
+  background: #dcfce7;
+
+  color: #16a34a;
+
+  font-size: 12px;
+}
+
+
+/* =========================================================
+   SAVED CALCULATIONS
+========================================================= */
+
+.saved-calculations-button {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  height: 40px;
+
+  padding: 0 14px;
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+
+  border-radius: 10px;
+
+  background: rgba(255, 255, 255, 0.12);
+
+  color: inherit;
+
+  cursor: pointer;
+
+  font-family: inherit;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  transition: all 0.2s ease;
+}
+
+.saved-calculations-button svg {
+  font-size: 16px;
+}
+
+.saved-calculations-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+
+  transform: translateY(-1px);
+}
+
+.saved-calculations-button:active {
+  transform: translateY(0);
+}
+
+.saved-calculations-overlay {
+  position: fixed;
+
+  inset: 0;
+
+  z-index: 10000;
+
+  background: rgba(15, 23, 42, 0.35);
+
+  backdrop-filter: blur(8px);
+
+  display: flex;
+
+  align-items: stretch;
+  justify-content: center;
+}
+
+.saved-calculations-overlay > .saved-calculations {
+  width: min(1100px, 100%);
+
+  height: 100%;
+
+  background: rgba(255, 255, 255, 0.96);
+
+  box-shadow:
+    0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+
+/* =========================================================
    TABLET
-========================================= */
+========================================================= */
 
 @media (min-width: 481px) and (max-width: 768px) {
 
@@ -3018,13 +6074,16 @@ button {
 }
 
 
-/* =========================================
+/* =========================================================
    MOBILE
-========================================= */
+   <= 600px
+========================================================= */
 
 @media (max-width: 600px) {
 
-  /* FLOATING BUTTON */
+  /* -----------------------------------------
+     FLOATING BUTTON
+  ----------------------------------------- */
 
   .floating-customs-button {
     width: 56px;
@@ -3035,225 +6094,9 @@ button {
   }
 
 
-  /* VEHICLE RATES */
-
-  .vehicle-rates-overlay {
-    padding: 0;
-  }
-
-  .vehicle-rates-page {
-    width: 100%;
-    height: 100%;
-
-    max-height: none;
-
-    border-radius: 0;
-  }
-
-  .vehicle-rates-header {
-    padding: 14px;
-  }
-
-  .vehicle-rates-title h2 {
-    font-size: 18px;
-  }
-
-  .vehicle-rates-title-icon {
-    width: 42px;
-    height: 42px;
-  }
-
-
-  /* DOLLAR */
-
-  .vehicle-dollar-rate {
-    margin: 9px 12px 6px;
-
-    padding: 10px 12px;
-  }
-
-  .vehicle-n {
-    font-size: 13px;
-  }
-
-  .currency-number {
-    font-size: 15px;
-  }
-
-  .currency-symbol {
-    font-size: 16px;
-  }
-
-
-  /* SEARCH */
-
-  .vehicle-rates-search {
-    margin: 7px 12px;
-
-    height: 44px;
-  }
-
-  .vehicle-search-suggestions {
-    top: calc(100% - 1px);
-
-    left: 12px;
-    right: 12px;
-
-    max-height: 188px;
-
-    padding: 6px;
-
-    border-radius: 14px;
-  }
-
-  .vehicle-search-suggestion {
-    height: 42px;
-
-    min-height: 42px;
-
-    padding: 0 11px;
-
-    border-radius: 10px;
-  }
-
-  .suggestion-name {
-    font-size: 13px;
-  }
-
-
-  /* COUNT */
-
-  .vehicle-rates-count {
-    padding: 2px 12px 6px;
-
-    font-size: 11px;
-  }
-
-
-  /* TABLE */
-
-  .vehicle-rates-list {
-    padding: 6px;
-
-    overflow-x: hidden;
-  }
-
-  .vehicle-rates-table-wrapper {
-    width: 100%;
-
-    overflow: hidden;
-  }
-
-  .vehicle-rates-table {
-    width: 100%;
-
-    min-width: 0;
-  }
-
-  .vehicle-rates-table thead th {
-    height: 42px;
-
-    padding: 4px;
-
-    font-size: 11px;
-  }
-
-  .vehicle-rates-table tbody tr {
-    height: 52px;
-  }
-
-  .vehicle-rates-table td {
-    padding: 4px;
-
-    font-size: 11px;
-  }
-
-
-  /* COLUMNS */
-
-  .vehicle-rates-table .col-select {
-    width: 42px;
-  }
-
-  .vehicle-rates-table .col-number {
-    width: 30px;
-  }
-
-  .vehicle-rates-table .col-car {
-    width: 32%;
-  }
-
-  .vehicle-rates-table .col-year {
-    width: 52px;
-  }
-
-  .vehicle-rates-table .col-afn {
-    width: 27%;
-  }
-
-  .vehicle-rates-table .col-usd {
-    width: 22%;
-  }
-
-
-  /* VEHICLE ICON */
-
-  .vehicle-table-icon {
-    width: 25px;
-    height: 25px;
-
-    flex-basis: 25px;
-
-    border-radius: 6px;
-
-    font-size: 11px;
-  }
-
-  .vehicle-table-car {
-    gap: 4px;
-  }
-
-  .vehicle-table-car strong {
-    font-size: 11px;
-  }
-
-
-  /* YEAR */
-
-  .vehicle-year {
-    min-width: 40px;
-
-    height: 24px;
-
-    font-size: 10px;
-  }
-
-
-  /* PRICE */
-
-  .vehicle-table-price {
-    gap: 2px;
-  }
-
-  .vehicle-table-price strong,
-  .price-currency {
-    font-size: 10px;
-  }
-
-
-  /* SELECT */
-
-  .vehicle-table-select {
-    width: 24px;
-    height: 24px;
-
-    border-radius: 6px;
-
-    font-size: 10px;
-  }
-
-
-  /* MAIN APP */
+  /* -----------------------------------------
+     MAIN APP
+  ----------------------------------------- */
 
   .container {
     padding: 11px;
@@ -3272,7 +6115,9 @@ button {
   }
 
 
-  /* MAP */
+  /* -----------------------------------------
+     MAP
+  ----------------------------------------- */
 
   .map-wrapper {
     height: 280px;
@@ -3289,7 +6134,9 @@ button {
   }
 
 
-  /* LOCATION */
+  /* -----------------------------------------
+     LOCATION
+  ----------------------------------------- */
 
   .location-card {
     border-radius: 17px;
@@ -3320,7 +6167,9 @@ button {
   }
 
 
-  /* PORT */
+  /* -----------------------------------------
+     PORT
+  ----------------------------------------- */
 
   .port-card {
     padding: 11px;
@@ -3335,7 +6184,9 @@ button {
   }
 
 
-  /* PRICES */
+  /* -----------------------------------------
+     PRICES
+  ----------------------------------------- */
 
   .prices {
     gap: 6px;
@@ -3364,7 +6215,9 @@ button {
   }
 
 
-  /* LOCATIONS */
+  /* -----------------------------------------
+     LOCATIONS
+  ----------------------------------------- */
 
   .locations {
     grid-template-columns: 1fr;
@@ -3379,7 +6232,382 @@ button {
   }
 
 
-  /* CALCULATOR */
+  /* =====================================================
+     VEHICLE RATES MOBILE
+  ===================================================== */
+
+  .vehicle-rates-overlay {
+    align-items: flex-start;
+
+    padding:
+      max(46px, env(safe-area-inset-top) + 12px)
+      6px
+      6px;
+  }
+
+  .vehicle-rates-page {
+    width: 100%;
+
+    height:
+      calc(
+        100dvh -
+        max(52px, env(safe-area-inset-top) + 18px)
+      );
+
+    max-height: none;
+
+    border-radius: 17px;
+  }
+
+
+  /* -----------------------------------------
+     RATES HEADER
+  ----------------------------------------- */
+
+  .vehicle-rates-header {
+    padding: 12px;
+
+    gap: 8px;
+  }
+
+  .vehicle-rates-title {
+    gap: 9px;
+  }
+
+  .vehicle-rates-title-icon {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 11px;
+
+    font-size: 18px;
+  }
+
+  .vehicle-rates-title h2 {
+    font-size: 17px;
+  }
+
+  .vehicle-rates-title p {
+    font-size: 10px;
+  }
+
+  .vehicle-rates-close {
+    width: 36px;
+    height: 36px;
+
+    font-size: 15px;
+  }
+
+
+  /* -----------------------------------------
+     DOLLAR
+  ----------------------------------------- */
+
+  .vehicle-dollar-rate {
+    margin: 8px 10px 5px;
+
+    padding: 9px 11px;
+  }
+
+  .vehicle-n {
+    font-size: 12px;
+  }
+
+  .currency-number {
+    font-size: 14px;
+  }
+
+  .currency-symbol {
+    font-size: 15px;
+  }
+
+
+  /* -----------------------------------------
+     SEARCH
+  ----------------------------------------- */
+
+  .vehicle-rates-search {
+    margin: 6px 10px;
+
+    height: 42px;
+
+    border-radius: 11px;
+  }
+
+  .vehicle-rates-search input {
+    font-size: 13px;
+  }
+
+  .vehicle-rates-search > svg {
+    margin-left: 10px;
+  }
+
+  .vehicle-rates-search-clear {
+    width: 30px;
+    height: 30px;
+
+    margin-right: 5px;
+
+    font-size: 18px;
+  }
+
+
+  /* -----------------------------------------
+     SEARCH LIST
+  ----------------------------------------- */
+
+  .vehicle-search-suggestions,
+  .vehicle-search-results,
+  .vehicle-search-list {
+    top: calc(100% - 1px);
+
+    left: 10px;
+    right: 10px;
+
+    max-height: 180px;
+
+    padding: 5px;
+
+    border-radius: 12px;
+
+    z-index: 1000;
+  }
+
+  .vehicle-search-suggestion {
+    height: 40px;
+
+    min-height: 40px;
+
+    padding: 0 10px;
+  }
+
+  .suggestion-name {
+    font-size: 12px;
+  }
+
+  .suggestion-year {
+    padding: 3px 7px;
+
+    font-size: 10px;
+  }
+
+
+  /* -----------------------------------------
+     COUNT
+  ----------------------------------------- */
+
+  .vehicle-rates-count {
+    padding: 2px 10px 5px;
+
+    font-size: 10px;
+  }
+
+
+  /* =====================================================
+     TABLE MOBILE
+  ===================================================== */
+
+  .vehicle-rates-list {
+    padding: 3px;
+
+    overflow: hidden;
+  }
+
+  /*
+    بسیار مهم:
+    فقط همین عنصر اسکرول می‌کند.
+  */
+  .vehicle-rates-table-wrapper {
+    width: 100%;
+    height: 100%;
+
+    overflow-x: auto;
+    overflow-y: auto;
+
+    border-radius: 8px;
+
+    -webkit-overflow-scrolling: touch;
+
+    overscroll-behavior: contain;
+  }
+
+  .vehicle-rates-table {
+    min-width: 560px;
+
+    width: max-content;
+
+    table-layout: auto;
+  }
+
+
+  /* -----------------------------------------
+     MOBILE TABLE HEADER
+     شناور
+  ----------------------------------------- */
+
+  .vehicle-rates-table thead th {
+    position: sticky !important;
+
+    top: 0 !important;
+
+    z-index: 100 !important;
+
+    height: 32px;
+
+    padding: 2px 3px;
+
+    background: #111 !important;
+
+    color: #fff !important;
+
+    font-size: 10px;
+
+    line-height: 1;
+
+    opacity: 1;
+
+    box-shadow:
+      0 1px 0 #333,
+      0 2px 5px rgba(0, 0, 0, 0.16);
+  }
+
+
+  /* -----------------------------------------
+     MOBILE ROW
+  ----------------------------------------- */
+
+  .vehicle-rates-table tbody tr {
+    height: 33px;
+  }
+
+  .vehicle-rates-table tbody td {
+    height: 33px;
+
+    padding: 1px 2px;
+
+    font-size: 10px;
+
+    line-height: 1;
+  }
+
+
+  /* -----------------------------------------
+     MOBILE COLUMNS
+  ----------------------------------------- */
+
+  .vehicle-rates-table .col-select {
+    width: 40px;
+
+    min-width: 40px;
+    max-width: 40px;
+  }
+
+  .vehicle-rates-table .col-number {
+    width: 28px;
+
+    min-width: 28px;
+    max-width: 28px;
+  }
+
+  .vehicle-rates-table .col-car {
+    width: 170px;
+
+    min-width: 170px;
+    max-width: 170px;
+  }
+
+  .vehicle-rates-table .col-year {
+    width: 52px;
+
+    min-width: 52px;
+    max-width: 52px;
+  }
+
+  .vehicle-rates-table .col-afn {
+    width: 110px;
+
+    min-width: 110px;
+  }
+
+  .vehicle-rates-table .col-usd {
+    width: 100px;
+
+    min-width: 100px;
+  }
+
+
+  /* -----------------------------------------
+     MOBILE CAR
+  ----------------------------------------- */
+
+  .vehicle-table-car {
+    gap: 2px;
+  }
+
+  .vehicle-table-icon {
+    flex: 0 0 22px;
+
+    width: 22px;
+    height: 22px;
+
+    border-radius: 5px;
+
+    font-size: 10px;
+  }
+
+  .vehicle-table-car strong {
+    font-size: 11px;
+
+    line-height: 1;
+  }
+
+
+  /* -----------------------------------------
+     MOBILE YEAR
+  ----------------------------------------- */
+
+  .vehicle-year {
+    min-width: 38px;
+
+    height: 21px;
+
+    padding: 0 3px;
+
+    font-size: 10px;
+  }
+
+
+  /* -----------------------------------------
+     MOBILE PRICE
+  ----------------------------------------- */
+
+  .vehicle-table-price {
+    gap: 1px;
+  }
+
+  .vehicle-table-price strong,
+  .price-currency {
+    font-size: 10px;
+  }
+
+
+  /* -----------------------------------------
+     MOBILE SELECT
+  ----------------------------------------- */
+
+  .vehicle-table-select {
+    width: 22px;
+    height: 22px;
+
+    border-radius: 5px;
+
+    font-size: 9px;
+  }
+
+
+  /* -----------------------------------------
+     CALCULATOR MOBILE
+  ----------------------------------------- */
 
   .calculator-overlay {
     align-items: flex-end;
@@ -3414,9 +6642,6 @@ button {
     font-size: 11px;
   }
 
-
-  /* CALCULATOR LOCATION */
-
   .calculator-location {
     grid-template-columns: repeat(3, 1fr);
 
@@ -3435,9 +6660,6 @@ button {
     font-size: 11px;
   }
 
-
-  /* CALCULATOR PORT */
-
   .port-selector select {
     height: 44px;
   }
@@ -3454,9 +6676,6 @@ button {
     font-size: 14px;
   }
 
-
-  /* EXTRA COST */
-
   .extra-price-input {
     width: 82px;
   }
@@ -3468,9 +6687,6 @@ button {
   .extra-cost {
     gap: 5px;
   }
-
-
-  /* TOTAL */
 
   .grand-total {
     padding: 14px;
@@ -3485,7 +6701,41 @@ button {
   }
 
 
-  /* POPUP */
+  /* -----------------------------------------
+     CUSTOMS VEHICLE MOBILE
+  ----------------------------------------- */
+
+  .selected-customs-vehicle {
+    padding: 9px;
+
+    gap: 8px;
+  }
+
+  .selected-customs-vehicle-icon {
+    width: 34px;
+    height: 34px;
+
+    flex-basis: 34px;
+
+    font-size: 14px;
+  }
+
+  .selected-customs-vehicle-info strong {
+    font-size: 12px;
+  }
+
+  .selected-customs-vehicle-info span {
+    font-size: 10px;
+  }
+
+  .selected-customs-vehicle-price strong {
+    font-size: 13px;
+  }
+
+
+  /* -----------------------------------------
+     POPUP
+  ----------------------------------------- */
 
   .map-popup {
     min-width: 190px;
@@ -3505,14 +6755,16 @@ button {
 }
 
 
-/* =========================================
+/* =========================================================
    VERY SMALL PHONES
-========================================= */
+   <= 360px
+========================================================= */
 
 @media (max-width: 360px) {
 
   .header {
     height: 50px;
+
     min-height: 50px;
     max-height: 50px;
 
@@ -3553,1463 +6805,141 @@ button {
     font-size: 10px;
   }
 
-  .extra-cost {
-    grid-template-columns:
-      minmax(0, 1fr)
-      72px
-      36px;
-  }
-
   .calculator {
     padding: 13px;
   }
 
-  .vehicle-rates-table thead th {
-    font-size: 10px;
+
+  /* -----------------------------------------
+     RATES PAGE
+  ----------------------------------------- */
+
+  .vehicle-rates-overlay {
+    padding:
+      max(38px, env(safe-area-inset-top) + 9px)
+      4px
+      4px;
   }
 
-  .vehicle-rates-table td {
-    padding: 3px 2px;
+  .vehicle-rates-page {
+    height:
+      calc(
+        100dvh -
+        max(44px, env(safe-area-inset-top) + 14px)
+      );
+
+    border-radius: 14px;
   }
 
-  .vehicle-rates-table .col-select {
-    width: 36px;
+  .vehicle-rates-header {
+    padding: 10px;
   }
 
-  .vehicle-rates-table .col-number {
-    width: 26px;
+  .vehicle-rates-title {
+    gap: 7px;
   }
 
-  .vehicle-rates-table .col-year {
-    width: 48px;
-  }
-
-  .vehicle-rates-table .col-afn {
-    width: 28%;
-  }
-
-  .vehicle-rates-table .col-usd {
-    width: 23%;
-  }
-
-  .vehicle-table-icon {
-    display: none;
-  }
-
-  .vehicle-table-car strong {
-    font-size: 10px;
-  }
-
-  .vehicle-table-price strong,
-  .price-currency {
-    font-size: 9px;
-  }
-}
-
-
-/* =========================================
-   SELECTED CUSTOMS VEHICLE
-========================================= */
-
-.selected-customs-vehicle {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-
-  min-width: 0;
-
-  padding: 11px 12px;
-
-  background: #fff;
-
-  border: 1px solid #dbeafe;
-
-  border-radius: 13px;
-
-  direction: rtl;
-}
-
-.selected-customs-vehicle-icon {
-  width: 38px;
-  height: 38px;
-
-  flex: 0 0 38px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border-radius: 10px;
-
-  background: #111827;
-  color: #fff;
-
-  font-size: 16px;
-}
-
-.selected-customs-vehicle-info {
-  min-width: 0;
-
-  flex: 1;
-
-  display: flex;
-  flex-direction: column;
-
-  gap: 3px;
-}
-
-.selected-customs-vehicle-info strong {
-  overflow: hidden;
-
-  color: #1e293b;
-
-  font-size: 13px;
-  font-weight: 800;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.selected-customs-vehicle-info span {
-  color: #64748b;
-
-  font-size: 11px;
-}
-
-.selected-customs-vehicle-price {
-  display: flex;
-  align-items: center;
-
-  gap: 3px;
-
-  direction: ltr;
-
-  white-space: nowrap;
-
-  color: #16a34a;
-}
-
-.selected-customs-vehicle-price span {
-  font-size: 13px;
-  font-weight: 800;
-}
-
-.selected-customs-vehicle-price strong {
-  font-size: 14px;
-  font-weight: 900;
-}
-
-
-/* =========================================
-   NO CUSTOMS VEHICLE
-========================================= */
-
-.no-customs-vehicle {
-  min-height: 50px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  gap: 8px;
-
-  padding: 10px;
-
-  border: 1px dashed #cbd5e1;
-
-  border-radius: 12px;
-
-  background: #f8fafc;
-
-  color: #94a3b8;
-
-  font-size: 12px;
-}
-
-
-/* =========================================
-   CUSTOMS COST
-========================================= */
-
-.customs-cost {
-  background: #f8fafc;
-
-  border-radius: 10px;
-
-  padding: 3px;
-}
-
-.customs-cost input:disabled {
-  color: #334155;
-
-  opacity: 1;
-
-  cursor: not-allowed;
-}
-
-.customs-cost .extra-price-input {
-  background: #fff;
-
-  border-color: #dbeafe;
-}
-
-.customs-cost-check {
-  width: 28px;
-  height: 28px;
-
-  flex-shrink: 0;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border-radius: 8px;
-
-  background: #dcfce7;
-  color: #16a34a;
-
-  font-size: 12px;
-}
-
-
-/* =========================================
-   MOBILE
-========================================= */
-
-@media (max-width: 480px) {
-
-  .selected-customs-vehicle {
-    padding: 9px;
-    gap: 8px;
-  }
-
-  .selected-customs-vehicle-icon {
+  .vehicle-rates-title-icon {
     width: 34px;
     height: 34px;
 
-    flex-basis: 34px;
-
-    font-size: 14px;
-  }
-
-  .selected-customs-vehicle-info strong {
-    font-size: 12px;
-  }
-
-  .selected-customs-vehicle-info span {
-    font-size: 10px;
-  }
-
-  .selected-customs-vehicle-price strong {
-    font-size: 13px;
-  }
-
-}
-
-
-
-/* ================================
-   CUSTOMS VEHICLE
-================================ */
-
-.customs-section {
-  position: relative;
-}
-
-.selected-customs-vehicle {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  width: 100%;
-  padding: 12px 14px;
-  border-radius: 14px;
-  background: rgba(255, 255, 255, 0.65);
-  border: 1px solid rgba(0, 0, 0, 0.08);
-}
-
-.selected-customs-vehicle-icon {
-  width: 42px;
-  height: 42px;
-  flex-shrink: 0;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border-radius: 11px;
-  background: rgba(0, 0, 0, 0.06);
-  color: #111;
-}
-
-.selected-customs-vehicle-info {
-  flex: 1;
-  min-width: 0;
-
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.selected-customs-vehicle-info strong {
-  color: #111;
-  font-size: 15px;
-  font-weight: 800;
-}
-
-.customs-vehicle-model {
-  color: #111 !important;
-  font-size: 13px;
-  font-weight: 600;
-}
-
-/* قیمت */
-
-.selected-customs-vehicle-price {
-  display: flex;
-  align-items: center;
-  gap: 3px;
-
-  color: #111;
-  white-space: nowrap;
-}
-
-.selected-customs-vehicle-price span {
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.selected-customs-vehicle-price strong {
-  color: #111;
-  font-size: 17px;
-  font-weight: 900;
-}
-
-/* دکمه حذف */
-
-.customs-remove-button {
-  width: 30px;
-  height: 30px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  flex-shrink: 0;
-
-  border: none;
-  border-radius: 50%;
-
-  background: #ef4444;
-  color: white;
-
-  font-size: 20px;
-  font-weight: 700;
-
-  cursor: pointer;
-
-  transition: 0.2s ease;
-}
-
-.customs-remove-button:hover {
-  transform: scale(1.08);
-  background: #dc2626;
-}
-
-/* دکمه انتخاب موتر */
-
-.customs-select-button {
-  width: 100%;
-  min-height: 52px;
-
-  display: flex;
-  align-items: center;
-  gap: 10px;
-
-  padding: 10px 14px;
-
-  border: 1px dashed rgba(0, 0, 0, 0.18);
-  border-radius: 14px;
-
-  background: rgba(255, 255, 255, 0.45);
-
-  color: #111;
-
-  cursor: pointer;
-
-  transition: 0.2s ease;
-}
-
-.customs-select-button:hover {
-  background: rgba(255, 255, 255, 0.8);
-  border-color: rgba(0, 0, 0, 0.3);
-}
-
-.customs-select-button svg {
-  font-size: 18px;
-}
-
-.customs-select-button span {
-  font-weight: 700;
-}
-
-.customs-select-arrow {
-  margin-right: auto;
-  font-size: 18px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.saved-calculations-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-
-  height: 40px;
-  padding: 0 14px;
-
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 10px;
-
-  background: rgba(255, 255, 255, 0.12);
-  color: inherit;
-
-  cursor: pointer;
-
-  font-family: inherit;
-  font-size: 13px;
-  font-weight: 700;
-
-  transition: all 0.2s ease;
-}
-
-.saved-calculations-button svg {
-  font-size: 16px;
-}
-
-.saved-calculations-button:hover {
-  background: rgba(255, 255, 255, 0.2);
-  transform: translateY(-1px);
-}
-
-.saved-calculations-button:active {
-  transform: translateY(0);
-}
-
-
-.saved-calculations-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 10000;
-
-  background: rgba(15, 23, 42, 0.35);
-  backdrop-filter: blur(8px);
-
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-}
-
-.saved-calculations-overlay > .saved-calculations {
-  width: min(1100px, 100%);
-  height: 100%;
-
-  background: rgba(255, 255, 255, 0.96);
-
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* =========================================
-   VEHICLE RATES LIST
-   FINAL / CLEAN VERSION
-========================================= */
-
-.vehicle-rates-list {
-  width: 100%;
-  flex: 1;
-  min-height: 0;
-
-  padding: 4px;
-
-  direction: rtl;
-
-  /*
-    خود list اسکرول نمی‌گیرد.
-    اسکرول را wrapper انجام می‌دهد.
-  */
-  overflow: hidden;
-}
-
-
-/* =========================================
-   TABLE WRAPPER
-   عمودی + افقی
-========================================= */
-
-.vehicle-rates-table-wrapper {
-  width: 100%;
-  height: 100%;
-
-  overflow: auto;
-
-  border: 1px solid #ddd;
-  border-radius: 10px;
-
-  background: #fff;
-
-  -webkit-overflow-scrolling: touch;
-
-  /*
-    جلوگیری از فاصله اضافی
-  */
-  padding: 0;
-  margin: 0;
-}
-
-
-/* =========================================
-   TABLE
-========================================= */
-
-.vehicle-rates-table {
-  width: 100%;
-
-  /*
-    اگر صفحه کوچک باشد، جدول افقی اسکرول می‌گیرد.
-  */
-  min-width: 560px;
-
-  margin: 0;
-  padding: 0;
-
-  /*
-    auto باعث می‌شود ستون‌ها بی‌دلیل
-    فضای بسیار زیاد نگیرند.
-  */
-  table-layout: auto;
-
-  border-collapse: separate;
-  border-spacing: 0;
-
-  direction: rtl;
-}
-
-
-/* =========================================
-   HEADER
-========================================= */
-
-.vehicle-rates-table thead th {
-  position: sticky;
-  top: 0;
-
-  z-index: 100;
-
-  height: 36px;
-
-  margin: 0;
-  padding: 3px 4px;
-
-  background: #111 !important;
-  color: #fff !important;
-
-  border: none;
-  border-bottom: 1px solid #333;
-
-  font-size: 12px;
-  font-weight: 700;
-
-  line-height: 1;
-
-  text-align: center;
-
-  white-space: nowrap;
-
-  vertical-align: middle;
-}
-
-
-/* =========================================
-   BODY ROW
-========================================= */
-
-.vehicle-rates-table tbody tr {
-  height: 36px;
-
-  margin: 0;
-  padding: 0;
-
-  transition: background 0.15s ease;
-}
-
-
-/* ردیف‌های یکی در میان */
-
-.vehicle-rates-table tbody tr:nth-child(even) {
-  background: #f8f8f8;
-}
-
-.vehicle-rates-table tbody tr:nth-child(odd) {
-  background: #fff;
-}
-
-
-/* Hover */
-
-.vehicle-rates-table tbody tr:hover {
-  background: #eeeeee;
-}
-
-
-/* =========================================
-   BODY CELL
-========================================= */
-
-.vehicle-rates-table tbody td {
-  height: 36px;
-
-  margin: 0;
-  padding: 2px 3px;
-
-  border: none;
-  border-bottom: 1px solid #eeeeee;
-
-  background: transparent;
-  color: #222;
-
-  font-size: 12px;
-
-  line-height: 1;
-
-  text-align: center;
-
-  vertical-align: middle;
-
-  white-space: nowrap;
-
-  overflow: hidden;
-}
-
-
-/* =========================================
-   COLUMN WIDTHS
-   خیلی فشرده
-========================================= */
-
-/* انتخاب */
-
-.vehicle-rates-table .col-select {
-  width: 45px;
-  min-width: 45px;
-  max-width: 45px;
-}
-
-
-/* شماره */
-
-.vehicle-rates-table .col-number {
-  width: 32px;
-  min-width: 32px;
-  max-width: 32px;
-}
-
-
-/* نام موتر
-   مهم‌ترین قسمت
-*/
-
-.vehicle-rates-table .col-car {
-  width: auto;
-
-  min-width: 145px;
-
-  max-width: 190px;
-}
-
-
-/* مدل */
-
-.vehicle-rates-table .col-year {
-  width: 55px;
-
-  min-width: 55px;
-  max-width: 55px;
-}
-
-
-/* افغانی */
-
-.vehicle-rates-table .col-afn {
-  width: 115px;
-
-  min-width: 115px;
-}
-
-
-/* دالر */
-
-.vehicle-rates-table .col-usd {
-  width: 105px;
-
-  min-width: 105px;
-}
-
-
-/* =========================================
-   VEHICLE NAME
-========================================= */
-
-.vehicle-table-car {
-  width: 100%;
-
-  min-width: 0;
-
-  margin: 0;
-  padding: 0;
-
-  display: flex;
-
-  align-items: center;
-
-  justify-content: flex-start;
-
-  gap: 3px;
-
-  overflow: hidden;
-
-  direction: rtl;
-}
-
-
-/* نام */
-
-.vehicle-table-car strong {
-  flex: 1;
-
-  min-width: 0;
-
-  margin: 0;
-  padding: 0;
-
-  display: block;
-
-  overflow: hidden;
-
-  text-overflow: ellipsis;
-
-  white-space: nowrap;
-
-  color: #111827;
-
-  font-size: 12px;
-
-  font-weight: 700;
-
-  line-height: 1;
-}
-
-
-/* =========================================
-   CAR ICON
-========================================= */
-
-.vehicle-table-icon {
-  flex: 0 0 24px;
-
-  width: 24px;
-  height: 24px;
-
-  margin: 0;
-  padding: 0;
-
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-
-  border-radius: 6px;
-
-  background: #111;
-
-  color: #fff;
-
-  font-size: 11px;
-}
-
-
-/* =========================================
-   ROW NUMBER
-========================================= */
-
-.vehicle-row-number {
-  margin: 0;
-  padding: 0;
-
-  color: #777;
-
-  font-size: 11px;
-
-  font-weight: 700;
-}
-
-
-/* =========================================
-   YEAR
-========================================= */
-
-.vehicle-year {
-  display: inline-flex;
-
-  align-items: center;
-  justify-content: center;
-
-  min-width: 42px;
-
-  height: 23px;
-
-  margin: 0;
-  padding: 0 4px;
-
-  border-radius: 6px;
-
-  background: #ededed;
-
-  color: #222;
-
-  font-size: 11px;
-
-  font-weight: 700;
-
-  line-height: 1;
-}
-
-
-/* =========================================
-   PRICE
-========================================= */
-
-.vehicle-table-price {
-  display: inline-flex;
-
-  align-items: center;
-  justify-content: center;
-
-  gap: 2px;
-
-  margin: 0;
-  padding: 0;
-
-  direction: ltr;
-
-  white-space: nowrap;
-
-  line-height: 1;
-}
-
-
-/* قیمت */
-
-.vehicle-table-price strong {
-  margin: 0;
-  padding: 0;
-
-  font-size: 11px;
-
-  font-weight: 800;
-
-  line-height: 1;
-
-  font-variant-numeric: tabular-nums;
-}
-
-
-/* علامت پول */
-
-.price-currency {
-  margin: 0;
-  padding: 0;
-
-  font-size: 11px;
-
-  font-weight: 800;
-
-  line-height: 1;
-}
-
-
-/* دالر */
-
-.usd-price {
-  direction: ltr;
-}
-
-
-/* =========================================
-   SELECT BUTTON
-========================================= */
-
-.vehicle-table-select {
-  width: 24px;
-  height: 24px;
-
-  margin: 0;
-  padding: 0;
-
-  display: inline-flex;
-
-  align-items: center;
-  justify-content: center;
-
-  border: 1px solid #aaa;
-
-  border-radius: 6px;
-
-  background: #fff;
-
-  color: #fff;
-
-  cursor: pointer;
-
-  font-size: 10px;
-}
-
-
-/* selected */
-
-.vehicle-table-select.selected {
-  background: #111;
-
-  border-color: #111;
-}
-
-
-/* =========================================
-   SELECTED ROW
-========================================= */
-
-.vehicle-table-row-selected {
-  background: #e9e9e9 !important;
-}
-
-.vehicle-table-row-selected td:first-child {
-  box-shadow:
-    inset -3px 0 0 #111;
-}
-
-
-/* =========================================
-   MOBILE
-========================================= */
-
-@media (max-width: 600px) {
-
-  .vehicle-rates-list {
-    padding: 3px;
-
-    overflow: hidden;
-  }
-
-
-  .vehicle-rates-table-wrapper {
-    width: 100%;
-    height: 100%;
-
-    overflow: auto;
-
     border-radius: 9px;
+
+    font-size: 15px;
   }
 
-
-  .vehicle-rates-table {
-    /*
-      مهم:
-      جدول در موبایل کوچک‌تر از این نشود،
-      بنابراین اگر لازم بود افقی اسکرول می‌شود.
-    */
-    min-width: 560px;
-
-    width: max-content;
-
-    table-layout: auto;
+  .vehicle-rates-title h2 {
+    font-size: 15px;
   }
 
-
-  /* ================================
-     MOBILE HEADER
-  ================================= */
-
-  .vehicle-rates-table thead th {
-    position: sticky;
-    top: 0;
-
-    z-index: 100;
-
-    height: 32px;
-
-    padding: 2px 3px;
-
-    background: #111 !important;
-    color: #fff !important;
-
-    font-size: 10px;
-
-    line-height: 1;
-  }
-
-
-  /* ================================
-     MOBILE ROW
-  ================================= */
-
-  .vehicle-rates-table tbody tr {
-    height: 33px;
-  }
-
-
-  .vehicle-rates-table tbody td {
-    height: 33px;
-
-    padding: 1px 2px;
-
-    font-size: 10px;
-
-    line-height: 1;
-  }
-
-
-  /* ================================
-     MOBILE COLUMNS
-  ================================= */
-
-  .vehicle-rates-table .col-select {
-    width: 40px;
-
-    min-width: 40px;
-    max-width: 40px;
-  }
-
-
-  .vehicle-rates-table .col-number {
-    width: 28px;
-
-    min-width: 28px;
-    max-width: 28px;
-  }
-
-
-  .vehicle-rates-table .col-car {
-    width: 170px;
-
-    min-width: 170px;
-    max-width: 170px;
-  }
-
-
-  .vehicle-rates-table .col-year {
-    width: 52px;
-
-    min-width: 52px;
-    max-width: 52px;
-  }
-
-
-  .vehicle-rates-table .col-afn {
-    width: 110px;
-
-    min-width: 110px;
-  }
-
-
-  .vehicle-rates-table .col-usd {
-    width: 100px;
-
-    min-width: 100px;
-  }
-
-
-  /* ================================
-     MOBILE CAR
-  ================================= */
-
-  .vehicle-table-car {
-    gap: 2px;
-  }
-
-
-  .vehicle-table-icon {
-    flex: 0 0 22px;
-
-    width: 22px;
-    height: 22px;
-
-    border-radius: 5px;
-
-    font-size: 10px;
-  }
-
-
-  .vehicle-table-car strong {
-    font-size: 11px;
-
-    line-height: 1;
-  }
-
-
-  /* ================================
-     MOBILE YEAR
-  ================================= */
-
-  .vehicle-year {
-    min-width: 38px;
-
-    height: 21px;
-
-    padding: 0 3px;
-
-    font-size: 10px;
-  }
-
-
-  /* ================================
-     MOBILE PRICE
-  ================================= */
-
-  .vehicle-table-price {
-    gap: 1px;
-  }
-
-  .vehicle-table-price strong,
-  .price-currency {
-    font-size: 10px;
-  }
-
-
-  /* ================================
-     MOBILE SELECT
-  ================================= */
-
-  .vehicle-table-select {
-    width: 22px;
-    height: 22px;
-
-    border-radius: 5px;
-
-    font-size: 9px;
-  }
-}
-
-
-/* =========================================
-   VERY SMALL PHONES
-========================================= */
-
-@media (max-width: 360px) {
-
-  .vehicle-rates-table {
-    min-width: 520px;
-  }
-
-
-  .vehicle-rates-table .col-car {
-    width: 155px;
-
-    min-width: 155px;
-    max-width: 155px;
-  }
-
-
-  .vehicle-rates-table thead th {
-    font-size: 9px;
-  }
-
-
-  .vehicle-rates-table tbody td {
-    font-size: 9px;
-  }
-
-
-  .vehicle-table-icon {
+  .vehicle-rates-title p {
     display: none;
   }
 
-
-  .vehicle-table-car strong {
-    font-size: 10px;
+  .vehicle-rates-close {
+    width: 32px;
+    height: 32px;
   }
 
+  .vehicle-dollar-rate {
+    margin: 6px 7px 4px;
 
-  .vehicle-table-price strong,
-  .price-currency {
+    padding: 7px 9px;
+  }
+
+  .vehicle-n {
+    font-size: 11px;
+  }
+
+  .currency-number {
+    font-size: 13px;
+  }
+
+  .currency-symbol {
+    font-size: 14px;
+  }
+
+  .vehicle-rates-search {
+    margin: 5px 7px;
+
+    height: 39px;
+  }
+
+  .vehicle-search-suggestions,
+  .vehicle-search-results,
+  .vehicle-search-list {
+    left: 7px;
+    right: 7px;
+  }
+
+  .vehicle-rates-count {
+    padding: 1px 7px 4px;
+
     font-size: 9px;
   }
-}
 
-/* =========================================
-   MOBILE - ULTRA COMPACT
-========================================= */
 
-@media (max-width: 600px) {
+  /* -----------------------------------------
+     SMALL TABLE
+  ----------------------------------------- */
 
   .vehicle-rates-list {
-    padding: 1px;
-    overflow: hidden;
+    padding: 2px;
   }
-
-  .vehicle-rates-table-wrapper {
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    border-radius: 7px;
-  }
-
-  .vehicle-rates-table {
-    min-width: 450px;
-    width: max-content;
-    table-layout: fixed;
-  }
-
-  /* ================================
-     HEADER
-  ================================= */
-
-  .vehicle-rates-table thead th {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-
-    height: 27px;
-
-    padding: 1px 1px;
-
-    font-size: 9px;
-    line-height: 1;
-
-    background: #111 !important;
-    color: #fff !important;
-  }
-
-  /* ================================
-     ROW
-  ================================= */
-
-  .vehicle-rates-table tbody tr {
-    height: 29px;
-  }
-
-  .vehicle-rates-table tbody td {
-    height: 29px;
-
-    padding: 0 1px;
-
-    font-size: 9px;
-    line-height: 1;
-
-    border-bottom: 1px solid #ededed;
-  }
-
-  /* ================================
-     SELECT
-  ================================= */
-
-  .vehicle-rates-table .col-select {
-    width: 30px;
-    min-width: 30px;
-    max-width: 30px;
-  }
-
-  /* ================================
-     NUMBER
-  ================================= */
-
-  .vehicle-rates-table .col-number {
-    width: 22px;
-    min-width: 22px;
-    max-width: 22px;
-  }
-
-  /* ================================
-     CAR
-  ================================= */
-
-  .vehicle-rates-table .col-car {
-    width: 135px;
-    min-width: 135px;
-    max-width: 135px;
-  }
-
-  /* ================================
-     YEAR
-  ================================= */
-
-  .vehicle-rates-table .col-year {
-    width: 45px;
-    min-width: 45px;
-    max-width: 45px;
-  }
-
-  /* ================================
-     AFN
-  ================================= */
-
-  .vehicle-rates-table .col-afn {
-    width: 90px;
-    min-width: 90px;
-    max-width: 90px;
-  }
-
-  /* ================================
-     USD
-  ================================= */
-
-  .vehicle-rates-table .col-usd {
-    width: 80px;
-    min-width: 80px;
-    max-width: 80px;
-  }
-
-  /* ================================
-     CAR
-  ================================= */
-
-  .vehicle-table-car {
-    gap: 1px;
-    width: 100%;
-  }
-
-  .vehicle-table-icon {
-    flex: 0 0 18px;
-
-    width: 18px;
-    height: 18px;
-
-    border-radius: 4px;
-
-    font-size: 8px;
-  }
-
-  .vehicle-table-car strong {
-    font-size: 9px;
-    line-height: 1;
-  }
-
-  /* ================================
-     NUMBER
-  ================================= */
-
-  .vehicle-row-number {
-    font-size: 8px;
-  }
-
-  /* ================================
-     YEAR
-  ================================= */
-
-  .vehicle-year {
-    min-width: 32px;
-    height: 18px;
-
-    padding: 0 2px;
-
-    border-radius: 4px;
-
-    font-size: 8px;
-  }
-
-  /* ================================
-     PRICE
-  ================================= */
-
-  .vehicle-table-price {
-    gap: 1px;
-  }
-
-  .vehicle-table-price strong,
-  .price-currency {
-    font-size: 8px;
-  }
-
-  /* ================================
-     SELECT BUTTON
-  ================================= */
-
-  .vehicle-table-select {
-    width: 18px;
-    height: 18px;
-
-    border-radius: 4px;
-
-    font-size: 8px;
-  }
-}
-
-
-/* =========================================
-   VERY SMALL PHONES
-========================================= */
-
-@media (max-width: 360px) {
 
   .vehicle-rates-table {
     min-width: 405px;
   }
 
+
+  /* -----------------------------------------
+     SMALL TABLE HEADER
+  ----------------------------------------- */
+
   .vehicle-rates-table thead th {
+    position: sticky !important;
+
+    top: 0 !important;
+
+    z-index: 100 !important;
+
     height: 25px;
+
     padding: 0 1px;
+
+    background: #111 !important;
+
+    color: #fff !important;
+
     font-size: 8px;
+
+    line-height: 1;
   }
+
+
+  /* -----------------------------------------
+     SMALL ROW
+  ----------------------------------------- */
 
   .vehicle-rates-table tbody tr {
     height: 27px;
@@ -5017,45 +6947,61 @@ button {
 
   .vehicle-rates-table tbody td {
     height: 27px;
+
     padding: 0 1px;
+
     font-size: 8px;
   }
 
+
+  /* -----------------------------------------
+     SMALL COLUMNS
+  ----------------------------------------- */
+
   .vehicle-rates-table .col-select {
     width: 27px;
+
     min-width: 27px;
     max-width: 27px;
   }
 
   .vehicle-rates-table .col-number {
     width: 20px;
+
     min-width: 20px;
     max-width: 20px;
   }
 
   .vehicle-rates-table .col-car {
     width: 120px;
+
     min-width: 120px;
     max-width: 120px;
   }
 
   .vehicle-rates-table .col-year {
     width: 40px;
+
     min-width: 40px;
     max-width: 40px;
   }
 
   .vehicle-rates-table .col-afn {
     width: 82px;
+
     min-width: 82px;
-    max-width: 82px;
   }
 
   .vehicle-rates-table .col-usd {
     width: 74px;
+
     min-width: 74px;
-    max-width: 74px;
   }
+
+
+  /* -----------------------------------------
+     SMALL CAR
+  ----------------------------------------- */
 
   .vehicle-table-icon {
     display: none;
@@ -5069,20 +7015,106 @@ button {
     font-size: 7px;
   }
 
+
+  /* -----------------------------------------
+     SMALL YEAR
+  ----------------------------------------- */
+
   .vehicle-year {
     min-width: 29px;
+
     height: 17px;
+
     font-size: 7px;
   }
+
+
+  /* -----------------------------------------
+     SMALL PRICE
+  ----------------------------------------- */
 
   .vehicle-table-price strong,
   .price-currency {
     font-size: 7px;
   }
 
+
+  /* -----------------------------------------
+     SMALL SELECT
+  ----------------------------------------- */
+
   .vehicle-table-select {
     width: 17px;
     height: 17px;
+
     font-size: 7px;
+  }
+
+
+  /* -----------------------------------------
+     CUSTOMS
+  ----------------------------------------- */
+
+  .selected-customs-vehicle {
+    padding: 8px;
+
+    gap: 7px;
+  }
+
+  .selected-customs-vehicle-icon {
+    width: 31px;
+    height: 31px;
+
+    flex-basis: 31px;
+  }
+
+  .selected-customs-vehicle-info strong {
+    font-size: 11px;
+  }
+
+  .selected-customs-vehicle-price strong {
+    font-size: 12px;
+  }
+}
+
+/* =========================================================
+   LOCK MAIN APP SCROLL WHEN MODAL / OVERLAY IS OPEN
+========================================================= */
+
+/* وقتی Calculator یا گمرک باز است */
+body:has(.calculator-overlay),
+body:has(.vehicle-rates-overlay) {
+  overflow: hidden !important;
+  height: 100% !important;
+  overscroll-behavior: none !important;
+}
+
+/* جلوگیری از اسکرول خود App در پس‌زمینه */
+body:has(.calculator-overlay) #root,
+body:has(.vehicle-rates-overlay) #root {
+  overflow: hidden !important;
+  height: 100% !important;
+}
+
+/* خود صفحه اصلی App */
+body:has(.calculator-overlay) .app,
+body:has(.vehicle-rates-overlay) .app {
+  overflow: hidden !important;
+}
+
+/* موبایل / Samsung */
+@media (max-width: 768px) {
+  body:has(.calculator-overlay),
+  body:has(.vehicle-rates-overlay) {
+    position: fixed !important;
+    width: 100% !important;
+    overflow: hidden !important;
+    touch-action: none;
+  }
+
+  body:has(.calculator-overlay) #root,
+  body:has(.vehicle-rates-overlay) #root {
+    overflow: hidden !important;
+    touch-action: none;
   }
 }

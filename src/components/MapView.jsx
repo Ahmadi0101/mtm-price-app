@@ -438,7 +438,7 @@ export default function MapView({ locations = [], selectedLocation = null, selec
                           fontWeight: 700,
                         }}
                       >
-                        کرایه انتقال
+                      کرایه انتقال امریکا الی ترکیه
                       </span>
 
                       <strong
@@ -473,7 +473,7 @@ export default function MapView({ locations = [], selectedLocation = null, selec
                           fontWeight: 700,
                         }}
                       >
-                        هرات
+                       ترکیه الی افغانستان (اسلام قلعه)
                       </span>
 
                       <strong
@@ -592,11 +592,14 @@ export default function MapView({ locations = [], selectedLocation = null, selec
                       LOCATION
                   ================================= */}
 
-                  <div className="popup-title">{location.city || location.branch || 'Location'}</div>
+                  {location.branch && (
+                    <div className="popup-branch"><div className="popup-title">{location.branch}</div>
+                    </div>
+                  )}
+
+                  <div className="popup-state">{location.city || location.branch || 'Location'}</div>
 
                   {location.state && <div className="popup-state">{location.state}</div>}
-
-                  {location.branch && <div className="popup-branch">Branch: {location.branch}</div>}
 
                   <div className="popup-divider" />
 
@@ -683,7 +686,7 @@ export default function MapView({ locations = [], selectedLocation = null, selec
                                   fontWeight: 700,
                                 }}
                               >
-                                کرایه انتقال
+                                آمریکا ← ترکیه
                               </span>
 
                               <strong
@@ -714,7 +717,7 @@ export default function MapView({ locations = [], selectedLocation = null, selec
                                   fontWeight: 700,
                                 }}
                               >
-                                هرات
+                                ترکیه ← (اسلام قلعه)
                               </span>
 
                               <strong
