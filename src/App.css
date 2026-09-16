@@ -6053,7 +6053,7 @@ button {
    <= 600px
 ========================================================= */
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
   /* -----------------------------------------
      FLOATING BUTTON
@@ -6734,7 +6734,7 @@ button {
    <= 360px
 ========================================================= */
 
-@media (max-width: 360px) {
+@media (max-width: 768px) {
 
   .header {
     height: 50px;
@@ -7098,7 +7098,7 @@ body:has(.vehicle-rates-overlay) .app {
    SAMSUNG MOBILE - FIX SEARCH + TABLE HEADER
 ========================================================= */
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
   /* صفحه اصلی نرخ‌ها */
   .vehicle-rates-page {
