@@ -30,7 +30,7 @@ export default function Calculator({
   // CUSTOMS PRICE
   // ==========================================
 
-  const customsVehiclePrice = Number(selectedVehiclePriceUsd || selectedVehicle?.price_usd || 0);
+  const customsVehiclePrice = Math.round(Number(selectedVehiclePriceUsd || selectedVehicle?.price_usd || 0));
 
   // ==========================================
   // EXTRA COSTS
@@ -197,9 +197,12 @@ export default function Calculator({
   // FORMAT PRICE
   // ==========================================
 
-  const formatPrice = (value) => {
-    return Number(value || 0).toLocaleString('en-US');
-  };
+  // const formatPrice = (value) => {
+  //   return Number(value || 0).toLocaleString('en-US');
+  // };
+   const formatPrice = (value) => {
+     return Math.round(Number(value || 0)).toLocaleString('en-US');
+   };
 
   // ==========================================
   // SAVE CALCULATION

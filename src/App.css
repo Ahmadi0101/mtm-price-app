@@ -6966,36 +6966,36 @@ button {
   }
 
   .vehicle-rates-table .col-number {
-    width: 20px;
+    width: 5px;
 
-    min-width: 20px;
-    max-width: 20px;
+    min-width: 5px;
+    max-width: 5px;
   }
 
   .vehicle-rates-table .col-car {
-    width: 120px;
+    width: 80px;
 
-    min-width: 120px;
-    max-width: 120px;
+    min-width: 80px;
+    max-width: 80px;
   }
 
   .vehicle-rates-table .col-year {
-    width: 40px;
+    width: 15px;
 
-    min-width: 40px;
-    max-width: 40px;
+    min-width: 15px;
+    max-width: 15px;
   }
 
   .vehicle-rates-table .col-afn {
-    width: 82px;
-
-    min-width: 82px;
+    width: 45px;
+ min-width: 45px;
+    min-width: 45px;
   }
 
   .vehicle-rates-table .col-usd {
-    width: 74px;
-
-    min-width: 74px;
+    width: 40px;
+ min-width: 40px;
+    min-width: 40px;
   }
 
 
