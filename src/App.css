@@ -6734,6 +6734,11 @@ button {
    <= 360px
 ========================================================= */
 
+@media (max-width: 480px) {
+.vehicle-table-icon {
+    display: none;
+  }
+}
 @media (max-width: 768px) {
 
   .header {
