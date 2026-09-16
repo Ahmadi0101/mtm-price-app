@@ -6734,7 +6734,7 @@ button {
    <= 360px
 ========================================================= */
 
-@media (max-width: 360px) {
+@media (max-width: 290px) {
 .vehicle-table-icon {
     display: none;
   }
@@ -6983,9 +6983,7 @@ button {
      SMALL CAR
   ----------------------------------------- */
 
-  .vehicle-table-icon {
-    display: none;
-  }
+
 
   .vehicle-table-car strong {
     font-size: 8px;
