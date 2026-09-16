@@ -472,9 +472,9 @@ const [popupCloseKey, setPopupCloseKey] = useState(0);
             </button>
           )}
 
-          {/* نتایج باید دقیقاً اینجا باشد */}
-          {search && filteredLocations.length > 0 && <div className="vehicle-rates-search-floating-results">{/* نتایج سرچ */}</div>}
+         
         </div>
+        
 
         {/* ===================================
             SELECTED LOCATION
