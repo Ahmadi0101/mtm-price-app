@@ -394,7 +394,7 @@ export default function VehicleRates({ appData, selectedVehicle, onClose, onSele
 
           <div className="vehicle-rates-title">
             <div>
-              <h2>نرخ گمرک موتر</h2>طططط
+              <h2>نرخ گمرک موتر</h2>
 
               <p>تعداد نرخ های موجود: {vehicles.length}</p>
             </div>

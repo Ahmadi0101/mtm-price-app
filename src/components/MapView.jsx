@@ -2,7 +2,7 @@ import { MapContainer, TileLayer, Marker, Popup, Polyline, CircleMarker, useMap 
 import { FaCalculator } from 'react-icons/fa';
 import { useEffect, useMemo } from 'react';
 import L from 'leaflet';
-
+import {  useRef } from 'react';
 import markerIcon from 'leaflet/dist/images/marker-icon.png';
 import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
 import markerShadow from 'leaflet/dist/images/marker-shadow.png';
@@ -225,8 +225,20 @@ function MapController({ locations, selectedLocation }) {
 /* =====================================================
    MAIN MAP
 ===================================================== */
+ 
+export default function MapView({ locations = [], selectedLocation = null, selectedPort = null, onSelectLocation, onSelectPort, popupCloseKey }) {
 
-export default function MapView({ locations = [], selectedLocation = null, selectedPort = null, onSelectLocation, onSelectPort }) {
+
+
+  function ClosePopups({ popupCloseKey }) {
+    const map = useMap();
+
+    useEffect(() => {
+      map.closePopup();
+    }, [map, popupCloseKey]);
+
+    return null;
+  }
   /* ===================================================
      SELECTED LOCATION PORTS
   =================================================== */
@@ -316,6 +328,7 @@ export default function MapView({ locations = [], selectedLocation = null, selec
         {/* =================================================
             OPEN STREET MAP
         ================================================= */}
+        <ClosePopups popupCloseKey={popupCloseKey} />
 
         <TileLayer attribution="&copy; OpenStreetMap contributors" url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
@@ -438,7 +451,7 @@ export default function MapView({ locations = [], selectedLocation = null, selec
                           fontWeight: 700,
                         }}
                       >
-                      کرایه انتقال امریکا الی ترکیه
+                        کرایه انتقال امریکا الی ترکیه
                       </span>
 
                       <strong
@@ -473,7 +486,7 @@ export default function MapView({ locations = [], selectedLocation = null, selec
                           fontWeight: 700,
                         }}
                       >
-                       ترکیه الی افغانستان (اسلام قلعه)
+                        ترکیه الی افغانستان (اسلام قلعه)
                       </span>
 
                       <strong
@@ -579,10 +592,15 @@ export default function MapView({ locations = [], selectedLocation = null, selec
               position={[lat, lng]}
               icon={isSelected ? selectedIcon : defaultIcon}
               eventHandlers={{
-                click: () => {
+                click: (e) => {
                   if (onSelectLocation) {
                     onSelectLocation(location);
                   }
+
+                  // Popup همین Location را باز نگه می‌داریم
+                  setTimeout(() => {
+                    e.target.openPopup();
+                  }, 50);
                 },
               }}
             >
@@ -593,7 +611,8 @@ export default function MapView({ locations = [], selectedLocation = null, selec
                   ================================= */}
 
                   {location.branch && (
-                    <div className="popup-branch"><div className="popup-title">{location.branch}</div>
+                    <div className="popup-branch">
+                      <div className="popup-title">{location.branch}</div>
                     </div>
                   )}
 

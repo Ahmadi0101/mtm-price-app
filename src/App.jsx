@@ -14,6 +14,9 @@ import { checkForUpdate } from './utils/github';
 import './App.css';
 
 function App() {
+
+   
+
   /* =========================================
      VEHICLE RATES
   ========================================= */
@@ -28,6 +31,8 @@ function App() {
   /* =========================================
      APP DATA
   ========================================= */
+
+  
 
   const [appData, setAppData] = useState(() => {
     const saved = getSavedData();
@@ -62,7 +67,7 @@ function App() {
   const [selectedLocationId, setSelectedLocationId] = useState(null);
 
   const [selectedLocation, setSelectedLocation] = useState(null);
-
+const [popupCloseKey, setPopupCloseKey] = useState(0);
   /* =========================================
      PORT
   ========================================= */
@@ -312,10 +317,11 @@ function App() {
 
   const clearSelectedLocation = () => {
     setSelectedLocationId(null);
-
     setSelectedLocation(null);
-
     setSelectedPort(null);
+
+    // بستن Popup نقشه
+    setPopupCloseKey((prev) => prev + 1);
   };
 
 
@@ -465,6 +471,9 @@ function App() {
               ×
             </button>
           )}
+
+          {/* نتایج باید دقیقاً اینجا باشد */}
+          {search && filteredLocations.length > 0 && <div className="vehicle-rates-search-floating-results">{/* نتایج سرچ */}</div>}
         </div>
 
         {/* ===================================
@@ -508,6 +517,7 @@ function App() {
             selectedPort={selectedPort}
             onSelectLocation={selectLocation}
             onSelectPort={selectPort}
+            popupCloseKey={popupCloseKey}
           />
         </div>
 
