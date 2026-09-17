@@ -585,7 +585,7 @@ const [popupCloseKey, setPopupCloseKey] = useState(0);
                               {/* SHIP */}
 
                               <div>
-                                <span>Ship</span>
+                                <span>USA → TR</span>
 
                                 <strong>${Number(port.ship || 0).toLocaleString()}</strong>
                               </div>
@@ -593,7 +593,7 @@ const [popupCloseKey, setPopupCloseKey] = useState(0);
                               {/* HERAT */}
 
                               <div>
-                                <span>Herat</span>
+                                <span>TR → AF</span>
 
                                 <strong>${Number(port.herat || 0).toLocaleString()}</strong>
                               </div>
