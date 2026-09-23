@@ -40,13 +40,15 @@ function App() {
   ========================================= */
 
   useEffect(() => {
-    if (updateStatus !== 'updated' && updateStatus !== 'latest') return;
+    // اطلاعات جدید دریافت شد یا اطلاعات از قبل به‌روز بود
+    // فقط 5 ثانیه نمایش داده شود
+    if (updateStatus === 'updated' || updateStatus === 'latest') {
+      const timer = setTimeout(() => {
+        setUpdateStatus('idle');
+      }, 5000);
 
-    const timer = setTimeout(() => {
-      setUpdateStatus('checking');
-    }, 30000);
-
-    return () => clearTimeout(timer);
+      return () => clearTimeout(timer);
+    }
   }, [updateStatus]);
 
   const [appData, setAppData] = useState(() => {
