@@ -622,13 +622,13 @@ function VehicleSales({ onClose }) {
               BIDCARS HISTORY
           ================================================= */}
 
-          <div className="vehicle-actions">
+          {/* <div className="vehicle-actions">
             <a href={vehicle.bidCarsUrl} target="_blank" rel="noopener noreferrer" className="vehicle-primary-button">
               <FaExternalLinkAlt />
 
               <span>دیدن هستوی</span>
             </a>
-          </div>
+          </div> */}
 
           {/* =================================================
     CONTACT / WHATSAPP
