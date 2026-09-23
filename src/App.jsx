@@ -34,20 +34,27 @@ function App() {
   ========================================= */
 
   const [updateStatus, setUpdateStatus] = useState('checking');
+  const [showUpdateStatus, setShowUpdateStatus] = useState(false);
 
   /* =========================================
      APP DATA
   ========================================= */
 
   useEffect(() => {
-    // اطلاعات جدید دریافت شد یا اطلاعات از قبل به‌روز بود
-    // فقط 5 ثانیه نمایش داده شود
+    // فقط وقتی وضعیت به updated یا latest تغییر کرد
     if (updateStatus === 'updated' || updateStatus === 'latest') {
+      setShowUpdateStatus(true);
+
       const timer = setTimeout(() => {
-        setUpdateStatus('idle');
+        setShowUpdateStatus(false);
       }, 5000);
 
       return () => clearTimeout(timer);
+    }
+
+    // آفلاین باید تا زمان آنلاین شدن نمایش داده شود
+    if (updateStatus === 'offline') {
+      setShowUpdateStatus(true);
     }
   }, [updateStatus]);
 
@@ -435,12 +442,13 @@ function App() {
           </div>
 
           <div className="header-actions">
-            <div className="update-status">
-              {updateStatus === 'checking' && '⏳ بررسی اطلاعات...'}
-              {updateStatus === 'updated' && '✅ اطلاعات جدید دریافت شد'}
-              {updateStatus === 'latest' && '✓ اطلاعات به‌روز است'}
-              {updateStatus === 'offline' && '📴 حالت آفلاین'}
-            </div>
+            {showUpdateStatus && (
+              <div className="update-status">
+                {updateStatus === 'updated' && '✅ اطلاعات جدید دریافت شد'}
+                {updateStatus === 'latest' && '✓ اطلاعات به‌روز است'}
+                {updateStatus === 'offline' && '📴 حالت آفلاین'}
+              </div>
+            )}
 
             <button type="button" className="vehicle-sales-header-button" onClick={() => setVehicleSalesPage(true)} title="موتر فروشی">
               <span>موتر فروشی</span>
