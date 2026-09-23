@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { FaCalculator, FaSearch } from 'react-icons/fa';
+import { FaCalculator,FaCarSide, FaSearch } from 'react-icons/fa';
 import { FaSave } from 'react-icons/fa';
 import SavedCalculations from './components/SavedCalculations';
 import data from './data/data.json';
@@ -12,11 +12,9 @@ import { getSavedData, saveData } from './utils/storage';
 import { checkForUpdate } from './utils/github';
 
 import './App.css';
+import VehicleSales from './components/VehicleSales';
 
 function App() {
-
-   
-
   /* =========================================
      VEHICLE RATES
   ========================================= */
@@ -28,11 +26,28 @@ function App() {
   const [selectedVehiclePriceUsd, setSelectedVehiclePriceUsd] = useState(0);
 
   const [savedCalculationsPage, setSavedCalculationsPage] = useState(false);
+
+  const [vehicleSalesPage, setVehicleSalesPage] = useState(false);
+
+  /* =========================================
+     UPDATE STATUS
+  ========================================= */
+
+  const [updateStatus, setUpdateStatus] = useState('checking');
+
   /* =========================================
      APP DATA
   ========================================= */
 
-  
+  useEffect(() => {
+    if (updateStatus !== 'updated' && updateStatus !== 'latest') return;
+
+    const timer = setTimeout(() => {
+      setUpdateStatus('checking');
+    }, 30000);
+
+    return () => clearTimeout(timer);
+  }, [updateStatus]);
 
   const [appData, setAppData] = useState(() => {
     const saved = getSavedData();
@@ -67,7 +82,7 @@ function App() {
   const [selectedLocationId, setSelectedLocationId] = useState(null);
 
   const [selectedLocation, setSelectedLocation] = useState(null);
-const [popupCloseKey, setPopupCloseKey] = useState(0);
+  const [popupCloseKey, setPopupCloseKey] = useState(0);
   /* =========================================
      PORT
   ========================================= */
@@ -79,12 +94,6 @@ const [popupCloseKey, setPopupCloseKey] = useState(0);
   ========================================= */
 
   const [calculator, setCalculator] = useState(null);
-
-  /* =========================================
-     UPDATE STATUS
-  ========================================= */
-
-  const [updateStatus, setUpdateStatus] = useState('checking');
 
   /* =========================================
      SAVE DATA LOCALLY
@@ -324,12 +333,11 @@ const [popupCloseKey, setPopupCloseKey] = useState(0);
     setPopupCloseKey((prev) => prev + 1);
   };
 
-
   const handleRemoveVehicle = () => {
     setSelectedVehicle(null);
     setSelectedVehiclePriceUsd(0);
   };
-  
+
   /* =========================================
      SEARCH CHANGE
   ========================================= */
@@ -424,24 +432,19 @@ const [popupCloseKey, setPopupCloseKey] = useState(0);
             <img src={`${import.meta.env.BASE_URL}LOGO.png`} alt="MTM" className="header-logo-image" />
           </div>
 
-          <div className="update-status">
-            {updateStatus === 'checking' && '⏳ بررسی اطلاعات...'}
+          <div className="header-actions">
+            <div className="update-status">
+              {updateStatus === 'checking' && '⏳ بررسی اطلاعات...'}
+              {updateStatus === 'updated' && '✅ اطلاعات جدید دریافت شد'}
+              {updateStatus === 'latest' && '✓ اطلاعات به‌روز است'}
+              {updateStatus === 'offline' && '📴 حالت آفلاین'}
+            </div>
 
-            {updateStatus === 'updated' && '✅ اطلاعات جدید دریافت شد'}
-
-            {updateStatus === 'latest' && '✓ اطلاعات به‌روز است'}
-
-            {updateStatus === 'offline' && '📴 حالت آفلاین'}
+            <button type="button" className="vehicle-sales-header-button" onClick={() => setVehicleSalesPage(true)} title="موتر فروشی">
+              <span>موتر فروشی</span>
+              <FaCarSide />
+            </button>
           </div>
-          {/* <button
-            type="button"
-            className="saved-calculations-button"
-            onClick={() => setSavedCalculationsPage(true)}
-            title="محاسبات ذخیره شده"
-          >
-            <FaSave />
-            
-          </button> */}
         </div>
       </header>
 
@@ -471,10 +474,7 @@ const [popupCloseKey, setPopupCloseKey] = useState(0);
               ×
             </button>
           )}
-
-         
         </div>
-        
 
         {/* ===================================
             SELECTED LOCATION
@@ -540,13 +540,13 @@ const [popupCloseKey, setPopupCloseKey] = useState(0);
 
                   <div className="location-header">
                     <div>
-                      <h2>{location.city}</h2>
+                      <h2>{location.branch}</h2>
 
                       <span>{location.state}</span>
                     </div>
 
                     <div className="location-header-right">
-                      <div className="branch">{location.branch}</div>
+                      <div className="branch">{location.city}</div>
 
                       <div
                         className={`location-source source-${String(location.source || 'OTHER')
@@ -642,6 +642,7 @@ const [popupCloseKey, setPopupCloseKey] = useState(0);
             )}
           </div>
         </div>
+        {vehicleSalesPage && <VehicleSales onClose={() => setVehicleSalesPage(false)} />}
       </main>
 
       {/* =====================================
@@ -663,12 +664,13 @@ const [popupCloseKey, setPopupCloseKey] = useState(0);
       {/* =====================================
           VEHICLE CUSTOMS BUTTON
       ===================================== */}
-
-      <button type="button" className="floating-customs-button" onClick={openVehicleRates} aria-label="نرخ گمرک موتر">
-        <span className="floating-car-icon">
-          <img src={`${import.meta.env.BASE_URL}Vehicles.jpg`} alt="Vehicle Documents" className="flat-imge" />
-        </span>
-      </button>
+      {!vehicleSalesPage && (
+        <button type="button" className="floating-customs-button" onClick={openVehicleRates} aria-label="نرخ گمرک موتر">
+          <span className="floating-car-icon">
+            <img src={`${import.meta.env.BASE_URL}Vehicles.jpg`} alt="Vehicle Documents" className="flat-imge" />
+          </span>
+        </button>
+      )}
 
       {/* =====================================
           VEHICLE RATES
