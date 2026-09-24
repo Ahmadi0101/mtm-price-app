@@ -281,50 +281,7 @@ function VehicleSales({ onClose }) {
 
   };
 
-  const [isImageViewerOpen, setIsImageViewerOpen] = useState(false);
-const [viewerTouchStartX, setViewerTouchStartX] = useState(null);
-
-const openImageViewer = () => {
-  setIsImageViewerOpen(true);
-};
-
-const closeImageViewer = () => {
-  setIsImageViewerOpen(false);
-};
-
-const nextViewerImage = () => {
-  setActiveImage((current) =>
-    current === vehicle.images.length - 1 ? 0 : current + 1
-  );
-};
-
-const previousViewerImage = () => {
-  setActiveImage((current) =>
-    current === 0 ? vehicle.images.length - 1 : current - 1
-  );
-};
-
-const handleViewerTouchStart = (event) => {
-  setViewerTouchStartX(event.touches[0].clientX);
-};
-
-const handleViewerTouchEnd = (event) => {
-  if (viewerTouchStartX === null) return;
-
-  const endX = event.changedTouches[0].clientX;
-  const difference = viewerTouchStartX - endX;
-
-  // حداقل مقدار حرکت برای تشخیص Swipe
-  if (Math.abs(difference) > 50) {
-    if (difference > 0) {
-      nextViewerImage();
-    } else {
-      previousViewerImage();
-    }
-  }
-
-  setViewerTouchStartX(null);
-};
+  
 
   // =====================================================
   // PRICE
@@ -375,7 +332,6 @@ const handleViewerTouchEnd = (event) => {
               onMouseDown={handleMouseDown}
               onMouseUp={handleMouseUp}
               onDragStart={(event) => event.preventDefault()}
-              onClick={openImageViewer}
             >
               <img src={vehicle.images[activeImage]} alt={vehicle.title} draggable="false" />
 
@@ -452,67 +408,6 @@ const handleViewerTouchEnd = (event) => {
               </button>
             </div>
           </div>
-{isImageViewerOpen && (
-  <div
-    className="vehicle-image-viewer"
-    onClick={closeImageViewer}
-    onTouchStart={handleViewerTouchStart}
-    onTouchEnd={handleViewerTouchEnd}
-  >
-    {/* CLOSE BUTTON */}
-    <button
-      type="button"
-      className="vehicle-image-viewer-close"
-      onClick={(event) => {
-        event.stopPropagation();
-        closeImageViewer();
-      }}
-      aria-label="بستن"
-    >
-      ×
-    </button>
-
-    {/* PREVIOUS */}
-    {/* <button
-      type="button"
-      className="vehicle-image-viewer-arrow vehicle-image-viewer-arrow-left"
-      onClick={(event) => {
-        event.stopPropagation();
-        previousViewerImage();
-      }}
-      aria-label="عکس قبلی"
-    >
-      <FaChevronLeft />
-    </button> */}
-
-    {/* IMAGE */}
-    <img
-      src={vehicle.images[activeImage]}
-      alt={vehicle.title}
-      className="vehicle-image-viewer-image"
-      draggable="false"
-      onClick={(event) => event.stopPropagation()}
-    />
-
-    {/* NEXT */}
-    {/* <button
-      type="button"
-      className="vehicle-image-viewer-arrow vehicle-image-viewer-arrow-right"
-      onClick={(event) => {
-        event.stopPropagation();
-        nextViewerImage();
-      }}
-      aria-label="عکس بعدی"
-    >
-      <FaChevronRight />
-    </button> */}
-
-    {/* COUNTER */}
-    <div className="vehicle-image-viewer-counter">
-      {activeImage + 1} / {vehicle.images.length}
-    </div>
-  </div>
-)}
 
           {/* =================================================
               TITLE
