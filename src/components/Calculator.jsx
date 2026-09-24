@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { FaCalculator } from 'react-icons/fa';
+import { FaCalculator, FaTimes } from 'react-icons/fa';
 
 export default function Calculator({
   location,
@@ -303,7 +303,7 @@ export default function Calculator({
   // ==========================================
   // UI →  ←
   // ==========================================
-
+ 
   return (
     <div className="calculator-overlay" onClick={onClose}>
       <div className="calculator" onClick={(e) => e.stopPropagation()}>
@@ -329,7 +329,7 @@ export default function Calculator({
           </div>
 
           <button type="button" className="close-button" onClick={onClose}>
-            ×
+           <FaTimes />
           </button>
         </div>
 

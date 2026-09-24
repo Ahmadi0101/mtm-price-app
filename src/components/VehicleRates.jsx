@@ -384,7 +384,7 @@ export default function VehicleRates({ appData, selectedVehicle, onClose, onSele
     <div className="vehicle-rates-overlay">
       <div className="vehicle-rates-page" onClick={(e) => e.stopPropagation()}>
         {/* =====================================
-            HEADER
+            HEADER 
         ===================================== */}
 
         <div className="vehicle-rates-header">

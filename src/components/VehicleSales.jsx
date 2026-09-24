@@ -36,7 +36,7 @@ const vehicle = {
   model: 'PRIUS',
   year: '12/12',
 
-  title: 'TOYOTA PRIUS',
+  title: 'TOYOTA PRIUS 2013',
 
   auction: 'IAAI',
   lotNumber: '45134424',
@@ -56,6 +56,7 @@ const vehicle = {
   location: '(ایران) در حال رسیدن به مقصد اسلام قلعه',
 
   titleStatus: 'Clean Title',
+  details: 'تسلیمی هرات با مکتوب',
 
   // =====================================================
   // PRICE
@@ -415,17 +416,18 @@ function VehicleSales({ onClose }) {
             <h1>{vehicle.title}</h1>
 
             <div className="vehicle-auction-row">
-              <div className="vehicle-auction">
+              {/* <div className="vehicle-auction">
                 <FaGavel />
 
                 <span>{vehicle.auction}</span>
-              </div>
+              </div> */}
 
               <div className="vehicle-lot">
+                
+                Stock #:  {' '}
                 <strong>
-                  {vehicle.lotNumber} {' : '}{' '}
+                 {vehicle.lotNumber} 
                 </strong>
-                Lot #
               </div>
             </div>
           </div>
@@ -588,6 +590,8 @@ function VehicleSales({ onClose }) {
             </div>
           </div>
 
+
+
           {/* =================================================
               PRICE
           ================================================= */}
@@ -604,6 +608,7 @@ function VehicleSales({ onClose }) {
                 <strong>${formatPrice(finalPrice)}</strong>
               </div>
             </div>
+             
 
             {/* ORIGINAL PRICE */}
 
@@ -616,7 +621,13 @@ function VehicleSales({ onClose }) {
                 </div>
               </div>
             )}
+
+            
           </div>
+          <div className="vehicle-detail">
+               <span>  {vehicle.details}</span>
+              </div>
+          
 
           {/* =================================================
               BIDCARS HISTORY
@@ -633,6 +644,8 @@ function VehicleSales({ onClose }) {
           {/* =================================================
     CONTACT / WHATSAPP
 ================================================= */}
+
+
 
           <div className="vehicle-actionss">
             <a href="tel:+93781865863" className="vehicle-contact-button vehicle-call-button">

@@ -1057,12 +1057,15 @@ button {
   align-items: center;
   justify-content: center;
 
-  padding: 20px;
+  padding: 
+    max(32px, env(safe-area-inset-top) + 18px)
+    0px
+    0px !important;
 
-  background: rgba(15, 23, 42, 0.55);
+  background: rgba(15, 23, 42, 0.20);
 
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
 
   overflow-y: auto;
 }
@@ -1084,7 +1087,7 @@ button {
 
   border: 1px solid rgba(255, 255, 255, 0.8);
 
-  border-radius: 24px;
+  border-radius: 20px 20px 0 0;
 
   padding: 20px;
 
@@ -1184,39 +1187,31 @@ button {
   color: #94a3b8;
 }
 
-/* =========================================
-   CLOSE BUTTON
-========================================= */
-
 .close-button {
-  width: 38px;
-  height: 38px;
-
+  width: 30px;
+  height: 30px;
   flex-shrink: 0;
 
   border: none;
+  border-radius: 50%;
 
-  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  background: #e2e8f0;
+  background: rgba(0, 0, 0, 0.07);
+  color: #333;
 
-  color: #334155;
-
-  font-size: 24px;
-
-  line-height: 1;
-
+  font-size: 17px;
   cursor: pointer;
 
-  transition: 0.2s;
+  transition: 0.2s ease;
 }
 
 .close-button:hover {
-  background: #cbd5e1;
-
-  transform: scale(1.05);
+  background: rgba(0, 0, 0, 0.14);
+  transform: rotate(90deg);
 }
-
 /* =========================================
    CALCULATOR LOCATION
 ========================================= */
@@ -2054,12 +2049,13 @@ button {
   align-items: center;
   justify-content: center;
 
-  padding: 16px;
+  
 
-  background: rgba(0, 0, 0, 0.55);
+  
+ background: rgba(15, 23, 42, 0.20);
 
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
 }
 
 .vehicle-rates-page {
@@ -2077,7 +2073,7 @@ button {
 
   border: 1px solid rgba(255, 255, 255, 0.7);
 
-  border-radius: 22px;
+  border-radius: 20px 20px 0 0;
 
   box-shadow:
     0 25px 70px rgba(0, 0, 0, 0.3),
@@ -3658,12 +3654,16 @@ button {
   align-items: center;
   justify-content: center;
 
-  padding: 20px;
+  padding: 
+    max(32px, env(safe-area-inset-top) + 18px)
+    0px
+    0px !important;
 
-  background: rgba(15, 23, 42, 0.55);
+  background: rgba(15, 23, 42, 0.20);
 
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+
 
   overflow-y: auto;
 }
@@ -3685,7 +3685,7 @@ button {
 
   border: 1px solid rgba(255, 255, 255, 0.8);
 
-  border-radius: 24px;
+  border-radius: 20px 20px 0 0;
 
   padding: 20px;
 
@@ -3792,32 +3792,29 @@ button {
 ========================================================= */
 
 .close-button {
-  width: 38px;
-  height: 38px;
-
+  width: 30px;
+  height: 30px;
   flex-shrink: 0;
 
   border: none;
+  border-radius: 50%;
 
-  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  background: #e2e8f0;
+  background: rgba(0, 0, 0, 0.07);
+  color: #333;
 
-  color: #334155;
-
-  font-size: 24px;
-
-  line-height: 1;
-
+  font-size: 17px;
   cursor: pointer;
 
-  transition: 0.2s;
+  transition: 0.2s ease;
 }
 
 .close-button:hover {
-  background: #cbd5e1;
-
-  transform: scale(1.05);
+  background: rgba(0, 0, 0, 0.14);
+  transform: rotate(90deg);
 }
 
 
@@ -4654,9 +4651,9 @@ button {
     فاصله بالای صفحه مثل Calculator
   */
   padding:
-    max(52px, env(safe-area-inset-top) + 18px)
-    14px
-    14px;
+    max(32px, env(safe-area-inset-top) + 18px)
+    0px
+    0px;
 
   overflow: hidden;
 
@@ -4694,8 +4691,9 @@ button {
   overflow: hidden;
 
   border: 1px solid rgba(255, 255, 255, 0.72);
+  border-radius: 20px 20px 0 0;
 
-  border-radius: 22px;
+
 
   background: rgba(255, 255, 255, 0.88);
 
@@ -6214,9 +6212,9 @@ button {
     align-items: flex-start;
 
     padding:
-      max(46px, env(safe-area-inset-top) + 12px)
-      6px
-      6px;
+      max(32px, env(safe-area-inset-top) + 18px)
+      0px
+      0px;
   }
 
   .vehicle-rates-page {
@@ -6230,7 +6228,8 @@ button {
 
     max-height: none;
 
-    border-radius: 17px;
+   border-radius: 20px 20px 0 0;
+
   }
 
 
@@ -6596,7 +6595,7 @@ button {
 
     padding: 15px;
 
-    border-radius: 22px 22px 0 0;
+border-radius: 20px 20px 0 0;
   }
 
   .calculator-title-icon {
@@ -6787,6 +6786,7 @@ button {
 
   .calculator {
     padding: 13px;
+    border-radius: 20px 20px 0 0;
   }
 
 
@@ -6796,9 +6796,9 @@ button {
 
   .vehicle-rates-overlay {
     padding:
-      max(38px, env(safe-area-inset-top) + 9px)
-      4px
-      4px;
+      max(32px, env(safe-area-inset-top) + 18px)
+      0px
+      0px;
   }
 
   .vehicle-rates-page {
@@ -7106,6 +7106,7 @@ body:has(.vehicle-rates-overlay) .app {
   /* صفحه اصلی نرخ‌ها */
   .vehicle-rates-page {
     overflow: hidden !important;
+    border-radius: 20px 20px 0 0;
   }
 
   /* بخش بالای صفحه و سرچ */
