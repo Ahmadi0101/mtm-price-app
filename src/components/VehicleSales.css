@@ -1628,3 +1628,89 @@ font-size: small;
   background: #dbe7f7;
  padding: 3px 6px;
 }
+
+
+
+
+.vehicle-image-viewer {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(0, 0, 0, 0.92);
+
+  padding: 60px;
+
+  animation: vehicleViewerFadeIn 0.2s ease;
+}
+
+.vehicle-image-viewer-image {
+  max-width: 92vw;
+  max-height: 88vh;
+
+  width: auto;
+  height: auto;
+
+  object-fit: contain;
+
+  user-select: none;
+  -webkit-user-drag: none;
+
+  border-radius: 6px;
+
+  animation: vehicleViewerImageIn 0.2s ease;
+}
+
+.vehicle-image-viewer-close {
+  position: absolute;
+
+  top: 20px;
+  left: 25px;
+
+  width: 42px;
+  height: 42px;
+
+  border: none;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+
+  font-size: 30px;
+  line-height: 1;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+
+  z-index: 2;
+}
+
+.vehicle-image-viewer-close:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: rotate(90deg);
+}
+
+.vehicle-image-viewer-image {
+  max-width: 92vw;
+  max-height: 88vh;
+  width: auto;
+  height: auto;
+
+  object-fit: contain;
+  user-select: none;
+  -webkit-user-drag: none;
+
+  /* مهم برای حرکت و زوم با انگشت */
+  touch-action: none;
+
+  border-radius: 6px;
+}
