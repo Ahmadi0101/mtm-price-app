@@ -6,6 +6,7 @@ import {  useRef } from 'react';
 import markerIcon from 'leaflet/dist/images/marker-icon.png';
 import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
 import markerShadow from 'leaflet/dist/images/marker-shadow.png';
+import { FaExpand, FaCompress } from 'react-icons/fa';
 
 /* =====================================================
    LEAFLET BRANCH ICONS
@@ -344,7 +345,7 @@ function ClosePopups({ popupCloseKey }) {
         title={isFullscreen ? 'خروج از حالت تمام صفحه' : 'تمام صفحه'}
         aria-label={isFullscreen ? 'خروج از حالت تمام صفحه' : 'تمام صفحه'}
       >
-        {isFullscreen ? '⛶' : '⛶'}
+        {isFullscreen ? <FaCompress /> : <FaExpand />}
       </button>
 
       <MapContainer center={[35.5, -95.7]} zoom={4} className="map" scrollWheelZoom={true} attributionControl={false}>

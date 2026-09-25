@@ -8059,7 +8059,7 @@ body:has(.calculator-overlay) {
   position: absolute;
   top: 12px;
   right: 12px;
-  z-index: 10000;
+  z-index: 1000;
 
   width: 30px;
   height: 30px;
