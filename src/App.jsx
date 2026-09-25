@@ -440,14 +440,14 @@ function App() {
           <div className="header-logo">
             <img src={`${import.meta.env.BASE_URL}LOGO.png`} alt="MTM" className="header-logo-image" />
           </div>
-
+123456789
           <div className="header-actions">
             {showUpdateStatus && (
               <div className="update-status">
                 {updateStatus === 'updated' && '✅ اطلاعات جدید دریافت شد'}
                 {updateStatus === 'latest' && '✓ اطلاعات به‌روز است'}
                 {updateStatus === 'offline' && '📴 حالت آفلاین'}
-              </div>12345678
+              </div>
             )}
 
             <button type="button" className="vehicle-sales-header-button" onClick={() => setVehicleSalesPage(true)} title="موتر فروشی">
