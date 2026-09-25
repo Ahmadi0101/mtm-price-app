@@ -437,7 +437,7 @@ function App() {
 
       <header className="header">
         <div className="header-content">
-          <div className="header-logo">دددددددد
+          <div className="header-logo">
             <img src={`${import.meta.env.BASE_URL}LOGO.png`} alt="MTM" className="header-logo-image" />
           </div>
 
@@ -447,7 +447,7 @@ function App() {
                 {updateStatus === 'updated' && '✅ اطلاعات جدید دریافت شد'}
                 {updateStatus === 'latest' && '✓ اطلاعات به‌روز است'}
                 {updateStatus === 'offline' && '📴 حالت آفلاین'}
-              </div>
+              </div>12345678
             )}
 
             <button type="button" className="vehicle-sales-header-button" onClick={() => setVehicleSalesPage(true)} title="موتر فروشی">
