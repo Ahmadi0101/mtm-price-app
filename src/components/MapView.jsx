@@ -229,47 +229,29 @@ function MapController({ locations, selectedLocation }) {
 export default function MapView({ locations = [], selectedLocation = null, selectedPort = null, onSelectLocation, onSelectPort, popupCloseKey }) {
 
 
-  const [isFullscreen, setIsFullscreen] = useState(false);
+const [isFullscreen, setIsFullscreen] = useState(false);
 
-  const toggleFullscreen = async () => {
-    const mapWrapper = document.querySelector('.map-wrapper');
+const toggleFullscreen = () => {
+  setIsFullscreen((prev) => !prev);
+};
 
-    if (!mapWrapper) return;
+useEffect(() => {
+  const timer = setTimeout(() => {
+    window.dispatchEvent(new Event('resize'));
+  }, 150);
 
-    try {
-      if (!document.fullscreenElement) {
-        await mapWrapper.requestFullscreen();
-        setIsFullscreen(true);
-      } else {
-        await document.exitFullscreen();
-        setIsFullscreen(false);
-      }
-    } catch (error) {
-      console.error('Fullscreen error:', error);
-    }
-  };
+  return () => clearTimeout(timer);
+}, [isFullscreen]);
+
+function ClosePopups({ popupCloseKey }) {
+  const map = useMap();
 
   useEffect(() => {
-    const handleFullscreenChange = () => {
-      setIsFullscreen(Boolean(document.fullscreenElement));
-    };
+    map.closePopup();
+  }, [map, popupCloseKey]);
 
-    document.addEventListener('fullscreenchange', handleFullscreenChange);
-
-    return () => {
-      document.removeEventListener('fullscreenchange', handleFullscreenChange);
-    };
-  }, []);
-
-  function ClosePopups({ popupCloseKey }) {
-    const map = useMap();
-
-    useEffect(() => {
-      map.closePopup();
-    }, [map, popupCloseKey]);
-
-    return null;
-  }
+  return null;
+}
   /* ===================================================
      SELECTED LOCATION PORTS
   =================================================== */
@@ -354,7 +336,7 @@ export default function MapView({ locations = [], selectedLocation = null, selec
   =================================================== */
 
   return (
-    <div className="map-wrapper">
+    <div className={`map-wrapper ${isFullscreen ? 'map-wrapper-fullscreen' : ''}`}>
       <button
         type="button"
         className="map-fullscreen-button"
