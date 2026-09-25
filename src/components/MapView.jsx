@@ -1,6 +1,6 @@
 import { MapContainer, TileLayer, Marker, Popup, Polyline, CircleMarker, useMap } from 'react-leaflet';
 import { FaCalculator } from 'react-icons/fa';
-import { useEffect, useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import L from 'leaflet';
 import {  useRef } from 'react';
 import markerIcon from 'leaflet/dist/images/marker-icon.png';
@@ -229,6 +229,37 @@ function MapController({ locations, selectedLocation }) {
 export default function MapView({ locations = [], selectedLocation = null, selectedPort = null, onSelectLocation, onSelectPort, popupCloseKey }) {
 
 
+  const [isFullscreen, setIsFullscreen] = useState(false);
+
+  const toggleFullscreen = async () => {
+    const mapWrapper = document.querySelector('.map-wrapper');
+
+    if (!mapWrapper) return;
+
+    try {
+      if (!document.fullscreenElement) {
+        await mapWrapper.requestFullscreen();
+        setIsFullscreen(true);
+      } else {
+        await document.exitFullscreen();
+        setIsFullscreen(false);
+      }
+    } catch (error) {
+      console.error('Fullscreen error:', error);
+    }
+  };
+
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      setIsFullscreen(Boolean(document.fullscreenElement));
+    };
+
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+
+    return () => {
+      document.removeEventListener('fullscreenchange', handleFullscreenChange);
+    };
+  }, []);
 
   function ClosePopups({ popupCloseKey }) {
     const map = useMap();
@@ -324,14 +355,28 @@ export default function MapView({ locations = [], selectedLocation = null, selec
 
   return (
     <div className="map-wrapper">
+      <button
+        type="button"
+        className="map-fullscreen-button"
+        onClick={toggleFullscreen}
+        title={isFullscreen ? 'خروج از حالت تمام صفحه' : 'تمام صفحه'}
+        aria-label={isFullscreen ? 'خروج از حالت تمام صفحه' : 'تمام صفحه'}
+      >
+        {isFullscreen ? '⛶' : '⛶'}
+      </button>
+      
       <MapContainer center={[35.5, -95.7]} zoom={4} className="map" scrollWheelZoom={true} attributionControl={false}>
         {/* =================================================
             OPEN STREET MAP
         ================================================= */}
         <ClosePopups popupCloseKey={popupCloseKey} />
 
-        <TileLayer attribution="&copy; OpenStreetMap contributors" url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-
+        <TileLayer
+          attribution="&copy; OpenStreetMap contributors &copy; CARTO"
+          url={`https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=${import.meta.env.VITE_CARTO_API_KEY}`}
+          subdomains="abcd"
+          maxZoom={20}
+        />
         {/* =================================================
             MAP CONTROLLER
         ================================================= */}
