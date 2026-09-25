@@ -364,19 +364,14 @@ export default function MapView({ locations = [], selectedLocation = null, selec
       >
         {isFullscreen ? '⛶' : '⛶'}
       </button>
-      
+
       <MapContainer center={[35.5, -95.7]} zoom={4} className="map" scrollWheelZoom={true} attributionControl={false}>
         {/* =================================================
             OPEN STREET MAP
         ================================================= */}
         <ClosePopups popupCloseKey={popupCloseKey} />
 
-        <TileLayer
-          attribution="&copy; OpenStreetMap contributors &copy; CARTO"
-          url={`https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=${import.meta.env.VITE_CARTO_API_KEY}`}
-          subdomains="abcd"
-          maxZoom={20}
-        />
+        <TileLayer attribution="&copy; OpenStreetMap contributors" url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" maxZoom={19} />
         {/* =================================================
             MAP CONTROLLER
         ================================================= */}

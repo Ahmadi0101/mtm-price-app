@@ -32,21 +32,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Check CARTO API Key
-        run: |
-          if [ -z "$VITE_CARTO_API_KEY" ]; then
-            echo "❌ CARTO API KEY IS MISSING"
-            exit 1
-          else
-            echo "✅ CARTO API KEY EXISTS"
-          fi
-        env:
-          VITE_CARTO_API_KEY: ${{ secrets.VITE_CARTO_API_KEY }}
-
       - name: Build
         run: npm run build
-        env:
-          VITE_CARTO_API_KEY: ${{ secrets.VITE_CARTO_API_KEY }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

@@ -440,7 +440,6 @@ function App() {
           <div className="header-logo">
             <img src={`${import.meta.env.BASE_URL}LOGO.png`} alt="MTM" className="header-logo-image" />
           </div>
-123456789
           <div className="header-actions">
             {showUpdateStatus && (
               <div className="update-status">
