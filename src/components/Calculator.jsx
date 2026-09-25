@@ -307,10 +307,6 @@ export default function Calculator({
   return (
     <div className="calculator-overlay" onClick={onClose}>
       <div className="calculator" onClick={(e) => e.stopPropagation()}>
-        {/* ======================================
-            HEADER
-        ====================================== */}
-
         <div className="calculator-header">
           <div className="calculator-header-info">
             <div className="calculator-title-icon">
@@ -329,223 +325,233 @@ export default function Calculator({
           </div>
 
           <button type="button" className="close-button" onClick={onClose}>
-           <FaTimes />
+            <FaTimes />
           </button>
         </div>
+        <div className="calculator-content">
+          {/* ======================================
+            HEADER
+        ====================================== */}
 
-        {/* ======================================
+          {/* ======================================
             LOCATION
         ====================================== */}
 
-        <div className="calculator-location">
-          <div className="location-item">
-            <span>ایالت</span>
+          <div className="calculator-location">
+            <div className="location-item">
+              <span>ایالت</span>
 
-            <strong>{location?.state || '-'}</strong>
+              <strong>{location?.state || '-'}</strong>
+            </div>
+
+            <div className="location-item">
+              <span>برنچ</span>
+
+              <strong>{location?.branch || '-'}</strong>
+            </div>
+
+            <div className="location-item">
+              <span>شهر</span>
+
+              <strong>{location?.city || '-'}</strong>
+            </div>
           </div>
 
-          <div className="location-item">
-            <span>برنچ</span>
-
-            <strong>{location?.branch || '-'}</strong>
-          </div>
-
-          <div className="location-item">
-            <span>شهر</span>
-
-            <strong>{location?.city || '-'}</strong>
-          </div>
-        </div>
-
-        {/* ======================================
+          {/* ======================================
             PORT SELECTOR
         ====================================== */}
 
-        {ports.length > 1 && (
-          <div className="port-selector">
-            <label>پورت مقصد</label>
+          {ports.length > 1 && (
+            <div className="port-selector">
+              <label>پورت مقصد</label>
 
-            <select value={selectedPortIndex} onChange={(e) => setSelectedPortIndex(Number(e.target.value))}>
-              {ports.map((item, index) => (
-                <option key={`${item.name}-${index}`} value={index}>
-                  {item.name}
-                </option>
-              ))}
-            </select>
-          </div>
-        )}
+              <select value={selectedPortIndex} onChange={(e) => setSelectedPortIndex(Number(e.target.value))}>
+                {ports.map((item, index) => (
+                  <option key={`${item.name}-${index}`} value={index}>
+                    {item.name}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
 
-        {/* ======================================
+          {/* ======================================
             SELECTED PORT
         ====================================== */}
 
-        <div className="selected-port-info">
-          <div className="selected-port-info-div">
-            <span className="selected-port-info-span">پورت انتخاب‌شده</span>
+          <div className="selected-port-info">
+            <div className="selected-port-info-div">
+              <span className="selected-port-info-span">پورت انتخاب‌شده</span>
 
-            <strong>{selectedPort?.name || '-'}</strong>
+              <strong>{selectedPort?.name || '-'}</strong>
+            </div>
           </div>
-        </div>
 
-        {/* ======================================
+          {/* ======================================
             PRICE DETAILS
         ====================================== */}
 
-        <div className="price-card">
-          <div className="price-row">
-            <div className="price-label">
-              <span className="price-icon">🚢</span>
+          <div className="price-card">
+            <div className="price-row">
+              <div className="price-label">
+                <span className="price-icon">🚢</span>
 
-              <div>
-                <strong>هزینه انتقال الی مرسن</strong>
+                <div>
+                  <strong>هزینه انتقال الی مرسن</strong>
 
-                <small>USA TO TR</small>
+                  <small>USA TO TR</small>
+                </div>
               </div>
+
+              <strong className="price-value">${formatPrice(ship)}</strong>
             </div>
 
-            <strong className="price-value">${formatPrice(ship)}</strong>
-          </div>
+            <div className="price-row">
+              <div className="price-label">
+                <span className="price-icon">🇦🇫</span>
 
-          <div className="price-row">
-            <div className="price-label">
-              <span className="price-icon">🇦🇫</span>
+                <div>
+                  <strong>هزینه انتقال الی اسلام قلعه</strong>
 
-              <div>
-                <strong>هزینه انتقال الی اسلام قلعه</strong>
-
-                <small>TR TO AF</small>
+                  <small>TR TO AF</small>
+                </div>
               </div>
+
+              <strong className="price-value">${formatPrice(herat)}</strong>
             </div>
-
-            <strong className="price-value">${formatPrice(herat)}</strong>
           </div>
-        </div>
 
-        {/* ======================================
+          {/* ======================================
             BASE TOTAL
         ====================================== */}
 
-        <div className="base-total">
-          <div>
-            <span>مجموع انتقال</span>
+          <div className="base-total">
+            <div>
+              <span>مجموع انتقال</span>
 
-            <small>هزینه اصلی انتقال موتر</small>
+              <small>هزینه اصلی انتقال موتر</small>
+            </div>
+
+            <strong>${formatPrice(originalTotal)}</strong>
           </div>
 
-          <strong>${formatPrice(originalTotal)}</strong>
-        </div>
-
-        {/* ======================================
+          {/* ======================================
             EXTRA COSTS
         ====================================== */}
 
-        <div className="extra-section">
-          {/* ------------------------------------
+          <div className="extra-section">
+            {/* ------------------------------------
               TITLE
           ------------------------------------ */}
 
-          <div className="section-title">
-            <div>
-              <h3>مصارف اضافی</h3>
+            <div className="section-title">
+              <div>
+                <h3>مصارف اضافی</h3>
 
-              <p>اگر هزینه دیگری دارید، اینجا اضافه کنید</p>
-            </div>
+                <p>اگر هزینه دیگری دارید، اینجا اضافه کنید</p>
+              </div>
 
-            <div className="section-actions">
-              {/* --------------------------------
+              <div className="section-actions">
+                {/* --------------------------------
                   NORMAL COST
               -------------------------------- */}
 
-              <button type="button" className="add-cost-small" onClick={addCost}>
-                + افزودن
-              </button>
+                <button type="button" className="add-cost-small" onClick={addCost}>
+                  + افزودن
+                </button>
+              </div>
             </div>
-          </div>
 
-          {/* ====================================
+            {/* ====================================
               COST LIST
           ==================================== */}
 
-          <div className="extra-costs-list">
-            {extraCosts.map((cost, index) => (
-              <div className="extra-cost" key={cost.id}>
-                {/* NUMBER */}
+            <div className="extra-costs-list">
+              {extraCosts.map((cost, index) => (
+                <div className="extra-cost" key={cost.id}>
+                  {/* NUMBER */}
 
-                <div className="extra-number">{index + 1}</div>
+                  <div className="extra-number">{index + 1}</div>
 
-                {/* NAME */}
-
-                <input type="text" placeholder="نام مصرف" value={cost.name} onChange={(e) => updateCost(cost.id, 'name', e.target.value)} />
-
-                {/* PRICE */}
-
-                <div className="extra-price-input">
-                  <span>$</span>
+                  {/* NAME */}
 
                   <input
-                    type="number"
-                    inputMode="numeric"
-                    min="0"
-                    placeholder="0"
-                    value={cost.value === 0 ? '' : cost.value}
-                    onChange={(e) => updateCost(cost.id, 'value', e.target.value)}
+                    type="text"
+                    placeholder="نام مصرف"
+                    value={cost.name}
+                    onChange={(e) => updateCost(cost.id, 'name', e.target.value)}
                   />
+
+                  {/* PRICE */}
+
+                  <div className="extra-price-input">
+                    <span>$</span>
+
+                    <input
+                      type="number"
+                      inputMode="numeric"
+                      min="0"
+                      placeholder="0"
+                      value={cost.value === 0 ? '' : cost.value}
+                      onChange={(e) => updateCost(cost.id, 'value', e.target.value)}
+                    />
+                  </div>
+
+                  {/* REMOVE */}
+
+                  <button
+                    type="button"
+                    className="remove-cost"
+                    onClick={() => removeCost(cost.id)}
+                    title={cost.type === 'customs' ? 'حذف محصول گمرک' : 'حذف مصرف'}
+                  >
+                    ×
+                  </button>
                 </div>
+              ))}
+            </div>
 
-                {/* REMOVE */}
-
-                <button
-                  type="button"
-                  className="remove-cost"
-                  onClick={() => removeCost(cost.id)}
-                  title={cost.type === 'customs' ? 'حذف محصول گمرک' : 'حذف مصرف'}
-                >
-                  ×
-                </button>
-              </div>
-            ))}
-          </div>
-
-          {/* ====================================
+            {/* ====================================
               EXTRA TOTAL
           ==================================== */}
 
-          <div className="extra-total">
-            <span>مجموع مصارف اضافی</span>
+            <div className="extra-total">
+              <span>مجموع مصارف اضافی</span>
 
-            <strong>${formatPrice(extraTotal)}</strong>
+              <strong>${formatPrice(extraTotal)}</strong>
+            </div>
           </div>
-        </div>
 
-        {/* ======================================
+          {/* ======================================
             GRAND TOTAL
         ====================================== */}
 
-        <div className="grand-total">
-          <div>
-            <span>مجموع نهایی</span>
+          <div className="grand-total">
+            <div>
+              <span>مجموع نهایی</span>
 
-            <small>انتقال + مصارف اضافی</small>
+              <small>انتقال + مصارف اضافی</small>
+            </div>
+
+            <strong>${formatPrice(grandTotal)}</strong>
           </div>
 
-          <strong>${formatPrice(grandTotal)}</strong>
-        </div>
-
-        {/* ======================================
+          {/* ======================================
             SAVE
         ====================================== */}
 
-        {/* <button type="button" className={`save-calculation ${saved ? 'saved' : ''}`} onClick={saveCalculation}>
+          {/* <button type="button" className={`save-calculation ${saved ? 'saved' : ''}`} onClick={saveCalculation}>
           {saved ? '✓ محاسبه ذخیره شد' : 'ذخیره محاسبه'}
         </button> */}
 
-        {/* ======================================
+          {/* ======================================
             CLOSE
         ====================================== */}
 
-        <button type="button" className="calculator-done" onClick={onClose}>
-          بستن
-        </button>
+          <button type="button" className="calculator-done" onClick={onClose}>
+            بستن
+          </button>
+        </div>
       </div>
     </div>
   );

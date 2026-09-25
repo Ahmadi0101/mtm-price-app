@@ -7549,3 +7549,125 @@ body:has(.calculator-overlay) {
 
   touch-action: pan-y;
 }
+
+
+/* =====================================================
+   FIX CALCULATOR - ثابت بودن صفحه + اسکرول داخلی
+===================================================== */
+
+html:has(.calculator-overlay),
+body:has(.calculator-overlay) {
+  overflow: hidden !important;
+  height: 100% !important;
+  overscroll-behavior: none !important;
+}
+
+/* Overlay کاملاً ثابت */
+.calculator-overlay {
+  position: fixed !important;
+  inset: 0 !important;
+
+  width: 100%;
+  height: 100dvh;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding: 14px 0 0 !important;
+
+  overflow: hidden !important;
+  overscroll-behavior: none !important;
+
+  touch-action: none;
+
+  box-sizing: border-box;
+}
+
+/* خود Calculator ثابت */
+.calculator {
+  position: relative;
+
+  width: 100%;
+  max-width: 520px;
+
+  height: calc(100dvh - 14px);
+  max-height: calc(100dvh - 14px);
+
+  margin: 0 auto;
+
+  overflow: hidden !important;
+
+  background: #f8fafc;
+
+  border-radius: 20px 20px 0 0;
+
+  box-sizing: border-box;
+}
+
+/* Header ثابت بماند */
+.calculator-header {
+  flex-shrink: 0;
+}
+
+/* =========================================
+   محتوای Calculator
+   فقط این قسمت باید اسکرول شود
+========================================= */
+
+.calculator-content {
+  height: calc(100dvh - 90px);
+  max-height: calc(100dvh - 90px);
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+
+  touch-action: pan-y;
+
+  scrollbar-width: thin;
+
+  box-sizing: border-box;
+}
+
+/* موبایل */
+@media (max-width: 700px) {
+
+  .calculator-overlay {
+    padding: 14px 0 0 !important;
+
+    height: 100dvh;
+
+    overflow: hidden !important;
+
+    align-items: flex-start;
+
+    touch-action: none;
+  }
+
+  .calculator {
+    width: 100%;
+
+    height: calc(100dvh - 14px);
+    max-height: calc(100dvh - 14px);
+
+    border-radius: 20px 20px 0 0;
+
+    overflow: hidden !important;
+  }
+
+  .calculator-content {
+    height: calc(100dvh - 90px);
+    max-height: calc(100dvh - 90px);
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+
+    touch-action: pan-y;
+  }
+}
