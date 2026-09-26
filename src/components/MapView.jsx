@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer, Marker, Popup, Polyline, CircleMarker, useMap } from 'react-leaflet';
+ import { MapContainer, TileLayer, Marker, Popup, Polyline, CircleMarker, Circle, useMap } from 'react-leaflet';
 import { FaCalculator } from 'react-icons/fa';
 import { useEffect, useMemo, useState } from 'react';
 import L from 'leaflet';
@@ -129,6 +129,44 @@ const PORT_COORDINATES = {
 };
 
 /* =====================================================
+   RUST / CORROSION AREAS
+===================================================== */
+
+const RUST_AREAS = [
+  {
+    name: 'Great Lakes',
+    lat: 42.5,
+    lng: -82.5,
+    radius: 450000,
+    opacity: 0.18,
+  },
+
+  {
+    name: 'Northeast',
+    lat: 41.2,
+    lng: -74.5,
+    radius: 380000,
+    opacity: 0.12,
+  },
+
+  {
+    name: 'Midwest',
+    lat: 41.5,
+    lng: -89.5,
+    radius: 420000,
+    opacity: 0.10,
+  },
+
+  {
+    name: 'Northeast Coast',
+    lat: 42.5,
+    lng: -71.5,
+    radius: 300000,
+    opacity: 0.10,
+  },
+];
+
+/* =====================================================
    NORMALIZE PORT NAME
 ===================================================== */
 
@@ -228,6 +266,9 @@ function MapController({ locations, selectedLocation }) {
 ===================================================== */
  
 export default function MapView({ locations = [], selectedLocation = null, selectedPort = null, onSelectLocation, onSelectPort, popupCloseKey }) {
+
+
+const [showRustAreas, setShowRustAreas] = useState(false);
 
 
 const [isFullscreen, setIsFullscreen] = useState(false);
@@ -353,11 +394,58 @@ function ClosePopups({ popupCloseKey }) {
             OPEN STREET MAP
         ================================================= */}
         <ClosePopups popupCloseKey={popupCloseKey} />
+        <button
+  type="button"
+  className={`rust-toggle-button ${showRustAreas ? 'active' : ''}`}
+  onClick={() => setShowRustAreas((prev) => !prev)}
+  title={showRustAreas ? 'مخفی کردن مناطق زنگ‌زدگی' : 'نمایش مناطق زنگ‌زدگی'}
+  aria-label={showRustAreas ? 'مخفی کردن مناطق زنگ‌زدگی' : 'نمایش مناطق زنگ‌زدگی'}
+>
+  <span className="rust-toggle-icon">⚠</span>
+
+  <span className="rust-toggle-text">
+   خطر زنگ‌زدگی
+  </span>
+
+  <span className="rust-toggle-switch">
+    <span className="rust-toggle-knob" />
+  </span>
+</button>
 
         <TileLayer attribution="&copy; OpenStreetMap contributors" url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" maxZoom={19} />
+       
+       {/* =================================================
+    RUST / CORROSION AREAS
+================================================= */}
+{/* =================================================
+    RUST / CORROSION AREAS
+================================================= */}
+
+{/* =================================================
+    RUST / CORROSION AREAS
+================================================= */}
+
+{showRustAreas &&
+  RUST_AREAS.map((area) => (
+    <Circle
+      key={area.name}
+      center={[area.lat, area.lng]}
+      radius={area.radius}
+      pathOptions={{
+        color: '#dc2626',
+        weight: 1.5,
+        opacity: 0.35,
+        fillColor: '#ef4444',
+        fillOpacity: area.opacity,
+      }}
+    />
+  ))}
+       
+       
         {/* =================================================
             MAP CONTROLLER
         ================================================= */}
+
 
         <MapController locations={locations} selectedLocation={selectedLocation} />
 
