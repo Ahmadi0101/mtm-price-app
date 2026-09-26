@@ -7692,14 +7692,7 @@ body:has(.calculator-overlay) {
    PROFESSIONAL MAP
 ========================================= */
 
-.map-wrapper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  border-radius: 18px;
-  background: #e9eef3;
-}
+ 
 
 .map {
   width: 100%;
@@ -7977,6 +7970,7 @@ body:has(.calculator-overlay) {
 
 
  
+
 .map-fullscreen-button {
   position: absolute;
   top: 12px;
@@ -8025,7 +8019,15 @@ body:has(.calculator-overlay) {
   background: #ffffff;
 }
 
- 
+.map-wrapper:fullscreen .map {
+  width: 100%;
+  height: 100%;
+}
+
+.map-wrapper {
+  position: relative;
+  
+}
 
 .map-wrapper-fullscreen {
   position: fixed !important;
@@ -8073,6 +8075,26 @@ body:has(.calculator-overlay) {
 .map-fullscreen-button:active {
   transform: scale(0.94);
 }
+
+.locations-scroll {
+  width: 100%;
+
+  /* مهم: دیگر Scroll داخلی نداشته باشد */
+  max-height: none;
+  overflow: visible;
+
+  padding: 5px 8px 20px 5px;
+
+  /* اسکرول باید توسط خود صفحه انجام شود */
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
 
 
 

@@ -17,10 +17,10 @@ const defaultIcon = new L.Icon({
   iconRetinaUrl: markerIcon2x,
   shadowUrl: markerShadow,
 
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41],
+  iconSize: [17, 28],
+  iconAnchor: [8.5, 28],
+  popupAnchor: [1, -23],
+  shadowSize: [28, 28],
 });
 
 /*
