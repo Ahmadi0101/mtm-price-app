@@ -7976,12 +7976,7 @@ body:has(.calculator-overlay) {
 
 
 
-.map-wrapper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
+ 
 .map-fullscreen-button {
   position: absolute;
   top: 12px;
@@ -8030,16 +8025,7 @@ body:has(.calculator-overlay) {
   background: #ffffff;
 }
 
-.map-wrapper:fullscreen .map {
-  width: 100%;
-  height: 100%;
-}
-
-.map-wrapper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
+ 
 
 .map-wrapper-fullscreen {
   position: fixed !important;
@@ -8087,3 +8073,13 @@ body:has(.calculator-overlay) {
 .map-fullscreen-button:active {
   transform: scale(0.94);
 }
+
+
+
+
+
+
+
+
+
+
